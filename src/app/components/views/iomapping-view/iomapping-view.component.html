@@ -1,0 +1,38 @@
+<app-generic-tool-bar [parent]="this" [toolBarActions]="viewActionsService.toolBarActions"></app-generic-tool-bar>
+<app-generic-context-menu
+  #mainContextMenu
+  [parent]="this"
+  [contextMenuActions]="viewActionsService.contextMenuActions"
+></app-generic-context-menu>
+
+<!-- Projects list -->
+<!-- <div #compareInfoBar class="compare-info-bar">
+  <div class="compare-info-bar-line">
+    <div class="bar-prefix"></div>
+    <div
+      *ngFor="let project of compareService.getCompareProjectList().slice().reverse()"
+      class="bar-cell"
+      [ngbTooltip]="project.label"
+    >
+      <div class="bar-project">
+        {{ modelService.formatProjectNameRightAlign(project) }}
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="view-content">
+  <app-generic-tree [nodes]="nodes"></app-generic-tree>
+</div>
+
+<ng-template #nodeContentTemplateIomappingEquipment let-node="node" let-treeController="treeController">
+  <app-equipment-tree-item
+    [node]="node"
+    [treeController]="treeController"
+    [options]="treeItemOptions"
+  ></app-equipment-tree-item>
+</ng-template>
+
+<ng-template #nodeContentTemplateIomappingRack let-node="node" let-treeController="treeController">
+  <app-rack-tree-item [node]="node" [treeController]="treeController" [options]="treeItemOptions"></app-rack-tree-item>
+</ng-template>

@@ -1,0 +1,68 @@
+<div class="content">
+  <div class="mainPanel">
+    <div class="topPanel">
+      <div #topContent class="topContentHtml" [innerHtml]="wikiService.topContentHtml">
+        <span>RIGHT Viewer Documentation</span>&nbsp;
+      </div>
+    </div>
+
+    <div class="htmlPanel">
+      <div
+        #leftContent
+        [innerHtml]="wikiService.leftContentHtml"
+        [ngClass]="{ leftContentHtml: true, 'd-none': !wikiService.options.isLeftPanelVisible }"
+      >
+        <p>Table of contents</p>
+      </div>
+
+      <div class="mainHtmlPanel">
+        <div [ngClass]="{ wikiTabContent: true, 'd-none': wikiService.options.tab !== 'HelpTab' }">
+          <div #mainContent class="mainContentHtml" [innerHtml]="wikiService.mainContentHtml">
+            <h2>RIGHT Viewer documentation</h2>
+            <p>Welcome to RIGHT Viewer documentation.</p>
+          </div>
+        </div>
+
+        <!-- <div [ngClass]="{
+          wikiTabContent: true,
+          'd-none': wikiService.options.tab !== 'CommentsTab'
+        }">
+        Comments
+      </div> -->
+
+        <div [ngClass]="{ wikiTabContent: true, 'd-none': wikiService.options.tab !== 'SearchTab' }">
+          <div>
+            <input
+              type="text"
+              class="form-control input-form"
+              [(ngModel)]="wikiService.searchString"
+              (ngModelChange)="wikiService.onSearchChange($event)"
+              (keyup.enter)="wikiService.onSearchClick($event)"
+            />
+          </div>
+          <br />
+          <div #searchContent class="searchContentHtml" [innerHtml]="wikiService.searchContentHtml">
+            <p>Search</p>
+          </div>
+        </div>
+      </div>
+
+      <app-wiki-comment-panel [(content)]="formData.content"></app-wiki-comment-panel>
+    </div>
+  </div>
+
+  <div [ngClass]="{ editorPanel: true, 'd-none': !wikiService.options.isEditMode }">
+    <div
+      ace-editor
+      class="text-editor"
+      [(text)]="wikiService.aceText"
+      [mode]="'javascript'"
+      [theme]="'eclipse'"
+      [options]="wikiService.aceOptions"
+      [readOnly]="false"
+      [autoUpdateContent]="true"
+      [durationBeforeCallback]="100"
+      (textChanged)="wikiService.onAceChange($event)"
+    ></div>
+  </div>
+</div>

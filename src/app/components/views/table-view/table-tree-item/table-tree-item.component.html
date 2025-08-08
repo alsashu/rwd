@@ -1,0 +1,119 @@
+<ng-template #nodeCollapseTemplate let-node="node" let-treeController="treeController">
+  <div class="node-collapse" >
+    <div *ngIf="treeController && treeController.getChildrenNodesLength(node)" (mousedown)="treeController.onNodeIconClick($event, node)">
+      <fa-icon *ngIf="node.isCollapsed" icon="folder"></fa-icon>
+      <fa-icon *ngIf="!node.isCollapsed" icon="folder-open"></fa-icon>
+    </div>
+        <!-- <fa-icon [icon]="getNodeIcon(node)"></fa-icon> -->
+  </div>
+</ng-template>
+
+<!-- Node item -->
+<div [ngClass]="getNodeItemClass(node)" >
+  <!-- *ngIf="isNodeDisplayed(node)" -->
+
+  <div class="node-main-line">
+    <div class="node-labelcol node-labelcol-verif">
+      <div 
+        class="node-indent"
+        [ngStyle]="treeController ? treeController.getNodeIconStyle(node) : null"
+      >
+      </div>
+
+      <ng-template 
+        [ngTemplateOutlet]="nodeCollapseTemplate"
+        [ngTemplateOutletContext]="{ node: node, treeController: treeController }"
+      >
+      </ng-template>
+
+      <ng-template #labelTooltipTemplate>
+        <div class="text-left">
+        <div>Name: {{ treeController ? treeController.getNodeLabel(node) : null }}</div>
+        <div>Type: {{ getNodeObjectTypeDisplayedValue(node) }}</div>
+        <div>KP: {{ getNodeObjectDisplayedValue(node, "absPos", "", " (m)") }}</div>
+      </div>
+
+        <!-- <div><div class="ltt-prop">Name:</div><div class="d-inline-block">{{ treeController.getNodeLabel(node) }}</div></div>
+        <div><div class="ltt-prop">Type:</div><div class="d-inline-block">{{ getNodeObjectDisplayedValue(node, "type") }}</div></div>
+        <div><div class="ltt-prop">KP:</div><div class="d-inline-block">{{ getNodeObjectDisplayedValue(node, "absPos", "", " (m)") }}</div></div> -->
+      </ng-template>
+      <div
+        [ngClass]="treeController ? treeController.getNodeLabelClass(node) : null"
+        [ngbTooltip]="labelTooltipTemplate" container="body" 
+      >
+        <span>
+          {{ treeController ? treeController.getNodeLabel(node) : null }}
+        </span>
+      </div>
+
+      <div *ngIf="node && node.icons" class="node-icons d-inline">
+        <span *ngFor="let icon of node.icons">
+          <fa-icon [icon]="icon.icon"></fa-icon>
+        </span>
+      </div>
+
+    </div>
+
+    <!-- Columns from config -->
+    <!-- <div *ngFor="let columnConfig of getTableConfig().columnConfigs"
+      [ngStyle]="getColStyle(columnConfig, node)"
+      [ngClass]="getColClass(columnConfig, node)"
+      [ngbTooltip]="getColTooltip(columnConfig, node)"
+    >
+    {{ getColHtml(columnConfig, node) }}
+    </div> -->
+
+    <div class="node-columns">
+      <!-- Col: menu button -->
+      <!-- <div class="node-col node-col-test" [ngbTooltip]="'Menu'">
+        <fa-icon *ngIf="node && node.object && node.object.type === 'signal'" icon="ellipsis-h"></fa-icon>
+      </div> -->
+
+      <!-- Col: type -->
+      <div class="node-col node-col-type">
+        <div class="type-label"
+          [ngbTooltip]="'Object type'"
+        >
+          {{ getTypeShortFormat(node) }}
+        </div>
+      </div>
+
+      <!-- Col: KP -->
+      <div class="node-col node-col-kp" *ngIf="options && options.isKPDisplayed"
+        [ngbTooltip]="'Kilometer Point'"
+      >
+        {{ getNodeObjectDisplayedValue(node, "absPos", "", " (m)") }}
+      </div>
+
+      <!-- Col: Expand button -->
+      <div class="node-col text-center w3em">
+        <div class=""
+          [ngbTooltip]="'Expand item'"
+          (click)="node.isExpanded = !node.isExpanded"
+        >
+          <fa-icon *ngIf="node && node.isExpanded" icon="chevron-down"></fa-icon>
+          <fa-icon *ngIf="node && !node.isExpanded" icon="chevron-right"></fa-icon>
+        </div>
+      </div>  
+
+    </div>
+
+    <div class="node-actions-panel">
+      <ng-container *ngIf="node && node.isNodeHover">
+        <span *ngFor="let action of node.actions"
+          class="action-icon" 
+          [ngbTooltip]="action.tooltip(node)" 
+          (click)="action.click(node)"
+        >
+          <fa-icon [icon]="action.icon(node)"></fa-icon>
+        </span>
+      </ng-container>
+    </div>
+  </div>
+
+  <div class="node-second-line" *ngIf="node && node.isExpanded">
+    <div class="p-2">
+      More info here...
+    </div>
+  </div>
+</div>

@@ -1,0 +1,73 @@
+<div class="modal-header">
+  <h4 class="modal-title" id="modal-text-title" i18n="@@searchOptions.modal.title">Search Options</h4>
+  <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<div class="modal-body">
+  <form class="px-4 py-3">
+    <div class="row">
+      <div class="column">
+        <div class="form-check">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="caseSensitive"
+            [(ngModel)]="params.formData.caseSensitive"
+            name="caseSensitive"
+          />
+          <label class="form-check-label" for="caseSensitive" i18n="@@searchOptions.modal.caseSensitive"
+            >Case sensitive</label
+          >
+        </div>
+
+        <!-- <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="namesOrPropertiesOnly" 
+            [(ngModel)]="params.formData.namesOrPropertiesOnly" name="namesOrPropertiesOnly">
+          <label class="form-check-label" for="namesOrPropertiesOnly" i18n="@@searchOptions.modal.namesOrPropertiesOnly">Names or properties only</label>
+        </div> -->
+
+        <div>&nbsp;</div>
+
+        <div class="form-group">
+          <label for="filterObjectType" i18n="@@searchOptions.modal.objectType">Object type</label>
+          <input
+            type="text"
+            class="form-control"
+            id="filterObjectType"
+            placeholder=""
+            [(ngModel)]="params.formData.filterObjectType"
+            name="filterObjectType"
+            ngbAutoFocus
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="filterPropertyName" i18n="@@searchOptions.modal.propertyName">Property name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="filterPropertyName"
+            placeholder=""
+            [(ngModel)]="params.formData.filterPropertyName"
+            name="filterPropertyName"
+          />
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="modal-footer">
+  <button type="button" i18n="@@searchOptions.modal.ok" class="btn btn-outline-dark" (click)="onValidateClick()">
+    OK
+  </button>
+  <button
+    type="button"
+    i18n="@@searchOptions.modal.cancel"
+    class="btn btn-outline-dark"
+    (click)="activeModal.dismiss('cancel click')"
+  >
+    Cancel
+  </button>
+</div>

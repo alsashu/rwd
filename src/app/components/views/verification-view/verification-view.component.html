@@ -1,0 +1,16 @@
+<app-generic-tool-bar [parent]="this" [toolBarActions]="viewActionsService.toolBarActions"></app-generic-tool-bar>
+<app-generic-context-menu
+  #mainContextMenu
+  [parent]="this"
+  [contextMenuActions]="viewActionsService.contextMenuActions"
+></app-generic-context-menu>
+<div class="view-content">
+  <app-generic-tree [nodes]="nodes" [nodeContentTemplate]="nodeContentTemplateVerification"></app-generic-tree>
+</div>
+<ng-template #nodeContentTemplateVerification let-node="node" let-treeController="treeController">
+  <app-verification-tree-item
+    [node]="node"
+    [treeController]="treeController"
+    [options]="treeItemOptions"
+  ></app-verification-tree-item>
+</ng-template>

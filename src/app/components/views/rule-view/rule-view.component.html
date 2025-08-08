@@ -1,0 +1,123 @@
+<app-generic-tool-bar [parent]="this" [toolBarActions]="viewActionsService.toolBarActions"></app-generic-tool-bar>
+<app-generic-context-menu
+  #mainContextMenu
+  [parent]="this"
+  [contextMenuActions]="viewActionsService.contextMenuActions"
+></app-generic-context-menu>
+<div class="view-content">
+  <app-generic-tree [hidden]="options.isLogVisible" [nodes]="nodes"></app-generic-tree>
+  <div class="log-container" [hidden]="!options.isLogVisible">
+    <div class="text-log-container" [hidden]="options.logType !== this.logTypes.textLog">
+      <ace-editor
+        #aceEditor
+        class="ace-editor"
+        [text]="ruleService.log"
+        [mode]="'text'"
+        [theme]="'eclipse'"
+        [options]="aceOptions"
+      ></ace-editor>
+    </div>
+
+    <div class="rule-engile-log-container" [hidden]="options.logType !== this.logTypes.ruleEngineLog">
+      <ul
+        class="messages"
+        *ngIf="ruleService.logData && ruleService.logData.ruleEngineLog && ruleService.logData.ruleEngineLog.forEach"
+      >
+        <li
+          *ngFor="let message of ruleService.logData.ruleEngineLog"
+          [ngClass]="{
+            message: true,
+            'message-severity-info': message.Severity == 'Info',
+            'message-severity-pass': message.Severity == 'Pass',
+            'message-severity-error': message.Severity == 'Error'
+          }"
+        >
+          <!-- 
+        "TimeStamp": "2023:03:15 10:34:25",
+        "RuleName": null,
+        "Severity": "Info",
+        "LogCode": "RULE_ENGINE_CODE_001",
+        "RuleOrder": null,
+        "RuleType": null,
+        "Details": "Start the execution of Rule Engine",
+        "Module": null         
+      -->
+          <!-- <div class="message-date">{{ message["TimeStamp"] | date : "hh:mm:ss" }}</div> -->
+          <div class="message-date" [ngbTooltip]="message.TimeStamp">{{ message.TimeStamp }}</div>
+          <div class="message-rule-name w10em" [ngbTooltip]="'Rule name: ' + message.RuleName">
+            {{ message.RuleName }}
+          </div>
+          <div class="message-severity" [ngbTooltip]="message.Severity">{{ message.Severity }}</div>
+          <div class="message-log-code w14em" [ngbTooltip]="message.LogCode">{{ message.LogCode }}</div>
+          <div class="message-rule-order w4em" [ngbTooltip]="message.RuleOrder">{{ message.RuleOrder }}</div>
+          <div class="message-rule-type w8em" [ngbTooltip]="message.RuleType">{{ message.RuleType }}</div>
+          <div class="message-details" [ngbTooltip]="message.Details">{{ message.Details }}</div>
+          <div class="message-module w6em" [ngbTooltip]="message.Module">{{ message.Module }}</div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="rule-log-container" [hidden]="options.logType !== this.logTypes.ruleLog">
+      <ul
+        class="messages"
+        *ngIf="ruleService.logData && ruleService.logData.ruleLog && ruleService.logData.ruleLog.forEach"
+      >
+        <!-- 
+      {
+        "RuleName": "Rule_Dummy",
+        "Severity": "OK",
+        "MessageCode": "DUMMY_01",
+        "RuleType": "Verification",
+        "Id": null,
+        "Name": "DUMMY",
+        "ObjectClass": "null",
+        "ParentObjectName": "DUMMY",
+        "Property": "null",
+        "Classification": "Dummy",
+        "Message": "null"
+      }       
+      -->
+        <li
+          *ngFor="let message of ruleService.logData.ruleLog"
+          [ngClass]="{
+            message: true,
+            'message-severity-ok': message.Severity === 'OK',
+            'message-severity-warning': ['Warning', 'Medium'].includes(message.Severity),
+            'message-severity-error': message.Severity === 'NOK'
+          }"
+        >
+          <div class="w12em" [ngbTooltip]="getCleanStringValue(message.RuleName)">
+            {{ getCleanStringValue(message.RuleName) }}
+          </div>
+
+          <div class="message-severity" [ngbTooltip]="message.Severity">{{ message.Severity }}</div>
+          <div class="w8em" [ngbTooltip]="getCleanStringValue(message.MessageCode)">
+            {{ getCleanStringValue(message.MessageCode) }}
+          </div>
+          <div class="message-rule-type w8em" [ngbTooltip]="message.RuleType">{{ message.RuleType }}</div>
+          <div class="w6em" [ngbTooltip]="getCleanStringValue(message.Id)">
+            {{ getCleanStringValue(message.Id) }}
+          </div>
+          <div class="w12em" [ngbTooltip]="getCleanStringValue(message.Name)" (click)="onObjectNameClick(message)">
+            {{ getCleanStringValue(message.Name) }}
+          </div>
+          <div class="w12em" [ngbTooltip]="getCleanStringValue(message.ObjectClass)">
+            {{ getCleanStringValue(message.ObjectClass) }}
+          </div>
+          <div class="w12em" [ngbTooltip]="getCleanStringValue(message.ParentObjectName)">
+            {{ getCleanStringValue(message.ParentObjectName) }}
+          </div>
+          <div class="w12em" [ngbTooltip]="getCleanStringValue(message.Property)">
+            {{ getCleanStringValue(message.Property) }}
+          </div>
+          <div class="w12em" [ngbTooltip]="getCleanStringValue(message.Classification)">
+            {{ getCleanStringValue(message.Classification) }}
+          </div>
+          <div class="message-details" [ngbTooltip]="getCleanStringValue(message.Message)">
+            {{ getCleanStringValue(message.Message) }}
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

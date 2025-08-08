@@ -1,0 +1,21 @@
+.top-panel {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: .25rem;
+  border-radius: 5rem;
+  background: #ddd;
+  z-index: 1;
+  min-width: 2rem;
+  text-align: center;
+}
+
+.top-panel-header {
+  font-size: .8rem;
+  margin: .25rem;
+}
+
+.top-panel-content {
+  margin-left: .25rem;
+}
+

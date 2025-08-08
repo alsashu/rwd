@@ -1,0 +1,12 @@
+.grid {
+  stroke: var(--svg-grid-color);
+  stroke-width: 1;
+  fill: none;
+}
+
+.small-grid {
+  stroke: var(--svg-small-grid-color);
+  stroke-width: 0.5;
+  fill: none;
+}
+

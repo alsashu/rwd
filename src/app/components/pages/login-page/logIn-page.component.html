@@ -1,0 +1,184 @@
+<div class="container">
+  <div>
+    <br />
+    <div class="card">
+      <div class="card-header" style="text-align: center">
+        <img class="logo" src="assets/logo.png" (dblclick)="onLogoDblClick($event)" />
+        <div i18n class="title">RIGHT VIEWER</div>
+        <div class="version">
+          {{ appConfigService.getVersion() }}
+        </div>
+      </div>
+      <div class="card-body">
+        <form [formGroup]="loginForm">
+          <div class="input-group form-group" style="padding-top: 15px" enable="false">
+            <div
+              class="input-group-prepend"
+              i18n-ngbTooltip="@@logIn.page.server.address.tooltip"
+              ngbTooltip="Server address"
+            >
+              <span class="input-group-text">
+                <fa-icon icon="server"></fa-icon>
+              </span>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Server address"
+              value="{{ defaultIpServer }}"
+              id="server-text"
+              #ipServer
+              (keyup.enter)="setServerUrl(); $event.target.blur()"
+              style="width: 150px"
+            />
+            <div class="input-group-append">
+              <div class="input-group-text" type="button" id="server-connect-btn" (click)="setServerUrl()">
+                <span class="me-2" i18n="@@logIn.page.connect.button">Test</span>
+                <fa-icon
+                  [icon]="isConnectedToServer() ? 'link' : 'unlink'"
+                  [className]="isConnectedToServer() ? 'server-connected' : 'server-not-connected'"
+                  [ngbTooltip]="
+                    translateService.translateFromMap(isConnectedToServer() ? 'Connected' : 'Not connected')
+                  "
+                  placement="bottom"
+                ></fa-icon>
+              </div>
+            </div>
+          </div>
+
+          <div class="input-group form-group" style="padding-top: 15px">
+            <div class="input-group-prepend" i18n-ngbTooltip="@@logIn.page.language.tooltip" ngbTooltip="Language">
+              <span class="input-group-text">
+                <fa-icon icon="globe"></fa-icon>
+              </span>
+            </div>
+            <select class="custom-select" name="language" id="language-select" (change)="onChangeLanguage($event)">
+              <option value="{{ language }}">{{ language }}</option>
+              <option *ngFor="let lang of availableLanguages" [value]="lang.code">{{ lang.language }}</option>
+            </select>
+          </div>
+
+          <div class="input-group form-group" style="padding-top: 15px">
+            <div class="input-group-prepend" i18n-ngbTooltip="@@logIn.page.login.tooltip" ngbTooltip="Login">
+              <span class="input-group-text">
+                <fa-icon icon="user"></fa-icon>
+              </span>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="{{ usernameHTML }}"
+              id="login-text"
+              #email
+              formControlName="email"
+              [ngClass]="{ 'is-invalid': submitted && f.email.errors }"
+            />
+            <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+              <div i18n="@@logIn.page.username.rquired" *ngIf="f.email.errors.required">* Username is required</div>
+              <div i18n="@@logIn.page.username.incorrect" *ngIf="f.email.errors.pattern">* Username is not correct</div>
+            </div>
+          </div>
+
+          <div class="input-group form-group" style="padding-top: 15px">
+            <div class="input-group-prepend" i18n-ngbTooltip="@@logIn.page.server.pwd.tooltip" ngbTooltip="Password">
+              <span class="input-group-text">
+                <fa-icon icon="key"></fa-icon>
+              </span>
+            </div>
+            <input
+              [type]="hidePassword ? 'password' : 'text'"
+              class="form-control"
+              placeholder="{{ passwordHTML }}"
+              id="pwd-text"
+              #password
+              formControlName="password"
+              [ngClass]="{ 'is-invalid': submitted && f.password.errors }"
+            />
+
+            <div class="input-group-append">
+              <span class="input-group-text" (click)="hidePassword = !hidePassword">
+                <fa-icon icon="eye"></fa-icon>
+              </span>
+            </div>
+
+            <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+              <div i18n="@@logIn.page.password.required" *ngIf="f.password.errors.required">* Password is required</div>
+            </div>
+          </div>
+
+          <div>
+            <div *ngIf="showErrorMessage">
+              <span style="color: red">* Username and Password not valid</span>
+            </div>
+
+            <div *ngIf="failedAttemptsMessage">
+              <span style="color: red"
+                >* Your account is locked for {{ waitingTimeMin }} min, please wait before a new try</span
+              >
+            </div>
+
+            <div>
+              <span
+                i18n="@@logIn.page.disconnected.message"
+                [ngClass]="{
+                  'error-message': true,
+                  'hidden-message':
+                    !isAndroidApp() || setServerUrlDelayOn || isConnectedToServer() || isOfflineChecked()
+                }"
+                >Disconnected from the server. Please check "Offline" or reconnect</span
+              >
+              <span>&nbsp;</span>
+            </div>
+          </div>
+
+          <div>
+            <div class="align-items-center remember pt-2" style="">
+              <input type="checkbox" #rememberMe /><span i18n="@@logIn.page.rememberMe.input" class="ms-2"
+                >Remember me</span
+              >
+            </div>
+            <div class="align-items-center remember" style="" *ngIf="offlineVisible">
+              <input type="checkbox" #offline (change)="onOffLineCBChange($event)" /><span
+                i18n="@@logIn.page.offline.input"
+                class="ms-2"
+                >Offline</span
+              >
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="card-footer">
+        <div class="form-group d-flex justify-content-center login-btn-group" style="padding-top: 20px">
+          <button
+            class="btn btn-secondary"
+            type="button"
+            id="login-btn"
+            [disabled]="isLoginButtonDisabled()"
+            (click)="loginClicked($event, email.value, password.value)"
+          >
+            <fa-icon icon="user" class="me-2"></fa-icon>
+            <span i18n="@@logIn.page.login.button">Log in</span>
+          </button>
+        </div>
+
+        <div class="form-group d-flex justify-content-center sso-btn-group">
+          <button
+            class="btn btn-secondary"
+            type="button"
+            id="sso-btn"
+            [disabled]="isSSOLoginButtonDisabled()"
+            (click)="connectWithSSOClicked($event)"
+          >
+            <fa-icon icon="link" class="me-2"></fa-icon>
+            <span i18n="@@logIn.page.sso.button">Connect with SSO</span>
+          </button>
+        </div>
+
+        <div *ngIf="showInformationMessage">
+          <span style="color: blue">{{ informationMessage }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,57 @@
+/* :host {
+  margin-top: 2em;
+} */
+:host {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.card {
+  margin: 0em auto 0 auto;
+  width: 600px;
+  font-size: 1em;
+}
+
+.logo {
+  width: 14em;
+}
+
+.title {
+  color: var(--brand-color-alstom);
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.version {
+  color: var(--brand-color-alstom);
+  font-size: 0.9em;
+}
+
+.server-connected {
+  color: #080;
+}
+
+.server-not-connected {
+  color: #800;
+}
+
+.remember {
+  display: inline-block;
+  padding-left: 32px;
+}
+
+.error-message {
+  color: red;
+  display: inline-block;
+
+  transition-delay: 1s;
+  transition-property: color;
+}
+
+.hidden-message {
+  display: none;
+  color: white;
+
+  transition-delay: 1s;
+  transition-property: color;
+}
