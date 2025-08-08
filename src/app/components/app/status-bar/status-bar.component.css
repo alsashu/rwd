@@ -1,9 +1,0 @@
-:host {
-  display: block;
-  height: var(--status-bar-height);
-  margin: 0px;
-  padding: 0px 2px;
-  background: var(--status-bar-background);
-  color: var(--status-bar-color);
-  font-size: .75em;
-}
