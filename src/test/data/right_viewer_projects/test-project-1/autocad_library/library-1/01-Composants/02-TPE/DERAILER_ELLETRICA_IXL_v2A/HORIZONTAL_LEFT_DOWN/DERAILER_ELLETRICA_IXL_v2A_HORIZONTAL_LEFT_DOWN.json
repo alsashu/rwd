@@ -1,0 +1,62 @@
+{
+  "id": "DERAILER_ELLETRICA_IXL_v2A_HORIZONTAL_LEFT_DOWN",
+  "parentId": "DERAILER_ELLETRICA_IXL_v2A",
+  "subId": "HORIZONTAL_LEFT_DOWN",
+  "label": "DERAILER_ELLETRICA_IXL_v2A_HORIZONTAL_LEFT_DOWN",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "point",
+    "anc": {
+      "anchor": {
+        "x": 99.5,
+        "y": 0
+      },
+      "boudingRect": {
+        "w": 199,
+        "h": 103.5
+      }
+    },
+    "tags": [
+      "tpe",
+      "acad"
+    ],
+    "attributeInit": [
+      {
+        "name": "label",
+        "value": "#LABEL#",
+        "boName": "label"
+      },
+      {
+        "name": "absPos",
+        "value": "#KP#",
+        "boName": "absPos"
+      }
+    ],
+    "handles": []
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "svg",
+        "svg": "<g transform=\"scale(1.36 1.36)\">\n  <g stroke-linecap=\"square\" fill=\"none\" stroke=\"black\" stroke-width=\"1\" fill-rule=\"evenodd\" stroke-linejoin=\"bevel\">\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,99.5,0)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <polyline fill=\"none\" points=\"-42,0 42,0 \" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,99.5,0)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <polyline fill=\"none\" points=\"42,0 42,35 \" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,99.5,0)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <polyline fill=\"none\" points=\"42,35 -14,35 \" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,99.5,0)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <polyline fill=\"none\" points=\"-14,35 -42,0 \" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,99.5,0)\" fill=\"#ffffff\" stroke-width=\"1\" fill-opacity=\"1\" stroke-linejoin=\"bevel\">\n      <path d=\"M42,35 L42,3.6e-15 L-42,7.1e-15 L-14,35 L42,35\" fill-rule=\"evenodd\" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g font-weight=\"400\" stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,99.5,70)\" font-size=\"50\" fill=\"none\" stroke-width=\"1\" font-family=\"Arial Unicode MS\" stroke-linejoin=\"bevel\" font-style=\"normal\"><text xml:space=\"preserve\" font-weight=\"400\" font-size=\"50\" fill=\"#000000\" stroke=\"none\" font-family=\"Arial Unicode MS\" x=\"-2\" y=\"19.5\" fill-opacity=\"1\" font-style=\"normal\" text-anchor=\"middle\">#NAME#</text></g>\n    <g transform=\"matrix(1,0,0,1,99.5,70)\" fill=\"none\" stroke=\"none\">\n      <rect width=\"199\" height=\"67\" x=\"-99.5\" y=\"-33.5\" />\n    </g>\n  </g>\n</g>",
+        "style": "",
+        "mapping": [
+          {
+            "name": "#NAME#",
+            "parentName": "label"
+          },
+          {
+            "name": "#KP#",
+            "parentName": "absPos"
+          }
+        ]
+      }
+    ]
+  },
+  "linearInfo": {
+    "INSERTION_POINT_Y": 0,
+    "HEIGHT": 35,
+    "OFFSET1": 0,
+    "OFFSET2": 35
+  }
+}

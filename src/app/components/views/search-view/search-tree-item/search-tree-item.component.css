@@ -1,0 +1,157 @@
+:host {
+  display: inherit;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  overflow: unset;
+}
+
+:host :hover {
+  background: #8882;
+}
+
+.node-item {
+  display: block;
+  /* display: inherit; */
+  /* display: flex;
+  flex-direction: column;  
+  overflow: hidden; */
+  height: 2.2em;
+  border-bottom: solid 1px #eee;
+}
+
+.node-item :hover {
+  background: #8882;
+}
+
+.node-item-expanded {
+  height: 4.4em;
+}
+
+.node-main-line {
+  display: flex;
+  flex-direction: row;  
+  height: 2.2em;
+}
+
+.node-second-line {
+  display: flex;
+  flex-direction: row;  
+  height: 2.2em;
+}
+
+.node {
+  height: 2em;
+}
+
+/* .node {
+  border-bottom: solid 1px #eee;
+}
+
+.node :hover {
+  background: #8882;
+} */
+
+/* .node-labelcol {
+  flex-grow: unset;
+} */
+
+.node-labelcol-verif {
+  width: 24em;
+  padding: 0.4em;
+  flex-grow: unset;
+  border-right: solid 1px #eee;
+}
+
+.ltt-prop {
+  display: inline-block;
+  width: 8em;
+}
+
+.node-columns {
+  display: inherit;
+}
+
+.node-col {
+  width: 6em;
+  padding: 0.4em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;  
+  /* border-right: solid 1px #eee; */
+}
+
+.node-col-default {
+  width: 3em;
+  text-align: center;
+}
+
+.node-col-test {
+  width: 3em;
+  text-align: center;
+}
+
+.node-col-type {
+  width: 10em;
+  text-align: center;
+}
+
+.type-label {
+  display: block;
+  width: 12em;
+  padding: 0 .2em;
+  background-color: #ccc;
+  border-radius: 3px; 
+  font-size: .9em;
+}
+
+.check-label {
+  display: block;
+  width: 6em;
+  padding: 0 .2em;
+  background-color: #a77a;
+  border-radius: 3px; 
+}
+
+.node-col-kp {
+  width: 10em;
+  text-align: right;
+}
+
+.node-col-btn {
+  width: 8em;
+}
+
+.button {
+  display: block;
+  width: 7em;
+  padding: 0 .2em;
+  background-color: #ccc;
+  border-radius: 3px; 
+  text-align: center;
+}
+
+.button-active {
+  color: var(--button-active-color);
+  background-color: var(--button-active-background);
+}
+
+.button-active-gray {
+  color: #fff;
+  background-color: #888;
+}
+
+.button-active-ok {
+  color: #fff;
+  background-color: #070;
+}
+
+.button-active-nok {
+  color: #fff;
+  background-color: #700;
+}
+
+.w3em {
+  width: 3em;
+}
+

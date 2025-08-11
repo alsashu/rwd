@@ -1,0 +1,29 @@
+<div class="panel">
+  <div class="panel-title">
+    <span>Calques</span>
+    <a class="btn-close btn-right" (click)="close()">&times;</a>
+  </div>
+  <div>
+    <div *ngFor="let filter of layerOptions.libraryIdFilters" class="filter">
+      <span class="filter-btn me-1" [class.active]="filter.isEnabled != false" (click)="onLayerEnabledClick(filter)">
+        <fa-icon icon="edit"></fa-icon>
+      </span>
+      <span class="filter-btn me-1" [class.active]="filter.isVisible != false" (click)="onLayerVisibleClick(filter)">
+        <fa-icon icon="eye"></fa-icon>
+      </span>
+      <span>{{ filter.label }}</span>
+    </div>
+
+    <div *ngFor="let filter of layerOptions.otherFilters" class="filter">
+      <span class="filter-btn me-1"> &nbsp; </span>
+      <span
+        class="filter-btn me-1"
+        [class.active]="filter.isVisible != false"
+        (click)="onOtherFilterVisibleClick(filter)"
+      >
+        <fa-icon icon="eye"></fa-icon>
+      </span>
+      <span>{{ filter.label }}</span>
+    </div>
+  </div>
+</div>

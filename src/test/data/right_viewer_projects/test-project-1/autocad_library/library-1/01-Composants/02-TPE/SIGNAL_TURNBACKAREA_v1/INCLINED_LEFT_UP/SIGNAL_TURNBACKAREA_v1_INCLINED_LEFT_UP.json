@@ -1,0 +1,56 @@
+{
+  "id": "SIGNAL_TURNBACKAREA_v1_INCLINED_LEFT_UP",
+  "parentId": "SIGNAL_TURNBACKAREA_v1",
+  "subId": "INCLINED_LEFT_UP",
+  "label": "SIGNAL_TURNBACKAREA_v1_INCLINED_LEFT_UP",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "point",
+    "anc": {
+      "anchor": {
+        "x": 0,
+        "y": 319.513
+      },
+      "boudingRect": {
+        "w": 191.498,
+        "h": 319.513
+      }
+    },
+    "tags": [
+      "tpe",
+      "acad"
+    ],
+    "attributeInit": [
+      {
+        "name": "label",
+        "value": "#LABEL#",
+        "boName": "label"
+      },
+      {
+        "name": "absPos",
+        "value": "#KP#",
+        "boName": "absPos"
+      }
+    ],
+    "handles": []
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "svg",
+        "svg": "<g transform=\"scale(1.36 1.36)\">\n  <g stroke-linecap=\"square\" fill=\"none\" stroke=\"black\" stroke-width=\"1\" fill-rule=\"evenodd\" stroke-linejoin=\"bevel\">\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(0.997399,0,0,0.997399,0,318.682)\" fill=\"none\" stroke=\"#00ff00\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <polyline fill=\"none\" points=\"0,0 3.1e-15,-50 \" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(0.997399,0,0,0.997399,0,318.682)\" fill=\"none\" stroke=\"#00ff00\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <polyline fill=\"none\" points=\"3.1e-15,-50 60,-50 \" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(0.997399,0,0,0.997399,0,318.682)\" fill=\"#ff00ff\" stroke=\"#ff00ff\" stroke-width=\"1\" fill-opacity=\"1\" stroke-linejoin=\"bevel\">\n      <path d=\"M120,-80 L60,-80 L60,-20 L120,-20 L120,-80\" fill-rule=\"evenodd\" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(0.997399,0,0,0.997399,0,318.682)\" fill=\"none\" stroke=\"#ff00ff\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <path d=\"M60,-20 L120,-20 L120,-80 L60,-80 L60,-20\" fill-rule=\"evenodd\" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g font-weight=\"400\" stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(0.421519,-0.90395,0.90395,0.421519,49.8699,194.007)\" font-size=\"50\" fill=\"none\" stroke-width=\"1\" font-family=\"Arial Unicode MS\" stroke-linejoin=\"bevel\" font-style=\"normal\"><text xml:space=\"preserve\" font-weight=\"400\" font-size=\"50\" fill=\"#000000\" stroke=\"none\" font-family=\"Arial Unicode MS\" x=\"0\" y=\"19.5\" fill-opacity=\"1\" font-style=\"normal\">#NAME#</text></g>\n    <g font-weight=\"400\" stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(0.421519,-0.90395,0.90395,0.421519,109.714,194.007)\" font-size=\"50\" fill=\"none\" stroke-width=\"1\" font-family=\"Arial Unicode MS\" stroke-linejoin=\"bevel\" font-style=\"normal\"><text xml:space=\"preserve\" font-weight=\"400\" font-size=\"50\" fill=\"#000000\" stroke=\"none\" font-family=\"Arial Unicode MS\" x=\"0\" y=\"19.5\" fill-opacity=\"1\" font-style=\"normal\">#KP#</text></g>\n  </g>\n</g>",
+        "style": "",
+        "mapping": [
+          {
+            "name": "#NAME#",
+            "parentName": "label"
+          },
+          {
+            "name": "#KP#",
+            "parentName": "absPos"
+          }
+        ]
+      }
+    ]
+  }
+}

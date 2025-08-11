@@ -1,0 +1,2291 @@
+{
+  "type": "gconfig",
+  "gconfig": {
+    "type": "gconfig",
+    "label": "gconfig",
+    "icons": {
+      "type": "icons",
+      "label": "icons"
+    },
+    "types": [
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:elementaryPath",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "06b908ff-6a82-491a-808a-b3b99df8d89a"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:roadBridgeTrackCrossingGroup",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "7ece6837-bb0a-4afd-9df1-c9cc5fe63ab5"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:trainUnitCharacteristics",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "0e0e33d7-2df5-4118-bef2-5d537cb8f7ed"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:commutateurZepV",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "09682c28-8cfb-424c-86e4-29088d1c669d"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:washingArea",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "0518b8de-6313-4722-b47a-c7bb3fcb6733"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "platformEdge",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "6317f796-ec78-46cb-ace0-4b92bcbdea5e"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:listeTypeAVDate",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "6ae4e8fb-ed90-4792-805d-bbb5ebcc875f"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:roadBridgeTrackCrossing",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "868f442f-5624-4488-b3be-de4a12c31c20"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "bufferStop",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "7c2f76a3-17c9-47d1-8722-ac71cb513db3"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:specificTrackCrossingGroup",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "a1e24726-fd7e-4d5f-baa5-a2df50b35ec2"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "trackBegin",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "9786ba54-33f6-4be8-bd8c-f92733caf21b"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "gaugeChange",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "ec173caa-20e6-41cc-be0a-6ccda742194a"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "connectionData",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "3d5b008c-0b40-4e6d-8837-1db58dff5611"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "axleWeightChange",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "5339d9d3-cc95-4ec9-b5a6-34afe41c9a60"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "crossing",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "a496e6fb-eba3-4e21-9fc5-90f9aff9fa7a"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:specificLogicalArea",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "04dfd610-e103-457e-a53e-6772e69d1093"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:civilWorkPlate",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "28b6c81b-8746-40f7-bbca-237aecb43454"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:withdrawal",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "c83be802-2002-465f-8409-eb395a399153"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "trackEnd",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "bf4f7cd3-6949-45e6-8a23-96f9f6b4143a"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:switchCharacteristic",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "3d15bb81-9e5f-4e65-9177-a755fde8c41e"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:sousSaf",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "bea7410d-d54b-4bfd-b229-b779cfdb4da3"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "line",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "72799604-ff93-49a2-894b-520f53dbf65b"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:phaseArea",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "0cc7917d-e97c-4d03-9f30-bdaaa11c96d0"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "radiusChange",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "a036f54f-8bbe-467f-a325-738128aea39b"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "connection",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "207c6007-cf4c-40d7-9ca8-035b23a38b0c"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:macaron",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "2b20785d-a9b5-45af-a424-7560276ccc4c"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "switchConnectionData",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "233dd936-4881-4212-b3d8-ca2951768426"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:commutateurAU",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "84c15642-33d1-41bf-946f-f542ad2df271"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:systemBorder",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "ad2c83a4-ffc0-4f8c-8bfd-89b348003ed2"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:typeAppareilDeVoie",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "531fbf60-70b7-4668-9ddf-c7abac65e469"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:etatEnclenchementPoste",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "4ad9065d-ccf7-4fbd-9c73-a9c521098664"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:tronconDItineraireLigne",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "8e499eea-4aa6-45a8-a5ef-2b0a50fd052f"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:repetiteurRelaisVoie",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "647b813c-74ae-4f47-8f14-d8d8a9bb69ee"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:brancheVS",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "7d45dd63-513e-4b42-93bd-3db512efeebc"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:cleEnclenchementMitry",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "eb20d56e-b803-4197-8e59-53de2638dd5c"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "trainProtectionElementGroup",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "b58a35f0-8e40-4199-ba6a-c18fa854b7d7"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "derailer",
+        "default_icon": "",
+        "autocad": "DERAILER_ELLETRICA_IXL_v2A",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "400286ab-b61f-4729-a126-ab6a69a60eb8"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:habillageValeur",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "81945a0a-b97b-453d-a5a1-ad57f2978ef0"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "balise",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "193831af-6910-4f17-9c8b-512f74b98273"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:bAPRS",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "4b8da56f-946e-44c7-ba64-3ac8a4b78bc9"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:specificPunctualOrientedObject",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "c7acdbd9-3c30-4134-a7d1-adcf05b7dafd"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:commandeFeuRouge",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "19566f2f-bf66-4ad0-b65a-657e19766c83"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:commandeVoieGarage",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "0403b6ac-8622-4977-a0e2-82341de95c43"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:cableDuctTrackCrossingGroup",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "d6b467ff-1a06-4f30-b3d1-cda021572b98"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:station",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "54539184-2dac-4478-b484-e18fb40b8d7c"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "speedChange",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "89d986e0-70ca-4751-a90f-de04974e98a7"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "levelCrossing",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "6bb1f4b7-6485-4d59-b936-1cbfa8941911"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "trainProtectionChange",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "fa92ebb5-7684-45c4-872e-3087087b94b2"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:uPConvention",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "6ea4b49a-2154-4a2c-abbc-a897065179f2"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:railMLSpecificBoundary",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "36a27d3f-0fe1-445b-ad99-cbc21ae1ba4b"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:acces",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "773d9f15-852a-4c4f-8c4e-e03da4ef001c"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:baliseProximite",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "3373da24-6c60-4197-9360-5b1ffb7e1ce6"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:etatRelaisSC",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "68321df5-aeb4-4de1-aa28-9f674bfc8dbf"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:junctionBox",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "280ecc52-5fae-4fe5-aa35-3692f05d01c7"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "geoMapping",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "3623c520-cdd2-48bf-bcd6-538cdb004e84"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "tunnel",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "69c9cc83-fa14-4577-939d-f865f82515e4"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "switch",
+        "default_icon": "",
+        "autocad": "SWITCH_GEN_v12",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "65d0a01b-271e-477d-8464-1e1cfe7083fa"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:switchGroup",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "b2c8526e-3585-459a-8297-6a16a0d06075"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "clearanceGaugeChange",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "918dbf5a-c185-440e-b052-674d896fe2eb"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:commandeAutorisationVS",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "1858a3b5-25be-478f-ab26-2935835db55e"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:foulingPointGroup",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "6501ffb3-823e-4ff2-9903-7e0940a73772"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:lineArea",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "f0d91560-d1cf-4e65-bf45-c7b659fcd39e"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:cable",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "81ef0083-8af3-4a2c-92ad-895ce6911b66"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:pedaleAriane",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "f70af844-9074-4363-8dc3-b9225a859972"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "locallyControlledArea",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "073b8321-a0b0-4d0c-b0be-0b24659b34a7"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "trackCondition",
+        "default_icon": "",
+        "autocad": "TRACKDIRECTION_MITRY",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "db04477a-03a0-44c1-b5ec-23fbd0ce3e87"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:trainUnit",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "198b43bb-56e7-4647-8b6f-5a153f0b2b6e"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "powerTransmissionChange",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "9510f9a5-08c8-449f-af41-4a60830dbc0a"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:platformCenter",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "89155719-fa98-4829-9558-ebadbbfddc94"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:groupementDeZep",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "8380bf0d-29c3-4032-a750-05c94e7a2761"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ownerChange",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "4cd45467-fbfd-4bf5-aa91-635bc8c7d6cd"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:tIVDs",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "d395c845-14b5-4ae0-ac9f-38f63aac1431"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:tunnelGroup",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "8bf0ba0e-856c-418d-8a87-d60e32e3079c"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:listeCommunication",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "469ceedc-1ea2-4179-80ae-57ee6a4e9be8"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:distanceFromReferencedInstallationElement",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "7d27c18c-dab7-449c-9236-36f4dc189c9e"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:vertexWithKP",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "22b28df7-c25e-4e56-b4de-5720806854be"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:hotBoxDetector",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "312f9568-06fa-4a86-867d-9050cca4e664"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:insertion",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "2966f858-a352-435b-803e-ab1e842a0800"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:repetiteurEtatItineraireVS",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "1838c492-122a-411e-8687-1aabf340e095"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:zep",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "2ef4861c-7232-49d1-bae0-9d04dbd8ccdf"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:tronconDItineraireVoie",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "35896349-7dfd-49f2-aa1a-60c377f0d82b"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:tVDSection",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "01dfdc02-b1e5-4173-a63e-21d11d18d643"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "operationModeChange",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "40551205-c53e-46ee-adef-11825eaa3456"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "electrificationChange",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "abe1f2e1-a6e2-474f-971e-163a59ea3821"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:switchPointAndPosition",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "a916080f-3232-4b58-b630-c5d180c15baf"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "serviceSection",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "f90372c2-2a59-4645-81f3-5bb86e67e0dc"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "gradientChange",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "e844375f-edf9-4c04-b509-65da8b953bc8"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "trainRadioChange",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "fcfcfaf4-b7f0-4fc2-b8b0-34fa5c9cbc8c"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:distanceFromReferencedTrackSurveyElement",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "4e5c2f93-8418-4249-bdec-b92dae52df4b"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:pedale",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "2dd34f47-3654-453e-bd83-16528097253d"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:route",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "c7218935-69d8-4a01-9363-d3f90259ce50",
+        "propertyOverload": [
+          {
+            "type": "propertyOverload",
+            "label": "dTRCode",
+            "name": "dTRCode",
+            "mandatory": "no",
+            "editable": "no",
+            "visible": "no",
+            "xmlType": "propertyOverload",
+            "id": "304c3583-cc92-4eaa-a09e-0eff6e82f101"
+          },
+          {
+            "type": "propertyOverload",
+            "label": "startArea",
+            "name": "startArea",
+            "mandatory": "no",
+            "editable": "no",
+            "visible": "no",
+            "xmlType": "propertyOverload",
+            "id": "8416ba3d-8d08-4f7a-9524-c6ce124aa046"
+          },
+          {
+            "type": "propertyOverload",
+            "label": "endArea",
+            "name": "endArea",
+            "mandatory": "no",
+            "editable": "no",
+            "visible": "no",
+            "xmlType": "propertyOverload",
+            "id": "f5bcb672-b10f-45a2-937a-8e094875ac8f"
+          },
+          {
+            "type": "propertyOverload",
+            "label": "prefixName",
+            "name": "prefixName",
+            "mandatory": "no",
+            "editable": "no",
+            "visible": "no",
+            "xmlType": "propertyOverload",
+            "id": "52431085-b3a4-4ba5-b365-300f57b7e2b7"
+          },
+          {
+            "type": "propertyOverload",
+            "label": "isSafetyRelated",
+            "name": "isSafetyRelated",
+            "mandatory": "no",
+            "editable": "no",
+            "visible": "no",
+            "xmlType": "propertyOverload",
+            "id": "3d647fb8-0000-491d-91a7-67729b587ec8"
+          },
+          {
+            "type": "propertyOverload",
+            "label": "additionalName",
+            "name": "additionalName",
+            "mandatory": "no",
+            "editable": "no",
+            "visible": "no",
+            "xmlType": "propertyOverload",
+            "id": "c578d8c9-7f09-459a-8314-a7474ad02f9f"
+          },
+          {
+            "type": "propertyOverload",
+            "label": "dTRCode_Revision",
+            "name": "dTRCode_Revision",
+            "mandatory": "no",
+            "editable": "no",
+            "visible": "no",
+            "xmlType": "propertyOverload",
+            "id": "29d3956d-fb0d-4cbd-b57b-427d9590573e"
+          },
+          {
+            "type": "propertyOverload",
+            "label": "materialType",
+            "name": "materialType",
+            "mandatory": "no",
+            "editable": "no",
+            "visible": "no",
+            "xmlType": "propertyOverload",
+            "id": "c718b9c6-285f-4968-b974-8d251bd455b6"
+          },
+          {
+            "type": "propertyOverload",
+            "label": "scopeOfSupply",
+            "name": "scopeOfSupply",
+            "mandatory": "no",
+            "editable": "no",
+            "visible": "no",
+            "xmlType": "propertyOverload",
+            "id": "54c8190b-e7e9-45a6-abe6-e2e72c32cce2"
+          },
+          {
+            "type": "propertyOverload",
+            "label": "code",
+            "name": "code",
+            "mandatory": "no",
+            "editable": "no",
+            "visible": "no",
+            "xmlType": "propertyOverload",
+            "id": "41213258-4812-4a4e-a64a-8ce54b3535fa"
+          },
+          {
+            "type": "propertyOverload",
+            "label": "activityCodeRef",
+            "name": "activityCodeRef",
+            "mandatory": "no",
+            "editable": "no",
+            "visible": "no",
+            "xmlType": "propertyOverload",
+            "id": "a521dae1-915e-40ab-b6b3-e17a4be4cbbf"
+          },
+          {
+            "type": "propertyOverload",
+            "label": "isCyberSecurityRelated",
+            "name": "isCyberSecurityRelated",
+            "mandatory": "no",
+            "editable": "no",
+            "visible": "no",
+            "xmlType": "propertyOverload",
+            "id": "a217d682-2053-4b50-a750-951b0a61f1ee"
+          },
+          {
+            "type": "propertyOverload",
+            "label": "description",
+            "name": "description",
+            "mandatory": "no",
+            "editable": "no",
+            "visible": "no",
+            "xmlType": "propertyOverload",
+            "id": "6b3f43c6-3f0d-4dd8-99c2-f835b7cd6498"
+          }
+        ],
+        "propertyVisibleOnGraphicalView": [
+          {
+            "type": "propertyVisibleOnGraphicalView",
+            "label": "additionalname",
+            "name": "additionalname",
+            "visibleOnGraphicalView": "no",
+            "xmlType": "propertyVisibleOnGraphicalView",
+            "id": "4dfd07eb-4d1b-4824-a7b8-f5226240b377"
+          },
+          {
+            "type": "propertyVisibleOnGraphicalView",
+            "label": "code",
+            "name": "code",
+            "visibleOnGraphicalView": "no",
+            "xmlType": "propertyVisibleOnGraphicalView",
+            "id": "4eb30f4b-7003-4eb5-bb8f-f6815671274e"
+          },
+          {
+            "type": "propertyVisibleOnGraphicalView",
+            "label": "description",
+            "name": "description",
+            "visibleOnGraphicalView": "no",
+            "xmlType": "propertyVisibleOnGraphicalView",
+            "id": "3df1f064-8e32-4d5f-9c6d-7537e71983e3"
+          },
+          {
+            "type": "propertyVisibleOnGraphicalView",
+            "label": "prefixname",
+            "name": "prefixname",
+            "visibleOnGraphicalView": "no",
+            "xmlType": "propertyVisibleOnGraphicalView",
+            "id": "394cf259-6ede-4db6-9823-64ee6b279a47"
+          },
+          {
+            "type": "propertyVisibleOnGraphicalView",
+            "label": "dtrcode",
+            "name": "dtrcode",
+            "visibleOnGraphicalView": "no",
+            "xmlType": "propertyVisibleOnGraphicalView",
+            "id": "0f9ed937-6846-4045-b9b4-5cafb1b3e13a"
+          },
+          {
+            "type": "propertyVisibleOnGraphicalView",
+            "label": "dtrcode_revision",
+            "name": "dtrcode_revision",
+            "visibleOnGraphicalView": "no",
+            "xmlType": "propertyVisibleOnGraphicalView",
+            "id": "88a4ac00-e16c-4351-b6fc-551f37704d1d"
+          },
+          {
+            "type": "propertyVisibleOnGraphicalView",
+            "label": "scopeofsupply",
+            "name": "scopeofsupply",
+            "visibleOnGraphicalView": "no",
+            "xmlType": "propertyVisibleOnGraphicalView",
+            "id": "84f30812-aaaf-4d78-8e2d-e980e6241e3e"
+          },
+          {
+            "type": "propertyVisibleOnGraphicalView",
+            "label": "materialtype",
+            "name": "materialtype",
+            "visibleOnGraphicalView": "no",
+            "xmlType": "propertyVisibleOnGraphicalView",
+            "id": "7ff5f463-9d70-4d82-a288-19fbc4eb11c0"
+          },
+          {
+            "type": "propertyVisibleOnGraphicalView",
+            "label": "issafetyrelated",
+            "name": "issafetyrelated",
+            "visibleOnGraphicalView": "no",
+            "xmlType": "propertyVisibleOnGraphicalView",
+            "id": "21cef18e-89b2-453d-a356-a541a98c930b"
+          },
+          {
+            "type": "propertyVisibleOnGraphicalView",
+            "label": "iscybersecurityrelated",
+            "name": "iscybersecurityrelated",
+            "visibleOnGraphicalView": "no",
+            "xmlType": "propertyVisibleOnGraphicalView",
+            "id": "68fac433-ce67-4002-927b-fd2c51f8e8ef"
+          },
+          {
+            "type": "propertyVisibleOnGraphicalView",
+            "label": "activitycoderef",
+            "name": "activitycoderef",
+            "visibleOnGraphicalView": "no",
+            "xmlType": "propertyVisibleOnGraphicalView",
+            "id": "622d1b33-bd78-4994-b935-e436155c3738"
+          },
+          {
+            "type": "propertyVisibleOnGraphicalView",
+            "label": "startarea",
+            "name": "startarea",
+            "visibleOnGraphicalView": "no",
+            "xmlType": "propertyVisibleOnGraphicalView",
+            "id": "5d6fedcc-a12f-458e-877b-817b4b790c00"
+          },
+          {
+            "type": "propertyVisibleOnGraphicalView",
+            "label": "endarea",
+            "name": "endarea",
+            "visibleOnGraphicalView": "no",
+            "xmlType": "propertyVisibleOnGraphicalView",
+            "id": "99577820-8873-4c0d-8d84-67c33e9b0f6f"
+          }
+        ]
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:scaleArea",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "2cd31c68-2b0b-4bf5-b7e3-260c7d7400dc"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "signal",
+        "default_icon": "",
+        "autocad": "MARKERBOARD_ONESIDE_v1",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "52090744-1b64-4f4c-a97a-8b05da5d74f4",
+        "subtype": {
+          "type": "subtype",
+          "label": "subtype",
+          "expect": [
+            {
+              "type": "expect",
+              "label": "expect",
+              "prop": "code",
+              "value": "2",
+              "xmlType": "expect",
+              "id": "a7d4e7b1-85de-441f-830a-8e78ef7bacef"
+            }
+          ]
+        }
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:distanceFromReferencedDesignElement",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "c3aac7d3-8a48-4a5e-9c08-6f3af43644bc"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:foulingPoint",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "a99fbc12-cf65-4704-b983-59f207456c29"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "trainProtectionElement",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "8174c91f-9005-4d6e-8d0d-c1b35851a569"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:tIVs",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "114c658d-f099-4806-8559-8da767985019"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:extendedAreaParameter",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "df73fc25-eed6-461c-b56e-dd20ad02ccff"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:systemBorderGroup",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "e28ad4b1-6d8b-4dee-8aad-413c7849f3aa"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:stockRailJoint",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "dcf9112d-573a-4b9a-be97-a5f5fbe91bd5"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:stablingArea",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "cbb34eef-8660-491b-85e1-a00884d52bba"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:canton",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "de8dee92-ec9d-42c3-ab4e-0c0318d99102"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:systemeReperageVoie",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "ad39bdae-5f8e-48de-ac02-b48b2879d871"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:pageArea",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "polygonLineColor": "black",
+        "polygonLineStyle": "Dashed",
+        "polygonLineThickness": "3",
+        "xmlType": "type",
+        "id": "ec014302-3430-4b25-b631-f998e83ba253",
+        "subtype": [
+          {
+            "type": "subtype",
+            "label": "Portrait_A1",
+            "id": "Portrait_A1",
+            "icon": "",
+            "autocad": "",
+            "visibility": "true",
+            "polygonLineColor": "black",
+            "polygonLineStyle": "Dashed",
+            "polygonLineThickness": "3",
+            "xmlType": "subtype",
+            "expect": [
+              {
+                "type": "expect",
+                "label": "expect",
+                "prop": "pageSize",
+                "value": "A1",
+                "xmlType": "expect",
+                "id": "a10632b7-27cc-49ab-87fa-3039c9386796"
+              },
+              {
+                "type": "expect",
+                "label": "expect",
+                "prop": "pageOrientation",
+                "value": "Portrait",
+                "xmlType": "expect",
+                "id": "12b6f260-04c3-4fa2-861d-9ab726797cf3"
+              }
+            ]
+          },
+          {
+            "type": "subtype",
+            "label": "Portrait_A3",
+            "id": "Portrait_A3",
+            "icon": "",
+            "autocad": "",
+            "visibility": "true",
+            "polygonLineColor": "black",
+            "polygonLineStyle": "Dashed",
+            "polygonLineThickness": "3",
+            "xmlType": "subtype",
+            "expect": [
+              {
+                "type": "expect",
+                "label": "expect",
+                "prop": "pageSize",
+                "value": "A3",
+                "xmlType": "expect",
+                "id": "2decca56-e357-4112-9c8f-49d05873bfd8"
+              },
+              {
+                "type": "expect",
+                "label": "expect",
+                "prop": "pageOrientation",
+                "value": "Portrait",
+                "xmlType": "expect",
+                "id": "9ebfe2de-57ec-44a9-a40b-fa11d1293883"
+              }
+            ]
+          },
+          {
+            "type": "subtype",
+            "label": "Portrait_A4",
+            "id": "Portrait_A4",
+            "icon": "",
+            "autocad": "",
+            "visibility": "true",
+            "polygonLineColor": "black",
+            "polygonLineStyle": "Dashed",
+            "polygonLineThickness": "3",
+            "xmlType": "subtype",
+            "expect": [
+              {
+                "type": "expect",
+                "label": "expect",
+                "prop": "pageSize",
+                "value": "A4",
+                "xmlType": "expect",
+                "id": "67e939d2-b758-4575-80c2-49a2d7cd2e70"
+              },
+              {
+                "type": "expect",
+                "label": "expect",
+                "prop": "pageOrientation",
+                "value": "Portrait",
+                "xmlType": "expect",
+                "id": "5a935a3d-0cca-4636-a54a-1ec69388b364"
+              }
+            ]
+          },
+          {
+            "type": "subtype",
+            "label": "Landscape_A1",
+            "id": "Landscape_A1",
+            "icon": "",
+            "autocad": "",
+            "visibility": "true",
+            "polygonLineColor": "black",
+            "polygonLineStyle": "Dashed",
+            "polygonLineThickness": "3",
+            "xmlType": "subtype",
+            "expect": [
+              {
+                "type": "expect",
+                "label": "expect",
+                "prop": "pageSize",
+                "value": "A1",
+                "xmlType": "expect",
+                "id": "2adee42b-410a-43dd-b996-64bf0576b957"
+              },
+              {
+                "type": "expect",
+                "label": "expect",
+                "prop": "pageOrientation",
+                "value": "Landscape",
+                "xmlType": "expect",
+                "id": "d5d89eed-a858-4ae0-9a1d-360de6687d09"
+              }
+            ]
+          },
+          {
+            "type": "subtype",
+            "label": "Landscape_A3",
+            "id": "Landscape_A3",
+            "icon": "",
+            "autocad": "",
+            "visibility": "true",
+            "polygonLineColor": "black",
+            "polygonLineStyle": "Dashed",
+            "polygonLineThickness": "3",
+            "xmlType": "subtype",
+            "expect": [
+              {
+                "type": "expect",
+                "label": "expect",
+                "prop": "pageSize",
+                "value": "A3",
+                "xmlType": "expect",
+                "id": "473505a1-0b74-46c5-8548-8155a230f440"
+              },
+              {
+                "type": "expect",
+                "label": "expect",
+                "prop": "pageOrientation",
+                "value": "Landscape",
+                "xmlType": "expect",
+                "id": "276172ce-d385-42a4-9b61-4d85970ebb23"
+              }
+            ]
+          },
+          {
+            "type": "subtype",
+            "label": "Landscape_A4",
+            "id": "Landscape_A4",
+            "icon": "",
+            "autocad": "",
+            "visibility": "true",
+            "polygonLineColor": "black",
+            "polygonLineStyle": "Dashed",
+            "polygonLineThickness": "3",
+            "xmlType": "subtype",
+            "expect": [
+              {
+                "type": "expect",
+                "label": "expect",
+                "prop": "pageSize",
+                "value": "A4",
+                "xmlType": "expect",
+                "id": "fc36d6ad-94dd-4bfc-805f-85d4a1101adb"
+              },
+              {
+                "type": "expect",
+                "label": "expect",
+                "prop": "pageOrientation",
+                "value": "Landscape",
+                "xmlType": "expect",
+                "id": "792de67d-fd91-40e1-a90c-740cb216384c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:civilWorkArea",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "5855d02e-c276-4020-9093-1a132b69ef0d"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:specificPunctualObject",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "a9df0cf3-4828-4ccb-9c69-30d790591a41"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "track",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "510766a1-845f-44ad-a653-13e6eca7d0f8"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:signal_Name",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "a4b1417c-52a8-4c03-b027-e6310bdba1e2"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:branche",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "97ecd515-b90b-400f-becb-2369ddcafbee"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:specificPolygonArea",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "359ba88e-20b0-4cca-a2f8-d1be00b55be4"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "brigde",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "d3aaa088-f83b-4632-8f5b-6a258a0ffa72"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "trainDetector",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "34eba0ab-e275-442a-a068-045e7afef46f"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:specificArea",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "16e75317-f267-4c9e-af4e-cfa34b7d5aed"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "openEnd",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "3472df3e-8079-424d-947c-dd5c42cabe19"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:saf",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "c7acb535-aee2-4fb3-a486-79612c4b3094"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:service",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "bc91e113-18c8-4932-8fbb-a0a566666ba2"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:zap",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "fbe990fc-0b84-4dc3-a79a-b72690268e12"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:transit",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "f374157b-ba51-432b-8f93-33922460fcbd"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:turnbackArea",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "81c5d2cc-09b9-42fc-aac8-6117002ac213"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "border",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "0e55239f-984f-4aac-bdb7-35e22d603d19"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:cableDuctTrackCrossing",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "39e6757d-b712-4c8f-8213-4ba00ba298a8"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:equipmentRoomTPE",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "5aecfa3e-5f9b-483b-945d-a619aa55c698"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "baliseGroup",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "39779513-96b0-4aa5-8b34-44d287966b51"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:trainFormationCharacteristics",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "9221352b-b8b9-49ce-b869-bc6d5536010d"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:pattern",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "3ae9a89f-9a7e-4f99-bf9e-616a461d9243"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:autorisationATr",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "2c20e9bf-2ef7-49f6-bc28-13e72e4438e5"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "mileageChange",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "093af98b-3b6f-469a-a75c-80cdf467a954"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "stopPost",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "e2258da6-639b-438d-8b6a-7bcfd52589d2"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "crossSection",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "d64e46d5-58ab-4350-825a-fc27159bd8cd"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "ARGOS:repetiteurAutorisationVS",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "9b99487e-5065-4c2f-baf9-aeacb4c619a6"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "signalGroup",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "716feb2e-fc58-4800-9ebc-15b75f169acb"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "trackCircuitBorder",
+        "default_icon": "",
+        "autocad": "TRAINDETECTOR_IXL_v2A",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "01733927-90c6-4a1b-a98b-8099d0f3b54d",
+        "propertyOverload": {
+          "type": "propertyOverload",
+          "label": "dir",
+          "name": "dir",
+          "mandatory": "no",
+          "editable": "yes",
+          "visible": "yes",
+          "default": "unknown",
+          "xmlType": "propertyOverload",
+          "id": "31826511-595b-447d-85f7-9fb7eaf4e9df"
+        }
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:equipmentRoom",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "66d9d3a5-5a44-4507-8107-ec370ebd4348"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:assembly",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "501a946b-44c6-49af-aaa7-6f9c4ce08055"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:cubicle",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "2245aab8-74ed-48b2-840a-054a47f8df3a"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:equipment",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "c59c13b6-437d-4c0b-8889-ff735e3aa63a"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:rack",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "33879504-d50e-4c23-bf29-02e83ddcc5b3"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:board",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "d8d89a35-e7b5-478b-828b-d70c2befc8e6"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:lRU",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "1fadbcd6-cd3c-4b48-b7de-543fe450bb4d"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:assemblyConfiguration",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "95a92b04-b655-48c1-81e2-730ad4c7942d"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:backboneNetwork",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "4a8168cd-c1fb-4e23-9b87-81d42fa9ab46"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:trainConfiguration",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "643fc0b3-c7f4-45b2-ae06-415082c262d4"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:train",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "76fcdae3-bdd0-46f8-88be-e87c098e5754"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:car",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "f5125f83-fe45-4e32-a7db-ba32e83da58f"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:onBoardCubicle",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "1632a034-7a60-4a11-8c37-179f3f357f76"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:onBoardEquipment",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "0bf7e77f-6adc-4eab-a687-e55b075bb813"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:physicalLink",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "7855b9a0-d944-4ecb-831b-619efb91d3e9"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:physicalLinkCharacteristic",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "ee54bc10-dca8-4297-8ef4-074b9fa7bf13"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:interfaceDefinition",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "413beaf6-b701-4044-bccb-5eaa6f0054bb"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:interfaceConnection",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "8f020143-3e26-40e2-a7d5-6e3ced6edd9e"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:connectionTypeDefinition",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "1ba48a14-d2bc-4cdf-9cd0-bc73b6d4619e"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:serialPortConfiguration",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "c3cd9458-ff62-47f1-99ca-a81a433e94ee"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:ethernetPortConfiguration",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "31afa378-7eaa-4c35-9bb7-7bbdf8a3316b"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:equipmentPortDefinition",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "5a5fdd49-72ef-4429-9be7-ed91e7c5d7b9"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:equipmentPortTypeDefinition",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "0e6fc8af-30fb-4ae1-928e-a3761b539765"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:backboneNetworkConnection",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "b3c76572-e51b-4ae1-a630-58ce56fc2491"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:IM112Board",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "08b61274-cdf2-4f4f-b2e1-58fdaa7cfc59"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:OM122Board",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "7b79fdd6-ca4c-4975-b47b-548e5590c122"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:SM5Board",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "e3ee8fef-d164-45a5-b06b-a620eec57bac"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:PM2ACBoard",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "53916cc0-f01a-4c66-bed0-0056c01c516c"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:COMBoard",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "722c4a70-f3ab-4e91-9afc-ebbaa98ca626"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:IM112BoardCellsDef",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "82bd1f32-0fc1-44ef-8fe0-b05f2ed5a33c"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:OM122BoardCellsDef",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "59be31c2-4896-4329-a163-22ff38a11488"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:SM5BoardCellsDef",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "353c9f5c-f425-4c56-977a-a9c265537be5"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:PM2ACBoardCellsDef",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "439cca0f-e1d8-49f7-a501-0f34a102dea4"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:IM112boardParameterSet",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "440575ff-bae6-4547-8c3b-7d15ca4671cd"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:OM122boardParameterSet",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "102b5a35-c8a8-42a0-80a9-f89476df9b46"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:SM5boardParameterSet",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "6a5d1ed5-ec28-4969-963f-c59d03322d07"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:PM2ACboardParameterSet",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "07c3db2d-19f6-4a0f-a942-a6d13ef107e4"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:COMboardParameterSet",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "2086a110-c5fe-4b1f-9423-d31d65517722"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:PM2ACCellParameterSet",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "19d72989-05f5-413f-8968-12263632f7d5"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:SM5CellParameterSet",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "23335e22-c487-49f8-a0f6-181180a8835d"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:MooNParametersDefinition",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "5b7d95b4-dc8f-41c4-aaad-471c247e9aa3"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:typicalITFDiagram",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "837384c9-d79a-4f1e-a713-5cc5a5963119"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:typicalFrame",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "4fce4fbb-da2d-4b0a-afbd-5c4600e7c249"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:cableWire",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "5b50bd3b-cafa-47ae-8196-81fae88f6ffd"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:terminal",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "6217fe7e-b20c-4f95-b720-3846f6fec705"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:fuse",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "4b40a10b-1ce9-4507-9a12-876624a63916"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:boardCell",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "5e5640b4-b922-4d96-84d1-b7f7a64e24e9"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:fieldEquipment",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "04cb7198-07c0-400b-bb12-7dacfde96271"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:instantiatedITFDiagram",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "dbf9ea4c-bfe1-4bee-a0c5-4a7344ae3512"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:fuseSubComponent",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "43730ccc-5009-4716-b24a-8fa06f42d357"
+      },
+      {
+        "type": "type",
+        "label": "type",
+        "ref": "GenericADM:terminalSubComponent",
+        "default_icon": "",
+        "autocad": "",
+        "visibility": "true",
+        "xmlType": "type",
+        "id": "106bcf88-ce51-474d-8646-77675c0c99f9"
+      }
+    ]
+  }
+}

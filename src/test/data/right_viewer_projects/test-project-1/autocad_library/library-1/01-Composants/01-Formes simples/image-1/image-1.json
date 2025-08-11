@@ -1,0 +1,71 @@
+{
+  "id": "image-1",
+  "label": "Image",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "rectangle",
+    "attributeInit": [
+      {
+        "name": "href",
+        "value": ""
+      },
+      {
+        "name": "width",
+        "value": "100"
+      },
+      {
+        "name": "height",
+        "value": "50"
+      },
+      {
+        "name": "rx",
+        "value": "0"
+      },
+      {
+        "name": "ry",
+        "value": "0"
+      }
+    ]
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "image",
+        "x": 0,
+        "y": 0,
+        "href": "",
+        "width": 100,
+        "height": 50,
+        "stroke": "#000",
+        "stroke-width": "1",
+        "fill": "none",
+        "mapping": [
+          {
+            "name": "href",
+            "parentName": "href"
+          },
+          {
+            "name": "width",
+            "parentName": "width"
+          },
+          {
+            "name": "height",
+            "parentName": "height"
+          },
+          {
+            "name": "ry",
+            "parentName": "ry"
+          },
+          {
+            "name": "rx",
+            "parentName": "rx"
+          },
+          {
+            "name": "ry",
+            "parentName": "ry"
+          }
+        ]
+      }
+    ]
+  }
+}

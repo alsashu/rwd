@@ -1,0 +1,7 @@
+{
+  "id": "01-Métier",
+  "label": "Métier",
+  "type": "library-folder",
+  "content": "rules",
+  "folderType": "business-rule-folder"
+}

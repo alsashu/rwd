@@ -1,0 +1,6 @@
+{
+  "id": "calc-cable-needs",
+  "label": "Calculer les besoins en câbles à partir des interfaces campagne",
+  "type": "rule-prototype",
+  "controlerData": {}
+}

@@ -1,0 +1,168 @@
+{
+  "id": "route-tpe-1",
+  "label": "Voie TPE 1",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "polyline",
+    "boType": "track",
+    "tags": [
+      "voie"
+    ],
+    "attributeInit": [
+      {
+        "name": "points",
+        "value": "0,0 100,0"
+      },
+      {
+        "name": "status",
+        "value": "none",
+        "boName": "status"
+      },
+      {
+        "name": "label",
+        "value": "",
+        "boName": "label"
+      },
+      {
+        "name": "labelVisible",
+        "value": true
+      },
+      {
+        "name": "labelX",
+        "value": "50"
+      },
+      {
+        "name": "labelY",
+        "value": "-10"
+      },
+      {
+        "name": "labelScale",
+        "value": "1.2"
+      },
+      {
+        "name": "labelRotate",
+        "value": "0"
+      },
+      {
+        "name": "labelStrike",
+        "value": "#000"
+      },
+      {
+        "name": "rayStatus",
+        "value": "same",
+        "boName": "changeStatus"
+      },
+      {
+        "name": "stroke",
+        "value": "#FFA500"
+      },
+      {
+        "name": "strokeWidth",
+        "value": "4"
+      }
+    ],
+    "handles": [
+      {
+        "type": "mapping-handle",
+        "xMapping": "labelX",
+        "yMapping": "labelY",
+        "visibleAttribute": "labelVisible"
+      }
+    ],
+    "boTypes": [
+      "voie",
+      "track"
+    ]
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "polyline",
+        "static": true,
+        "points": "0,0 100,0",
+        "styleDELETE": "stroke-width:4;fill:none;",
+        "width": 900,
+        "height": 0,
+        "stroke": "red",
+        "fill": "none",
+        "mapping": [
+          {
+            "name": "points",
+            "parentName": "points"
+          },
+          {
+            "name": "strokeWidth",
+            "parentName": "strokeWidth"
+          },
+          {
+            "name": "stroke",
+            "parentName": "stroke"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "x": 10,
+        "y": -35,
+        "text": "#NAME#",
+        "style": "",
+        "isVisible": true,
+        "scale": 1,
+        "textAnchor": "middle",
+        "mapping": [
+          {
+            "name": "text",
+            "parentName": "label"
+          },
+          {
+            "name": "x",
+            "parentName": "labelX"
+          },
+          {
+            "name": "y",
+            "parentName": "labelY"
+          },
+          {
+            "name": "isVisible",
+            "parentName": "labelVisible"
+          },
+          {
+            "name": "scale",
+            "parentName": "labelScale"
+          },
+          {
+            "name": "rotate",
+            "parentName": "labelRotate"
+          },
+          {
+            "name": "strike",
+            "parentName": "labelStrike"
+          }
+        ]
+      },
+      {
+        "type": "use",
+        "x": 0,
+        "y": 0,
+        "href": "#def-port-1",
+        "isPort": true,
+        "portId": "tb"
+      },
+      {
+        "type": "use",
+        "x": 50,
+        "y": 0,
+        "href": "#def-port-1",
+        "isPort": true,
+        "portId": "te",
+        "rules": [
+          {
+            "ruleType": "position",
+            "positionType": "point",
+            "index": -1
+          }
+        ]
+      }
+    ]
+  }
+}

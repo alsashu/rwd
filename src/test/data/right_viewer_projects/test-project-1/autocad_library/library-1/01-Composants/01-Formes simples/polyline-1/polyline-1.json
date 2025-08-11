@@ -1,0 +1,43 @@
+{
+  "id": "polyline-1",
+  "label": "Polyligne",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "polyline",
+    "attributeInit": [
+      {
+        "name": "points",
+        "value": "0,0 100,0"
+      }
+    ]
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "polyline",
+        "static": true,
+        "points": "0,0 100,0",
+        "style": "stroke-width:2;fill:none;",
+        "fill": "none",
+        "mapping": [
+          {
+            "name": "points",
+            "parentName": "points"
+          },
+          {
+            "name": "stroke",
+            "parentName": "stroke"
+          },
+          {
+            "name": "strokeWidth",
+            "parentName": "strokeWidth"
+          },
+          {
+            "name": "strokeDasharray",
+            "parentName": "strokeDasharray"
+          }  
+        ]
+      }
+    ]
+  }
+}

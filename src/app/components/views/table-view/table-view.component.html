@@ -1,0 +1,9 @@
+<app-generic-tool-bar [parent]="this" [toolBarActions]="viewActionsService.toolBarActions"></app-generic-tool-bar>
+<app-generic-context-menu #mainContextMenu [parent]="this" [contextMenuActions]="viewActionsService.contextMenuActions"></app-generic-context-menu>
+<div class="view-content">
+  <app-generic-tree [nodes]="nodes" [nodeContentTemplate]="tableNodeContentTemplate"></app-generic-tree>
+</div>
+
+<ng-template #tableNodeContentTemplate let-node="node" let-treeController="treeController">
+  <app-table-tree-item [node]="node" [treeController]="treeController" [options]="treeItemOptions"></app-table-tree-item>
+</ng-template>

@@ -1,0 +1,6 @@
+{
+  "id": "test-rule-1",
+  "label": "Règle test 1",
+  "type": "rule-prototype",
+  "controlerData": {}
+}

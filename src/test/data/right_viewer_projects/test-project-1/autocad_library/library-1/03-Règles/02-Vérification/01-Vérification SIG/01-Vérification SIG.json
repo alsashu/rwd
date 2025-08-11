@@ -1,0 +1,6 @@
+{
+  "id": "01-Vérification SIG",
+  "label": "Règles SIG",
+  "type": "library-folder",
+  "content": "rules"
+}

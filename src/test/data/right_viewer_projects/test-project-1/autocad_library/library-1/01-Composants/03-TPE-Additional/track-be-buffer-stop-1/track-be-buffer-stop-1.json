@@ -1,0 +1,20 @@
+{
+  "id": "track-be-buffer-stop-1",
+  "label": "Track BE Buffer Stop 3",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "point",
+    "attributeInit": [
+    ]
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "polyline",
+        "points": "0,-10 0,10",
+        "stroke": "#000",
+        "strokeWidth": "1"
+      }
+    ]
+  }
+}

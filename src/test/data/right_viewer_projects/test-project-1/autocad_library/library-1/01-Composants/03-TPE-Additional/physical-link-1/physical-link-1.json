@@ -1,0 +1,45 @@
+{
+  "id": "physical-link-1",
+  "label": "Physical Link 1",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "polyline",
+    "tags": [
+      "sysart"
+    ],
+    "attributeInit": [
+      {
+        "name": "points",
+        "value": "0,0 100,0"
+      },
+      {
+        "name": "stroke",
+        "value": "#000"
+      }
+    ]
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "polyline",
+        "static": true,
+        "points": "0,0 100,0",
+        "width": 100,
+        "height": 0,
+        "stroke": "#000",
+        "strokeWidth": "1",
+        "fill": "none",
+        "mapping": [
+          {
+            "name": "points",
+            "parentName": "points"
+          },
+          {
+            "name": "stroke",
+            "parentName": "stroke"
+          }
+        ]
+      }
+    ]
+  }
+}

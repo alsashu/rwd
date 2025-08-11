@@ -1,0 +1,95 @@
+{
+  "id": "repere-pk-1",
+  "label": "Repère PK",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "polyline",
+    "tags": [
+      "voie"
+    ],
+    "attributeInit": [
+      {
+        "name": "points",
+        "value": "0,0 1900,0"
+      },
+      {
+        "name": "pk1",
+        "value": "0"
+      },
+      {
+        "name": "pk2",
+        "value": "10"
+      },
+      {
+        "name": "width",
+        "value": "1900"
+      },
+      {
+        "name": "ty",
+        "value": "-15"
+      }
+    ]
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "polyline",
+        "static": true,
+        "points": "0,0 1900,0",
+        "style": "stroke-width:1;fill:none;",
+        "width": 900,
+        "height": 0,
+        "mapping": [
+          {
+            "name": "points",
+            "parentName": "points"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": -15,
+        "text": "PK1",
+        "style": "",
+        "scale": 1,
+        "mapping": [
+          {
+            "name": "text",
+            "parentName": "pk1"
+          },
+          {
+            "name": "x",
+            "parentName": "tx"
+          },
+          {
+            "name": "y",
+            "parentName": "ty"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": -15,
+        "text": "PK2",
+        "style": "",
+        "scale": 1,
+        "mapping": [
+          {
+            "name": "text",
+            "parentName": "pk2"
+          },
+          {
+            "name": "x",
+            "parentName": "width"
+          },
+          {
+            "name": "y",
+            "parentName": "ty"
+          }
+        ]
+      }
+    ]
+  }
+}

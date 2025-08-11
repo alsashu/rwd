@@ -1,0 +1,7 @@
+{
+  "id": "exe-business-rule-5",
+  "type": "rule-prototype",
+  "label": "Instanciation des vues façades",
+  "description": "Instanciation des vues façades",
+  "controlerData": {}
+}

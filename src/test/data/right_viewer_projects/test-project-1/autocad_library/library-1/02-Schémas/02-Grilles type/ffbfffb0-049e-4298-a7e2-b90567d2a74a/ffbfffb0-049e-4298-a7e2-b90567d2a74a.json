@@ -1,0 +1,6345 @@
+{
+  "id": "ffbfffb0-049e-4298-a7e2-b90567d2a74a",
+  "label": "Grille type signal simple",
+  "type": "diagram-prototype",
+  "diagramPrototypeType": "template-diagram",
+  "assignationData": {
+    "boTypes": [
+      "signal"
+    ]
+  },
+  "diagram": {
+    "id": "b9ca74b4-083b-474f-9232-fdbbb23addbc",
+    "type": "diagram",
+    "subType": "grid-pattern",
+    "label": "Grille type signal simple",
+    "width": 10000,
+    "height": 4000,
+    "layers": [
+      {
+        "id": "l1",
+        "label": "Calque 1"
+      }
+    ],
+    "svgObject": {
+      "type": "root",
+      "svgObjects": [
+        {
+          "type": "library-object",
+          "libraryId": "component-1",
+          "x": 140,
+          "y": 200,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "fe382fea-d6d3-4d2e-b4ff-5fdc41f51fe1",
+          "pins": "L1A,1,0,1;L1B,1,1,1;L2A,1,3,1;L2B,1,4,1;L3A,1,8,1;L3B,1,9,1;L4A,1,11,1;L4B,1,12,1;L5A,1,16,1;L5B,1,17,1;L6A,1,19,1;L6B,1,20,1;L7A,1,23,1;L7B,1,24,1;L8A,1,26,1;L8B,1,27,1;P,3,0,1;N,3,1,1",
+          "pinDx": 20,
+          "pinDY": 20,
+          "lx": 20,
+          "ly": 20,
+          "minWidth": "200",
+          "minHeight": 50,
+          "isVisible": true,
+          "label": "SM",
+          "labelX": 0,
+          "labelY": -10,
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "L1A",
+              "boId": "",
+              "x": 390,
+              "y": 20
+            },
+            {
+              "index": 1,
+              "label": "L1B",
+              "boId": "",
+              "x": 390,
+              "y": 40
+            },
+            {
+              "index": 2,
+              "label": "L2A",
+              "boId": "",
+              "x": 390,
+              "y": 80
+            },
+            {
+              "index": 3,
+              "label": "L2B",
+              "boId": "",
+              "x": 390,
+              "y": 100
+            },
+            {
+              "index": 4,
+              "label": "L3A",
+              "boId": "",
+              "x": 390,
+              "y": 180
+            },
+            {
+              "index": 5,
+              "label": "L3B",
+              "boId": "",
+              "x": 390,
+              "y": 200
+            },
+            {
+              "index": 6,
+              "label": "L4A",
+              "boId": "",
+              "x": 390,
+              "y": 240
+            },
+            {
+              "index": 7,
+              "label": "L4B",
+              "boId": "",
+              "x": 390,
+              "y": 260
+            },
+            {
+              "index": 8,
+              "label": "L5A",
+              "boId": "",
+              "x": 390,
+              "y": 340
+            },
+            {
+              "index": 9,
+              "label": "L5B",
+              "boId": "",
+              "x": 390,
+              "y": 360
+            },
+            {
+              "index": 10,
+              "label": "L6A",
+              "boId": "",
+              "x": 390,
+              "y": 400
+            },
+            {
+              "index": 11,
+              "label": "L6B",
+              "boId": "",
+              "x": 390,
+              "y": 420
+            },
+            {
+              "index": 12,
+              "label": "L7A",
+              "boId": "",
+              "x": 390,
+              "y": 480
+            },
+            {
+              "index": 13,
+              "label": "L7B",
+              "boId": "",
+              "x": 390,
+              "y": 500
+            },
+            {
+              "index": 14,
+              "label": "L8A",
+              "boId": "",
+              "x": 390,
+              "y": 540
+            },
+            {
+              "index": 15,
+              "label": "L8B",
+              "boId": "",
+              "x": 390,
+              "y": 560
+            },
+            {
+              "index": 16,
+              "label": "P",
+              "boId": "",
+              "x": 0,
+              "y": 20
+            },
+            {
+              "index": 17,
+              "label": "N",
+              "boId": "",
+              "x": 0,
+              "y": 40
+            }
+          ],
+          "isEnabled": true,
+          "componentType": "sm-board",
+          "filterTag": "",
+          "width": 390,
+          "height": 630,
+          "labelRotate": 0,
+          "isUsed": true,
+          "pinX0": 20,
+          "pinY0": 20,
+          "pinDy": 20,
+          "labelScale": 1,
+          "label2": "",
+          "label2X": 0,
+          "label2Y": -5,
+          "label2Rotate": 0,
+          "label2Scale": 0.8,
+          "internalRefrence": "",
+          "clientRefrence": "",
+          "provider": ""
+        },
+        {
+          "type": "library-object",
+          "libraryId": "text-1",
+          "x": 50,
+          "y": 60,
+          "rotate": 0,
+          "scale": "1.3",
+          "isAutoPlaced": false,
+          "id": "a12c657c-a768-4094-a531-2fdd8c3d00d1",
+          "text": "Grille type signal",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 530,
+          "y": 220,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "92bdeaeb-d581-440b-9ec9-d9e88eeb111e",
+          "points": "0,0 100,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "fe382fea-d6d3-4d2e-b4ff-5fdc41f51fe1",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "20dcf79c-b2c1-422b-971e-046db30dca65",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "vl-lamp",
+          "functionName": "vl-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "delimiter-1",
+          "x": 1160,
+          "y": 100,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "5585c580-87cf-4186-9eeb-48f5bbf22e50",
+          "points": "0,0 0,720",
+          "color": "#000",
+          "isVisible": true,
+          "isEnabled": true,
+          "connections": [],
+          "limitType": "n2-n3",
+          "connectionCount": "0"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "text-1",
+          "x": 1130,
+          "y": 70,
+          "rotate": 0,
+          "scale": "1.0",
+          "isAutoPlaced": false,
+          "id": "5514b91b-0b5f-46db-89c3-c9f9950edc7c",
+          "text": "N2",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 530,
+          "y": 240,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "9a35d26d-e3a3-4367-b3b1-4dfe4197f58a",
+          "points": "0,0 100,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "fe382fea-d6d3-4d2e-b4ff-5fdc41f51fe1",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "fc5d21fb-b8f0-4885-8491-fd4393d6b6f9",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "vl-lamp",
+          "functionName": "vl-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "lamp-led-1",
+          "x": 1820,
+          "y": 230,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "5384e1c8-bddc-4fa2-a099-82c7b41e877a",
+          "label": "VL",
+          "labelX": "15",
+          "labelY": "5",
+          "isVisible": true,
+          "isEnabled": true,
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": 0,
+              "y": -10
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 0,
+              "y": 10
+            }
+          ],
+          "filterTag": "vl-lamp"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 850,
+          "y": 220,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "c1bc22db-aaf1-41af-95e0-fc36c67bd182",
+          "points": "0,0 70,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "fea66826-2bde-475e-8b6b-bd47b7026987",
+              "pointIndex2": 4
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "0766e4ec-05e3-4606-b3b7-81d38dc29468"
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "vl-lamp",
+          "functionName": "vl-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 850,
+          "y": 240,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "16f370d4-d10b-42ad-b41c-fd3685c6ac26",
+          "points": "0,0 70,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "fea66826-2bde-475e-8b6b-bd47b7026987",
+              "pointIndex2": 5
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "471263fc-f3aa-47f8-a88b-1e7ab70b1ceb"
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "vl-lamp",
+          "functionName": "vl-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1650,
+          "y": 220,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "c9be5b63-8fba-42e0-9d1f-12ce76fbcd98",
+          "points": "0,0 170,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "5384e1c8-bddc-4fa2-a099-82c7b41e877a",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "32f18d3e-cce3-499e-bca4-b766c078c5db",
+              "pointIndex2": 2
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "vl-lamp",
+          "functionName": "vl-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1650,
+          "y": 240,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "18eb61b5-2255-486c-a991-c1921204c938",
+          "points": "0,0 170,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "5384e1c8-bddc-4fa2-a099-82c7b41e877a",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "32f18d3e-cce3-499e-bca4-b766c078c5db",
+              "pointIndex2": 3
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "vl-lamp",
+          "functionName": "vl-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "text-1",
+          "x": 1170,
+          "y": 70,
+          "rotate": 0,
+          "scale": "1.0",
+          "isAutoPlaced": false,
+          "id": "ec340d89-707a-4bfa-ba49-78a3d1e32fc2",
+          "text": "Campagne",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "lamp-led-1",
+          "x": 1820,
+          "y": 290,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "12832a19-6f41-4c15-b6fa-63f344a3e3b9",
+          "label": "A",
+          "labelX": "15",
+          "labelY": "5",
+          "isVisible": true,
+          "isEnabled": true,
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": 0,
+              "y": -10
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 0,
+              "y": 10
+            }
+          ],
+          "filterTag": "a-lamp"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 530,
+          "y": 280,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "3ebbe70a-0e1b-4a58-9e87-e59b8c38b851",
+          "points": "0,0 100,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "fe382fea-d6d3-4d2e-b4ff-5fdc41f51fe1",
+              "pointIndex2": 2
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "4f09d2a3-6ef3-476f-be28-6d7e9906df26",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "a-lamp",
+          "functionName": "a-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 530,
+          "y": 300,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "2339a1c1-1737-475e-a7eb-3f823edbce67",
+          "points": "0,0 100,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "fe382fea-d6d3-4d2e-b4ff-5fdc41f51fe1",
+              "pointIndex2": 3
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "176d8e62-ebf4-44e3-9909-0e37ff00006f",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "a-lamp",
+          "functionName": "a-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 850,
+          "y": 280,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "c3d60b68-0858-4f0a-b2a0-4b638bce6233",
+          "points": "0,0 70,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "fea66826-2bde-475e-8b6b-bd47b7026987",
+              "pointIndex2": 6
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "02256336-4d7e-46f5-9be9-1788a5a3b79b"
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "a-lamp",
+          "functionName": "a-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 850,
+          "y": 300,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "567db77c-7e9a-4550-8f73-b9d86d572c06",
+          "points": "0,0 70,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "fea66826-2bde-475e-8b6b-bd47b7026987",
+              "pointIndex2": 7
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "4d9af773-c292-4dc3-8a7b-fb166716094e"
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "a-lamp",
+          "functionName": "a-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1650,
+          "y": 280,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "e3bbc466-4f02-4ae7-9568-b3192ad65e20",
+          "points": "0,0 170,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "12832a19-6f41-4c15-b6fa-63f344a3e3b9",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "ffeeb60e-a832-4c87-9c4c-fe007cbab9ac",
+              "pointIndex2": 2
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "a-lamp",
+          "functionName": "a-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1650,
+          "y": 300,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "000489e7-e6f6-46d1-b70d-7b2c48d6e98b",
+          "points": "0,0 170,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "12832a19-6f41-4c15-b6fa-63f344a3e3b9",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "ffeeb60e-a832-4c87-9c4c-fe007cbab9ac",
+              "pointIndex2": 3
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "a-lamp",
+          "functionName": "a-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "lamp-led-1",
+          "x": 1820,
+          "y": 450,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "d8c1c0ea-05ab-43a6-affd-4b1b98730388",
+          "label": "M",
+          "labelX": "15",
+          "labelY": "5",
+          "isVisible": true,
+          "isEnabled": true,
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": 0,
+              "y": -10
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 0,
+              "y": 10
+            }
+          ],
+          "filterTag": "m-lamp"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 530,
+          "y": 440,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "28bc975e-f796-4cc3-af29-601e239ffdbe",
+          "points": "0,0 100,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "fe382fea-d6d3-4d2e-b4ff-5fdc41f51fe1",
+              "pointIndex2": 6
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "226cf64c-f41a-4a4d-b91f-3337df7ca8b5",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "m-lamp",
+          "functionName": "m-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 530,
+          "y": 460,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "7698cc3d-fe44-415f-a395-df23f3d53b60",
+          "points": "0,0 100,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "fe382fea-d6d3-4d2e-b4ff-5fdc41f51fe1",
+              "pointIndex2": 7
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "b8b606b5-c6cb-4bd1-9120-336bdc456570",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "m-lamp",
+          "functionName": "m-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 850,
+          "y": 440,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "8e53dc2f-66cb-4eb9-aed3-349d89c895de",
+          "points": "0,0 70,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "d0282033-e1ce-442a-b129-f792d2700d40",
+              "pointIndex2": 6
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "4192b1bf-f530-472f-82ee-10b65065a788"
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "m-lamp",
+          "functionName": "m-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 850,
+          "y": 460,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "7e890fba-5f30-4bd6-b3ff-8b05d3f392aa",
+          "points": "0,0 70,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "d0282033-e1ce-442a-b129-f792d2700d40",
+              "pointIndex2": 7
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "eb29c73b-496d-4d42-820b-ebf18038e397"
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "m-lamp",
+          "functionName": "m-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1650,
+          "y": 440,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "47f9eda9-d16a-4024-8e8c-069beb282841",
+          "points": "0,0 170,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "d8c1c0ea-05ab-43a6-affd-4b1b98730388",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "6bdff8ef-8a1b-43f1-b977-2447ddbb8c37",
+              "pointIndex2": 2
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "m-lamp",
+          "functionName": "m-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1650,
+          "y": 460,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "fc3bce42-beb6-421e-90ed-401a06d50507",
+          "points": "0,0 170,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "d8c1c0ea-05ab-43a6-affd-4b1b98730388",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "6bdff8ef-8a1b-43f1-b977-2447ddbb8c37",
+              "pointIndex2": 3
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "m-lamp",
+          "functionName": "m-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "lamp-led-1",
+          "x": 1820,
+          "y": 550,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "15ff42d5-c829-40f3-b6f9-5540a367e53c",
+          "label": "Cv",
+          "labelX": "15",
+          "labelY": "5",
+          "isVisible": true,
+          "isEnabled": true,
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": 0,
+              "y": -10
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 0,
+              "y": 10
+            }
+          ],
+          "filterTag": "cv-lamp"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 530,
+          "y": 540,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "99021d7f-e357-49c4-be1e-418b7ba09998",
+          "points": "0,0 100,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "fe382fea-d6d3-4d2e-b4ff-5fdc41f51fe1",
+              "pointIndex2": 8
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "21e40301-5b61-4748-a76b-9a5b1f294c19",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "cv-lamp",
+          "functionName": "cv-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 530,
+          "y": 560,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "8ca083b7-754f-49a2-939d-c9619c80034e",
+          "points": "0,0 100,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "fe382fea-d6d3-4d2e-b4ff-5fdc41f51fe1",
+              "pointIndex2": 9
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "e0ede2c6-47b6-4518-84ec-0645d679d66d",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "cv-lamp",
+          "functionName": "cv-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 850,
+          "y": 540,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "7161a6a1-5a73-43bb-bbff-e067f5a4976a",
+          "points": "0,0 70,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "2fca9235-46d8-4b32-926d-4b458fdf9af8",
+              "pointIndex2": 4
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "2aae8a48-1e7d-4e95-97b9-5818a6ecdefc"
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "cv-lamp",
+          "functionName": "cv-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 850,
+          "y": 560,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "7707778f-7f18-4340-831c-5ebcbbf96f5f",
+          "points": "0,0 70,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "2fca9235-46d8-4b32-926d-4b458fdf9af8",
+              "pointIndex2": 5
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "79f5d314-5e17-4e66-861b-7a8777f9487c"
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "cv-lamp",
+          "functionName": "cv-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1650,
+          "y": 540,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "19769959-fc0c-4fe2-8a2a-e26310cdf33f",
+          "points": "0,0 170,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "15ff42d5-c829-40f3-b6f9-5540a367e53c",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "79e48717-5a02-4ec6-9543-ad6f15304598",
+              "pointIndex2": 2
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "cv-lamp",
+          "functionName": "cv-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1650,
+          "y": 560,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "e829a46c-aae4-4e6b-9849-d2037bf52735",
+          "points": "0,0 170,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "15ff42d5-c829-40f3-b6f9-5540a367e53c",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "79e48717-5a02-4ec6-9543-ad6f15304598",
+              "pointIndex2": 3
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "cv-lamp",
+          "functionName": "cv-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "lamp-led-1",
+          "x": 1820,
+          "y": 610,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "856b8665-d329-430b-8bec-2e67e1713422",
+          "label": "Oe",
+          "labelX": "15",
+          "labelY": "5",
+          "isVisible": true,
+          "isEnabled": true,
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": 0,
+              "y": -10
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 0,
+              "y": 10
+            }
+          ],
+          "filterTag": "oe-lamp"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 530,
+          "y": 600,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "29591c7b-f02d-4f4f-ac46-2dccf1064488",
+          "points": "0,0 100,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "fe382fea-d6d3-4d2e-b4ff-5fdc41f51fe1",
+              "pointIndex2": 10
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "b2ce5750-1182-4716-8a60-60883fb8a90a",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "oe-lamp",
+          "functionName": "oe-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 530,
+          "y": 620,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "2bfcb8b3-dad5-428a-b724-a162767e0138",
+          "points": "0,0 100,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "fe382fea-d6d3-4d2e-b4ff-5fdc41f51fe1",
+              "pointIndex2": 11
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "aef144f7-00cc-4a2e-8d55-7c83728f2cee",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "oe-lamp",
+          "functionName": "oe-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 850,
+          "y": 600,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "a742848e-79cc-4393-b65b-92766706ab48",
+          "points": "0,0 70,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "2fca9235-46d8-4b32-926d-4b458fdf9af8",
+              "pointIndex2": 6
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "d3ed312f-7a8d-4583-b03f-469439b542f8"
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "oe-lamp",
+          "functionName": "oe-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 850,
+          "y": 620,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "5c8b4583-d66e-4b82-bfa1-7217d91c2e62",
+          "points": "0,0 70,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "2fca9235-46d8-4b32-926d-4b458fdf9af8",
+              "pointIndex2": 7
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "509032da-d563-437c-919c-582f1fd4fb48"
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "oe-lamp",
+          "functionName": "oe-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1650,
+          "y": 600,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "eb0d7a40-68dc-474a-b158-e8122d665a22",
+          "points": "0,0 170,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "856b8665-d329-430b-8bec-2e67e1713422",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "6f61836d-4dc8-4773-af5d-0d0cc167b2dd",
+              "pointIndex2": 2
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "oe-lamp",
+          "functionName": "oe-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1650,
+          "y": 620,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "05bdac54-5ce9-42aa-b574-5d3d1be144d7",
+          "points": "0,0 170,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "856b8665-d329-430b-8bec-2e67e1713422",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "6f61836d-4dc8-4773-af5d-0d0cc167b2dd",
+              "pointIndex2": 3
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "oe-lamp",
+          "functionName": "oe-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "lamp-led-1",
+          "x": 1820,
+          "y": 390,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "7e3e2e43-8a3c-4acd-9a27-9e353e8e671a",
+          "label": "S",
+          "labelX": "15",
+          "labelY": "5",
+          "isVisible": true,
+          "isEnabled": true,
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": 0,
+              "y": -10
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 0,
+              "y": 10
+            }
+          ],
+          "filterTag": "s-lamp"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 530,
+          "y": 380,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "b279403d-c617-4f22-a405-b5cd16ad9afe",
+          "points": "0,0 100,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "fe382fea-d6d3-4d2e-b4ff-5fdc41f51fe1",
+              "pointIndex2": 4
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "1a155baf-c538-4267-a441-ddadf4221786",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "s-lamp",
+          "functionName": "s-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 530,
+          "y": 400,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "24aaba95-285e-4b3f-a9e3-1cb10770a181",
+          "points": "0,0 100,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "fe382fea-d6d3-4d2e-b4ff-5fdc41f51fe1",
+              "pointIndex2": 5
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "bea9949a-196f-4a5c-9e62-77ea2a75e0f6",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "s-lamp",
+          "functionName": "s-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 850,
+          "y": 380,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "4f5f12f3-dde3-4e6c-9af1-b79726b4596a",
+          "points": "0,0 70,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "d0282033-e1ce-442a-b129-f792d2700d40",
+              "pointIndex2": 4
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "cd0378b8-6d1e-4e68-a03c-14a72de9dbd2"
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "s-lamp",
+          "functionName": "s-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 850,
+          "y": 400,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "a764353d-70ba-466b-8445-1a4064d18a68",
+          "points": "0,0 70,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "d0282033-e1ce-442a-b129-f792d2700d40",
+              "pointIndex2": 5
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "4ef11fde-0ebc-46e3-8035-c12f7cc1208a"
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "s-lamp",
+          "functionName": "s-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1650,
+          "y": 380,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "60110aef-38ca-4490-b556-eb05fa1c185c",
+          "points": "0,0 170,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "7e3e2e43-8a3c-4acd-9a27-9e353e8e671a",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "f44fe26f-ef3c-4520-8bfb-e81dd367df98",
+              "pointIndex2": 2
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "s-lamp",
+          "functionName": "s-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1650,
+          "y": 400,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "0c3128e8-ea02-487c-8b6e-32068250340e",
+          "points": "0,0 170,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "7e3e2e43-8a3c-4acd-9a27-9e353e8e671a",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "f44fe26f-ef3c-4520-8bfb-e81dd367df98",
+              "pointIndex2": 3
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "s-lamp",
+          "functionName": "s-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "container-1",
+          "x": 30,
+          "y": 100,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "e282ed4c-9efc-4324-9918-9e5f9681017d",
+          "width": 1100,
+          "height": 770,
+          "rx": "0",
+          "ry": "0",
+          "color": "#008",
+          "label": "N2",
+          "labelVisible": true,
+          "labelX": 10,
+          "labelY": -10,
+          "labelScale": "1.0",
+          "isVisible": true,
+          "isEnabled": true,
+          "containerType": "n2"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "container-1",
+          "x": 1720,
+          "y": 100,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "09391e64-e5ac-4683-9afb-9ab428059496",
+          "width": 160,
+          "height": 660,
+          "rx": "0",
+          "ry": "0",
+          "color": "#008",
+          "label": "Signal",
+          "labelVisible": true,
+          "labelX": 20,
+          "labelY": -10,
+          "labelScale": "1.0",
+          "isVisible": true,
+          "isEnabled": true,
+          "containerType": "signal"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "page-frame-1",
+          "x": "0",
+          "y": 0,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "24e9b1f8-f157-4948-8e9f-14596e104f57",
+          "label": "#LABEL#",
+          "labelX": 10,
+          "labelY": 20,
+          "width": 2030,
+          "height": 1250,
+          "titleBlockWidth": 400,
+          "titleBlockHeight": 100,
+          "frameSize": 10,
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "component-1",
+          "x": 1530,
+          "y": 210,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "32f18d3e-cce3-499e-bca4-b766c078c5db",
+          "label": "VL",
+          "labelX": 50,
+          "labelY": 30,
+          "labelRotate": 0,
+          "width": "120",
+          "height": 40,
+          "pins": "P,3,0,1;P,3,1,1;S1,1,0;S3,1,1",
+          "pinDx": 20,
+          "pinDY": 20,
+          "componentType": "stm-module",
+          "isUsed": true,
+          "filterTag": "vl-lamp",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "P",
+              "boId": "",
+              "x": 0,
+              "y": 10
+            },
+            {
+              "index": 1,
+              "label": "P",
+              "boId": "",
+              "x": 0,
+              "y": 30
+            },
+            {
+              "index": 2,
+              "label": "S1",
+              "boId": "",
+              "x": 120,
+              "y": 10
+            },
+            {
+              "index": 3,
+              "label": "S3",
+              "boId": "",
+              "x": 120,
+              "y": 30
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "pinX0": 20,
+          "pinY0": "10",
+          "pinDy": 20,
+          "labelScale": 1,
+          "label2": "",
+          "label2X": 0,
+          "label2Y": -5,
+          "label2Rotate": 0,
+          "label2Scale": 0.8,
+          "internalRefrence": "",
+          "clientRefrence": "",
+          "provider": ""
+        },
+        {
+          "type": "library-object",
+          "libraryId": "cable-delimiter-1",
+          "x": 1440,
+          "y": 150,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "659f007f-150e-4914-a858-41fa04f1b4b3",
+          "points": "0,0 0,640",
+          "color": "#000",
+          "isVisible": true,
+          "isEnabled": true,
+          "connections": [],
+          "limitType": "n3-stmr",
+          "connectionCount": "0",
+          "label": "STMR-SIGNAL",
+          "labelX": 0,
+          "labelY": -40
+        },
+        {
+          "type": "library-object",
+          "libraryId": "component-1",
+          "x": 1530,
+          "y": 270,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "ffeeb60e-a832-4c87-9c4c-fe007cbab9ac",
+          "label": "A",
+          "labelX": 50,
+          "labelY": 30,
+          "labelRotate": 0,
+          "width": "120",
+          "height": "40",
+          "pins": "P,3,0,1;P,3,1,1;S1,1,0;S3,1,1",
+          "pinDx": 20,
+          "pinDY": 20,
+          "componentType": "stm-module",
+          "isUsed": true,
+          "filterTag": "a-lamp",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "P",
+              "boId": "",
+              "x": 0,
+              "y": 10
+            },
+            {
+              "index": 1,
+              "label": "P",
+              "boId": "",
+              "x": 0,
+              "y": 30
+            },
+            {
+              "index": 2,
+              "label": "S1",
+              "boId": "",
+              "x": 120,
+              "y": 10
+            },
+            {
+              "index": 3,
+              "label": "S3",
+              "boId": "",
+              "x": 120,
+              "y": 30
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "pinX0": 20,
+          "pinY0": "10",
+          "pinDy": 20,
+          "labelScale": 1,
+          "label2": "",
+          "label2X": 0,
+          "label2Y": -5,
+          "label2Rotate": 0,
+          "label2Scale": 0.8,
+          "internalRefrence": "",
+          "clientRefrence": "",
+          "provider": ""
+        },
+        {
+          "type": "library-object",
+          "libraryId": "polyline-1",
+          "x": 1520,
+          "y": 170,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "bdc6c8c9-9b3c-4749-afb3-efe08092c911",
+          "points": "0,0 0,-10 140,-10 140,0",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "text-1",
+          "x": 1550,
+          "y": 150,
+          "rotate": 0,
+          "scale": "1.0",
+          "isAutoPlaced": false,
+          "id": "96fd43ff-e847-4d2a-b243-8cab699a3d08",
+          "text": "STM.MM",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "polyline-1",
+          "x": 1920,
+          "y": 210,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "a3c42c33-c771-41f8-ac13-4e2a13f02167",
+          "points": "-20,-10 -10,-10 -10,360 -20,360",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "text-1",
+          "x": 1920,
+          "y": 400,
+          "rotate": 0,
+          "scale": "1.0",
+          "isAutoPlaced": false,
+          "id": "c84e9252-baac-4c17-8492-50ff301f70fa",
+          "text": "8W",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "text-1",
+          "x": 1760,
+          "y": 840,
+          "rotate": 0,
+          "scale": "1.0",
+          "isAutoPlaced": false,
+          "id": "024849c0-a210-4515-b9d7-579130102e75",
+          "text": "ZPFU.1p.1mm²",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "polyline-1",
+          "x": 1780,
+          "y": 260,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "a5026f77-10af-425f-80d3-557c366d3330",
+          "points": "-20,-10 -20,520",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "polygon-1",
+          "x": 1760,
+          "y": 240,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "82c1ea48-cdc2-45e9-85d4-4f705b3100e9",
+          "points": "0,0 3,10 -3,10",
+          "isVisible": true,
+          "isEnabled": true,
+          "filterTag": "vl-lamp"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "polygon-1",
+          "x": 1760,
+          "y": 300,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "c07efbfd-b3d0-4f94-aa34-a9268cf9c79b",
+          "points": "0,0 3,10 -3,10",
+          "isVisible": true,
+          "isEnabled": true,
+          "filterTag": "a-lamp"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "polygon-1",
+          "x": 1760,
+          "y": 400,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "9db07cb8-375e-400e-9029-f743c756108c",
+          "points": "0,0 3,10 -3,10",
+          "isVisible": true,
+          "isEnabled": true,
+          "filterTag": "s-lamp"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "polygon-1",
+          "x": 1760,
+          "y": 460,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "b867fe2f-496f-4112-8f52-35e28b642b25",
+          "points": "0,0 3,10 -3,10",
+          "isVisible": true,
+          "isEnabled": true,
+          "filterTag": "m-lamp"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "polygon-1",
+          "x": 1760,
+          "y": 560,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "66ae493f-308e-4049-8750-8e0971410993",
+          "points": "0,0 3,10 -3,10",
+          "isVisible": true,
+          "isEnabled": true,
+          "filterTag": "cv-lamp"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "polygon-1",
+          "x": 1760,
+          "y": 620,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "e3e3f9ac-627d-43c1-b741-25fa40a170a9",
+          "points": "0,0 3,10 -3,10",
+          "isVisible": true,
+          "isEnabled": true,
+          "filterTag": "oe-lamp"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "component-1",
+          "x": 1530,
+          "y": 370,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "f44fe26f-ef3c-4520-8bfb-e81dd367df98",
+          "label": "S",
+          "labelX": 50,
+          "labelY": 30,
+          "labelRotate": 0,
+          "width": "120",
+          "height": "40",
+          "pins": "P,3,0,1;P,3,1,1;S1,1,0;S3,1,1",
+          "pinDx": 20,
+          "pinDY": 20,
+          "componentType": "stm-module",
+          "isUsed": true,
+          "filterTag": "s-lamp",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "P",
+              "boId": "",
+              "x": 0,
+              "y": 10
+            },
+            {
+              "index": 1,
+              "label": "P",
+              "boId": "",
+              "x": 0,
+              "y": 30
+            },
+            {
+              "index": 2,
+              "label": "S1",
+              "boId": "",
+              "x": 120,
+              "y": 10
+            },
+            {
+              "index": 3,
+              "label": "S3",
+              "boId": "",
+              "x": 120,
+              "y": 30
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "pinX0": 20,
+          "pinY0": "10",
+          "pinDy": 20,
+          "labelScale": 1,
+          "label2": "",
+          "label2X": 0,
+          "label2Y": -5,
+          "label2Rotate": 0,
+          "label2Scale": 0.8,
+          "internalRefrence": "",
+          "clientRefrence": "",
+          "provider": ""
+        },
+        {
+          "type": "library-object",
+          "libraryId": "component-1",
+          "x": 1530,
+          "y": 430,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "6bdff8ef-8a1b-43f1-b977-2447ddbb8c37",
+          "label": "M",
+          "labelX": 50,
+          "labelY": 30,
+          "labelRotate": 0,
+          "width": "120",
+          "height": "40",
+          "pins": "P,3,0,1;P,3,1,1;S1,1,0;S3,1,1",
+          "pinDx": 20,
+          "pinDY": 20,
+          "componentType": "stm-module",
+          "isUsed": true,
+          "filterTag": "m-lamp",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "P",
+              "boId": "",
+              "x": 0,
+              "y": 10
+            },
+            {
+              "index": 1,
+              "label": "P",
+              "boId": "",
+              "x": 0,
+              "y": 30
+            },
+            {
+              "index": 2,
+              "label": "S1",
+              "boId": "",
+              "x": 120,
+              "y": 10
+            },
+            {
+              "index": 3,
+              "label": "S3",
+              "boId": "",
+              "x": 120,
+              "y": 30
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "pinX0": 20,
+          "pinY0": "10",
+          "pinDy": 20,
+          "labelScale": 1,
+          "label2": "",
+          "label2X": 0,
+          "label2Y": -5,
+          "label2Rotate": 0,
+          "label2Scale": 0.8,
+          "internalRefrence": "",
+          "clientRefrence": "",
+          "provider": ""
+        },
+        {
+          "type": "library-object",
+          "libraryId": "component-1",
+          "x": 1530,
+          "y": 530,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "79e48717-5a02-4ec6-9543-ad6f15304598",
+          "label": "Cv",
+          "labelX": 50,
+          "labelY": 30,
+          "labelRotate": 0,
+          "width": "120",
+          "height": "40",
+          "pins": "P,3,0,1;P,3,1,1;S1,1,0;S3,1,1",
+          "pinDx": 20,
+          "pinDY": 20,
+          "componentType": "stm-module",
+          "isUsed": true,
+          "filterTag": "cv-lamp",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "P",
+              "boId": "",
+              "x": 0,
+              "y": 10
+            },
+            {
+              "index": 1,
+              "label": "P",
+              "boId": "",
+              "x": 0,
+              "y": 30
+            },
+            {
+              "index": 2,
+              "label": "S1",
+              "boId": "",
+              "x": 120,
+              "y": 10
+            },
+            {
+              "index": 3,
+              "label": "S3",
+              "boId": "",
+              "x": 120,
+              "y": 30
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "pinX0": 20,
+          "pinY0": "10",
+          "pinDy": 20,
+          "labelScale": 1,
+          "label2": "",
+          "label2X": 0,
+          "label2Y": -5,
+          "label2Rotate": 0,
+          "label2Scale": 0.8,
+          "internalRefrence": "",
+          "clientRefrence": "",
+          "provider": ""
+        },
+        {
+          "type": "library-object",
+          "libraryId": "component-1",
+          "x": 1530,
+          "y": 590,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "6f61836d-4dc8-4773-af5d-0d0cc167b2dd",
+          "label": "Oe",
+          "labelX": 50,
+          "labelY": 30,
+          "labelRotate": 0,
+          "width": "120",
+          "height": "40",
+          "pins": "P,3,0,1;P,3,1,1;S1,1,0;S3,1,1",
+          "pinDx": 20,
+          "pinDY": 20,
+          "componentType": "stm-module",
+          "isUsed": true,
+          "filterTag": "oe-lamp",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "P",
+              "boId": "",
+              "x": 0,
+              "y": 10
+            },
+            {
+              "index": 1,
+              "label": "P",
+              "boId": "",
+              "x": 0,
+              "y": 30
+            },
+            {
+              "index": 2,
+              "label": "S1",
+              "boId": "",
+              "x": 120,
+              "y": 10
+            },
+            {
+              "index": 3,
+              "label": "S3",
+              "boId": "",
+              "x": 120,
+              "y": 30
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "pinX0": 20,
+          "pinY0": "10",
+          "pinDy": 20,
+          "labelScale": 1,
+          "label2": "",
+          "label2X": 0,
+          "label2Y": -5,
+          "label2Rotate": 0,
+          "label2Scale": 0.8,
+          "internalRefrence": "",
+          "clientRefrence": "",
+          "provider": ""
+        },
+        {
+          "type": "library-object",
+          "libraryId": "cable-delimiter-1",
+          "x": 1220,
+          "y": 150,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "dcdd3264-61fb-484e-aaa9-23b5933f6860",
+          "points": "0,0 0,640",
+          "color": "#000",
+          "isVisible": true,
+          "isEnabled": true,
+          "connections": [],
+          "limitType": "stmr-n2",
+          "connectionCount": "0",
+          "label": "N2-STMR",
+          "labelX": -30,
+          "labelY": -40
+        },
+        {
+          "type": "library-object",
+          "libraryId": "text-1",
+          "x": 1440,
+          "y": 840,
+          "rotate": 0,
+          "scale": "1.0",
+          "isAutoPlaced": false,
+          "id": "4f602f3b-bda7-4188-b792-2ce9703d8818",
+          "text": "ZPFU.Xp.1mm²",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "component-1",
+          "x": 730,
+          "y": 210,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "fea66826-2bde-475e-8b6b-bd47b7026987",
+          "label": "TRF.VL.A",
+          "labelX": 0,
+          "labelY": -30,
+          "labelRotate": 0,
+          "width": "120",
+          "height": 100,
+          "pins": "1P2,3,0,1;1P1,3,1,1;P2,3,3,1;P1,3,4,1;1S1,1,0,1;1S2,1,1,1;S1,1,3,1;S2,1,4,1",
+          "pinDx": 20,
+          "pinDY": 20,
+          "componentType": "ns1-module",
+          "isUsed": true,
+          "filterTag": "vl-lamp",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1P2",
+              "boId": "",
+              "x": 0,
+              "y": 10
+            },
+            {
+              "index": 1,
+              "label": "1P1",
+              "boId": "",
+              "x": 0,
+              "y": 30
+            },
+            {
+              "index": 2,
+              "label": "P2",
+              "boId": "",
+              "x": 0,
+              "y": 70
+            },
+            {
+              "index": 3,
+              "label": "P1",
+              "boId": "",
+              "x": 0,
+              "y": 90
+            },
+            {
+              "index": 4,
+              "label": "1S1",
+              "boId": "",
+              "x": 120,
+              "y": 10
+            },
+            {
+              "index": 5,
+              "label": "1S2",
+              "boId": "",
+              "x": 120,
+              "y": 30
+            },
+            {
+              "index": 6,
+              "label": "S1",
+              "boId": "",
+              "x": 120,
+              "y": 70
+            },
+            {
+              "index": 7,
+              "label": "S2",
+              "boId": "",
+              "x": 120,
+              "y": 90
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "pinX0": 20,
+          "pinY0": "10",
+          "pinDy": 20,
+          "functionName": "TRF.VL.A",
+          "labelScale": 1,
+          "label2": "",
+          "label2X": 0,
+          "label2Y": -10,
+          "label2Rotate": 0,
+          "label2Scale": 0.8,
+          "internalRefrence": "",
+          "clientRefrence": "",
+          "provider": ""
+        },
+        {
+          "type": "library-object",
+          "libraryId": "component-1",
+          "x": 730,
+          "y": 370,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "d0282033-e1ce-442a-b129-f792d2700d40",
+          "label": "TRF.S.M",
+          "labelX": 0,
+          "labelY": -30,
+          "labelRotate": 0,
+          "width": "120",
+          "height": "100",
+          "pins": "1P2,3,0,1;1P1,3,1,1;P2,3,3,1;P1,3,4,1;1S1,1,0,1;1S2,1,1,1;S1,1,3,1;S2,1,4,1",
+          "pinDx": 20,
+          "pinDY": 20,
+          "componentType": "ns1-module",
+          "isUsed": true,
+          "filterTag": "a-lamp",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1P2",
+              "boId": "",
+              "x": 0,
+              "y": 10
+            },
+            {
+              "index": 1,
+              "label": "1P1",
+              "boId": "",
+              "x": 0,
+              "y": 30
+            },
+            {
+              "index": 2,
+              "label": "P2",
+              "boId": "",
+              "x": 0,
+              "y": 70
+            },
+            {
+              "index": 3,
+              "label": "P1",
+              "boId": "",
+              "x": 0,
+              "y": 90
+            },
+            {
+              "index": 4,
+              "label": "1S1",
+              "boId": "",
+              "x": 120,
+              "y": 10
+            },
+            {
+              "index": 5,
+              "label": "1S2",
+              "boId": "",
+              "x": 120,
+              "y": 30
+            },
+            {
+              "index": 6,
+              "label": "S1",
+              "boId": "",
+              "x": 120,
+              "y": 70
+            },
+            {
+              "index": 7,
+              "label": "S2",
+              "boId": "",
+              "x": 120,
+              "y": 90
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "pinX0": 20,
+          "pinY0": "10",
+          "pinDy": 20,
+          "functionName": "TRF.S.M",
+          "labelScale": 1,
+          "label2": "",
+          "label2X": 0,
+          "label2Y": "-10",
+          "label2Rotate": 0,
+          "label2Scale": 0.8,
+          "internalRefrence": "",
+          "clientRefrence": "",
+          "provider": ""
+        },
+        {
+          "type": "library-object",
+          "libraryId": "component-1",
+          "x": 730,
+          "y": 530,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "2fca9235-46d8-4b32-926d-4b458fdf9af8",
+          "label": "TRF.CV.OE",
+          "labelX": 0,
+          "labelY": -30,
+          "labelRotate": 0,
+          "width": "120",
+          "height": "100",
+          "pins": "1P2,3,0,1;1P1,3,1,1;P2,3,3,1;P1,3,4,1;1S1,1,0,1;1S2,1,1,1;S1,1,3,1;S2,1,4,1",
+          "pinDx": 20,
+          "pinDY": 20,
+          "componentType": "ns1-module",
+          "isUsed": true,
+          "filterTag": "",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1P2",
+              "boId": "",
+              "x": 0,
+              "y": 10
+            },
+            {
+              "index": 1,
+              "label": "1P1",
+              "boId": "",
+              "x": 0,
+              "y": 30
+            },
+            {
+              "index": 2,
+              "label": "P2",
+              "boId": "",
+              "x": 0,
+              "y": 70
+            },
+            {
+              "index": 3,
+              "label": "P1",
+              "boId": "",
+              "x": 0,
+              "y": 90
+            },
+            {
+              "index": 4,
+              "label": "1S1",
+              "boId": "",
+              "x": 120,
+              "y": 10
+            },
+            {
+              "index": 5,
+              "label": "1S2",
+              "boId": "",
+              "x": 120,
+              "y": 30
+            },
+            {
+              "index": 6,
+              "label": "S1",
+              "boId": "",
+              "x": 120,
+              "y": 70
+            },
+            {
+              "index": 7,
+              "label": "S2",
+              "boId": "",
+              "x": 120,
+              "y": 90
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "pinX0": 20,
+          "pinY0": "10",
+          "pinDy": 20,
+          "functionName": "TRF.CV.OE",
+          "labelScale": 1,
+          "label2": "",
+          "label2X": 0,
+          "label2Y": "-10",
+          "label2Rotate": 0,
+          "label2Scale": 0.8,
+          "internalRefrence": "",
+          "clientRefrence": "",
+          "provider": ""
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pair-1",
+          "x": 890,
+          "y": 230,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "7f541fde-3c03-4dc1-a32c-a10c8cd6e853",
+          "connectionPoints": [],
+          "filterTag": "vl-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pair-1",
+          "x": 890,
+          "y": 290,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "67929966-6915-4e4b-9920-d8ff84f8044b",
+          "connectionPoints": [],
+          "filterTag": "a-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pair-1",
+          "x": 890,
+          "y": 390,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "e97f1150-f317-4c1f-9165-1385186b16e6",
+          "connectionPoints": [],
+          "filterTag": "s-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pair-1",
+          "x": 890,
+          "y": 450,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "df8e5ccb-8e15-407a-9baf-a7ffef97b388",
+          "connectionPoints": [],
+          "filterTag": "m-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pair-1",
+          "x": 890,
+          "y": 550,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "4cfc91c5-3bd1-413d-82c8-a54cdb608f9e",
+          "connectionPoints": [],
+          "filterTag": "cv-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pair-1",
+          "x": 890,
+          "y": 610,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "cb50e438-ba14-4b68-b212-53a263a91ecc",
+          "connectionPoints": [],
+          "filterTag": "oe-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pin-1",
+          "x": 920,
+          "y": 220,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "0766e4ec-05e3-4606-b3b7-81d38dc29468",
+          "label": "-",
+          "labelX": "0",
+          "labelY": "-15",
+          "isHighVoltage": true,
+          "color": "#000",
+          "filterTag": "vl-lamp",
+          "isVisible": true,
+          "isEnabled": true,
+          "functionName": "vl-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1320,
+          "y": 220,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "658365b3-9481-4366-ae70-f6b61211374d",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "vl-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1330,
+          "y": 220,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "b05cf407-bbf1-4547-9636-e6d875f726b8",
+          "points": "0,0 200,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "32f18d3e-cce3-499e-bca4-b766c078c5db",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "658365b3-9481-4366-ae70-f6b61211374d",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "vl-lamp",
+          "functionName": "vl-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1320,
+          "y": 240,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "b36bfc1d-a25c-4cca-8a37-62616a04cb53",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": "0",
+          "labelY": "-5",
+          "filterTag": "vl-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1320,
+          "y": 280,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "45978604-4493-4d6f-8e54-c53e1da2e641",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "a-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1320,
+          "y": 300,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "b22d107d-2e57-40bf-a9b2-4f8983d21cef",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "a-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1320,
+          "y": 380,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "e941748c-04e0-402b-9bb6-103691333f93",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "s-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1320,
+          "y": 400,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "34191861-aa0c-40e4-8092-4f194930b819",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "s-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1320,
+          "y": 440,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "f8eb486a-7bd6-4478-abfa-c3e3d3a9d784",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "m-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1320,
+          "y": 460,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "ae377c63-fce4-4229-8b52-dd9714320e08",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "m-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1320,
+          "y": 540,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "9477d469-0456-4b0c-9756-f08753fce24c",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "cv-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1320,
+          "y": 560,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "bd0ae9ba-bfdd-49ae-9078-96213ed5a408",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "cv-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1320,
+          "y": 600,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "01bc6205-e50e-40a8-acf4-3a77dbc1340f",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "oe-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1320,
+          "y": 620,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "12fcad22-7550-43e1-bfa5-98a63a8726d7",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "oe-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1330,
+          "y": 240,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "91a3d760-70ac-4fae-a055-281b779c4977",
+          "points": "0,0 200,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "b36bfc1d-a25c-4cca-8a37-62616a04cb53",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "32f18d3e-cce3-499e-bca4-b766c078c5db",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "vl-lamp",
+          "functionName": "vl-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1330,
+          "y": 280,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "184cc56d-d71d-4866-9fc4-08d2144963e4",
+          "points": "0,0 200,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "45978604-4493-4d6f-8e54-c53e1da2e641",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "ffeeb60e-a832-4c87-9c4c-fe007cbab9ac",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "a-lamp",
+          "functionName": "a-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1330,
+          "y": 300,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "7eac2d3c-4a1e-4427-ac01-0682b91040b0",
+          "points": "0,0 200,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "b22d107d-2e57-40bf-a9b2-4f8983d21cef",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "ffeeb60e-a832-4c87-9c4c-fe007cbab9ac",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "a-lamp",
+          "functionName": "a-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1330,
+          "y": 440,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "fb50a944-b0e6-44ca-a7e6-71810287c65e",
+          "points": "0,0 200,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "f8eb486a-7bd6-4478-abfa-c3e3d3a9d784",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "6bdff8ef-8a1b-43f1-b977-2447ddbb8c37",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "m-lamp",
+          "functionName": "m-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1330,
+          "y": 460,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "9bf32b42-ffd1-44e3-b66a-7f8ef2241b45",
+          "points": "0,0 200,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "ae377c63-fce4-4229-8b52-dd9714320e08",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "6bdff8ef-8a1b-43f1-b977-2447ddbb8c37",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "m-lamp",
+          "functionName": "m-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1330,
+          "y": 540,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "4aff7c6e-d273-45b5-a5cc-59d5eb375505",
+          "points": "0,0 200,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "9477d469-0456-4b0c-9756-f08753fce24c",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "79e48717-5a02-4ec6-9543-ad6f15304598",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "cv-lamp",
+          "functionName": "cv-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1330,
+          "y": 560,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "7698788e-f051-4f82-9f0e-b55ceb666dac",
+          "points": "0,0 200,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "bd0ae9ba-bfdd-49ae-9078-96213ed5a408",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "79e48717-5a02-4ec6-9543-ad6f15304598",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "cv-lamp",
+          "functionName": "cv-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1330,
+          "y": 600,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "02a017fe-ac60-4a16-a753-f3561abccf28",
+          "points": "0,0 200,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "01bc6205-e50e-40a8-acf4-3a77dbc1340f",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "6f61836d-4dc8-4773-af5d-0d0cc167b2dd",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "oe-lamp",
+          "functionName": "oe-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1330,
+          "y": 620,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "322449aa-717a-4fea-9cf7-59be7f63127c",
+          "points": "0,0 200,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "12fcad22-7550-43e1-bfa5-98a63a8726d7",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "6f61836d-4dc8-4773-af5d-0d0cc167b2dd",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "oe-lamp",
+          "functionName": "oe-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1330,
+          "y": 380,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "4cbec7da-1e54-4f6f-a432-358072b3df1c",
+          "points": "0,0 200,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "e941748c-04e0-402b-9bb6-103691333f93",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "f44fe26f-ef3c-4520-8bfb-e81dd367df98",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "s-lamp",
+          "functionName": "s-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1330,
+          "y": 400,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "2d01097e-8680-4188-b795-26e59a56eba1",
+          "points": "0,0 200,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "34191861-aa0c-40e4-8092-4f194930b819",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "f44fe26f-ef3c-4520-8bfb-e81dd367df98",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "s-lamp",
+          "functionName": "s-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1070,
+          "y": 220,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "fc5ca126-85a5-4ebe-ba5f-ae1eebe99454",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "vl-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1080,
+          "y": 220,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "6206e37f-8634-4cae-b24d-733791a715ec",
+          "points": "0,0 230,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "658365b3-9481-4366-ae70-f6b61211374d",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "vl-lamp",
+          "functionName": "vl-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1070,
+          "y": 240,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "3a460033-02ad-471c-9d38-50d79ca081f0",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "vl-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1070,
+          "y": 280,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "fe87c500-7d56-48b9-87a1-43ce04713c97",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "a-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1070,
+          "y": 300,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "83f54cd4-9ada-4de5-bcfa-47be0c687e6f",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "a-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1070,
+          "y": 380,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "90fc21cf-4b79-49d6-a128-c88ef5e0c988",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "s-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1070,
+          "y": 400,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "faaf007f-42e0-43f4-95fd-e8d009d27126",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "s-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1070,
+          "y": 440,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "a497ced8-4066-4035-a84a-d3ada2d33698",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "m-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1070,
+          "y": 460,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "ada91c7b-9ab5-45d2-9c93-fcafa12df78f",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "m-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1070,
+          "y": 540,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "df9a12b8-5641-4f64-8ba2-e8bcbb0388fd",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "cv-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1070,
+          "y": 560,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "826d8fef-015f-4177-b2f8-bcd5b8c0261a",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "cv-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1070,
+          "y": 600,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "2e00c960-df5f-4c9d-a8cc-c83a52d25a9a",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "oe-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-2",
+          "x": 1070,
+          "y": 620,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "e5bcaf17-a07b-4d2d-a70f-1867ef3fcc2b",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "oe-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1080,
+          "y": 240,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "a5311565-28ab-41b3-a658-b52dc6805d22",
+          "points": "0,0 230,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "b36bfc1d-a25c-4cca-8a37-62616a04cb53",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "vl-lamp",
+          "functionName": "vl-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1080,
+          "y": 280,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "91346ead-298a-4a73-946b-a41c2f34d8c0",
+          "points": "0,0 230,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "45978604-4493-4d6f-8e54-c53e1da2e641",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "a-lamp",
+          "functionName": "a-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1080,
+          "y": 300,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "fd426f22-717f-4226-b66a-d8a4c487f039",
+          "points": "0,0 230,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "b22d107d-2e57-40bf-a9b2-4f8983d21cef",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "a-lamp",
+          "functionName": "a-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1080,
+          "y": 440,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "b13022b1-2ca1-4788-99a5-2112c907e2dc",
+          "points": "0,0 230,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "f8eb486a-7bd6-4478-abfa-c3e3d3a9d784",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "m-lamp",
+          "functionName": "m-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1080,
+          "y": 460,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "c0823b28-46d7-4a8a-9ac2-6141e1ab11d0",
+          "points": "0,0 230,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "ae377c63-fce4-4229-8b52-dd9714320e08",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "m-lamp",
+          "functionName": "m-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1080,
+          "y": 540,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "e7d45e8a-82e1-467f-9428-947ead2292a4",
+          "points": "0,0 230,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "9477d469-0456-4b0c-9756-f08753fce24c",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "cv-lamp",
+          "functionName": "cv-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1080,
+          "y": 560,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "2fd022ab-a3ff-4b50-b002-b3cb2ab8b76c",
+          "points": "0,0 230,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "bd0ae9ba-bfdd-49ae-9078-96213ed5a408",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "cv-lamp",
+          "functionName": "cv-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1080,
+          "y": 600,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "6cc89d6b-3f68-4f44-aa32-a1dfab4ea53c",
+          "points": "0,0 230,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "01bc6205-e50e-40a8-acf4-3a77dbc1340f",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "oe-lamp",
+          "functionName": "oe-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1080,
+          "y": 620,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "474176a3-3b21-42b2-91ee-1f7c690e72ad",
+          "points": "0,0 230,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "12fcad22-7550-43e1-bfa5-98a63a8726d7",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "oe-lamp",
+          "functionName": "oe-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1080,
+          "y": 380,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "05c5b5ce-684f-43ea-b068-f8a6c1f1af0c",
+          "points": "0,0 230,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "e941748c-04e0-402b-9bb6-103691333f93",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "s-lamp",
+          "functionName": "s-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 1080,
+          "y": 400,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "40e09509-2edf-44b7-9ee3-c053490819fc",
+          "points": "0,0 230,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "34191861-aa0c-40e4-8092-4f194930b819",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "s-lamp",
+          "functionName": "s-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 970,
+          "y": 220,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "17959d9a-01a5-4afc-a1a9-1528cc75bc44",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "vl-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 980,
+          "y": 220,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "841603c9-dc12-442f-8a94-485c76c72e3e",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "fc5ca126-85a5-4ebe-ba5f-ae1eebe99454",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "17959d9a-01a5-4afc-a1a9-1528cc75bc44",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "vl-lamp",
+          "functionName": "vl-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 970,
+          "y": 240,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "55db9283-5e9a-435c-b383-67e65bdea3f3",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "vl-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 970,
+          "y": 280,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "76f99113-cff9-4de9-a430-03b27a2aaaf4",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "a-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 970,
+          "y": 300,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "131b975b-a582-45ed-96d7-c46224443436",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "a-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 970,
+          "y": 380,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "2a9d3eae-57c9-4ae9-a2e4-22541974f30d",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "s-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 970,
+          "y": 400,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "bd863095-a8a1-4961-a3de-c1a585a0df72",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "s-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 970,
+          "y": 440,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "80aa4050-246a-4e9a-b6e8-64f14b668091",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "m-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 970,
+          "y": 460,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "c9aa909c-5729-4132-9d0d-257d810dcb0d",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "m-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 970,
+          "y": 540,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "764e9a0d-ccdb-4af2-a7c6-bbde3c9f9179",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "cv-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 970,
+          "y": 560,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "f0cd408e-bfca-4abd-b87e-06c59b0dedf8",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "cv-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 970,
+          "y": 600,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "4a114434-ab1c-48c1-9cc3-910358b75ef8",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "oe-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 970,
+          "y": 620,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "1f0a82df-64c5-446c-b003-ea5f2bd37dec",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "oe-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 980,
+          "y": 240,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "c5a90d06-3ce3-4fd4-963d-066d194d64ff",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "3a460033-02ad-471c-9d38-50d79ca081f0",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "55db9283-5e9a-435c-b383-67e65bdea3f3",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "vl-lamp",
+          "functionName": "vl-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 980,
+          "y": 280,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "6753db93-0856-4105-a32d-49743a45ff2b",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "fe87c500-7d56-48b9-87a1-43ce04713c97",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "76f99113-cff9-4de9-a430-03b27a2aaaf4",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "a-lamp",
+          "functionName": "a-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 980,
+          "y": 300,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "a2ca9c5b-33b4-4f2c-9b28-d0944132809e",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "83f54cd4-9ada-4de5-bcfa-47be0c687e6f",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "131b975b-a582-45ed-96d7-c46224443436",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "a-lamp",
+          "functionName": "a-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 980,
+          "y": 440,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "fcf44851-cbcb-4ba5-a049-8fab3774dc6b",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "a497ced8-4066-4035-a84a-d3ada2d33698",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "80aa4050-246a-4e9a-b6e8-64f14b668091",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "m-lamp",
+          "functionName": "m-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 980,
+          "y": 460,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "09bf1ef9-abfd-4add-9337-fe8d9a6c957f",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "ada91c7b-9ab5-45d2-9c93-fcafa12df78f",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "c9aa909c-5729-4132-9d0d-257d810dcb0d",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "m-lamp",
+          "functionName": "m-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 980,
+          "y": 540,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "6c8e6340-d485-4a20-b36b-7fb483bd8519",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "df9a12b8-5641-4f64-8ba2-e8bcbb0388fd",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "764e9a0d-ccdb-4af2-a7c6-bbde3c9f9179",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "cv-lamp",
+          "functionName": "cv-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 980,
+          "y": 560,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "9456f159-3a24-4872-b9a8-047fa424e21e",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "826d8fef-015f-4177-b2f8-bcd5b8c0261a",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "f0cd408e-bfca-4abd-b87e-06c59b0dedf8",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "cv-lamp",
+          "functionName": "cv-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 980,
+          "y": 600,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "61fbdef0-af98-421d-9ef4-17c843e026cf",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "2e00c960-df5f-4c9d-a8cc-c83a52d25a9a",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "4a114434-ab1c-48c1-9cc3-910358b75ef8",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "oe-lamp",
+          "functionName": "oe-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 980,
+          "y": 620,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "5ffd10fe-8fbc-46d3-8836-3614918b0955",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "e5bcaf17-a07b-4d2d-a70f-1867ef3fcc2b",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "1f0a82df-64c5-446c-b003-ea5f2bd37dec",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "oe-lamp",
+          "functionName": "oe-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 980,
+          "y": 380,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "665d7ab6-6542-4d1f-9186-6e976b58cfb9",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "90fc21cf-4b79-49d6-a128-c88ef5e0c988",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "2a9d3eae-57c9-4ae9-a2e4-22541974f30d",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "s-lamp",
+          "functionName": "s-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 980,
+          "y": 400,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "714c74a7-93ff-4e97-911a-5f663bbafb40",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 1,
+              "id2": "faaf007f-42e0-43f4-95fd-e8d009d27126",
+              "pointIndex2": 0
+            },
+            {
+              "pointIndex1": 0,
+              "id2": "bd863095-a8a1-4961-a3de-c1a585a0df72",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "s-lamp",
+          "functionName": "s-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pair-1",
+          "x": 1020,
+          "y": 230,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "618dcd1f-fc01-47e6-b76a-ecb6018b08f7",
+          "connectionPoints": [],
+          "filterTag": "vl-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pair-1",
+          "x": 1020,
+          "y": 290,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "25c5a189-5321-4046-bbe0-dd707441b208",
+          "connectionPoints": [],
+          "filterTag": "a-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pair-1",
+          "x": 1020,
+          "y": 390,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "fbe28bee-2e4e-4a35-9c86-359b6ef4e4d1",
+          "connectionPoints": [],
+          "filterTag": "s-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pair-1",
+          "x": 1020,
+          "y": 450,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "403d942b-ba3d-4d02-be2a-653e8a10e92c",
+          "connectionPoints": [],
+          "filterTag": "m-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pair-1",
+          "x": 1020,
+          "y": 550,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "f63b7165-4c66-404b-a030-b67dc257f344",
+          "connectionPoints": [],
+          "filterTag": "cv-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pair-1",
+          "x": 1020,
+          "y": 610,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "b79891a7-8f94-48ce-b08f-4e3638125426",
+          "connectionPoints": [],
+          "filterTag": "oe-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pin-1",
+          "x": 920,
+          "y": 240,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "471263fc-f3aa-47f8-a88b-1e7ab70b1ceb",
+          "label": "-",
+          "labelX": "0",
+          "labelY": "-15",
+          "isHighVoltage": true,
+          "color": "#000",
+          "filterTag": "vl-lamp",
+          "isVisible": true,
+          "isEnabled": true,
+          "functionName": "vl-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pin-1",
+          "x": 920,
+          "y": 280,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "02256336-4d7e-46f5-9be9-1788a5a3b79b",
+          "label": "-",
+          "labelX": "0",
+          "labelY": "-15",
+          "isHighVoltage": true,
+          "color": "#000",
+          "filterTag": "a-lamp",
+          "isVisible": true,
+          "isEnabled": true,
+          "functionName": "a-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pin-1",
+          "x": 920,
+          "y": 300,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "4d9af773-c292-4dc3-8a7b-fb166716094e",
+          "label": "-",
+          "labelX": "0",
+          "labelY": "-15",
+          "isHighVoltage": true,
+          "color": "#000",
+          "filterTag": "a-lamp",
+          "isVisible": true,
+          "isEnabled": true,
+          "functionName": "a-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pin-1",
+          "x": 920,
+          "y": 380,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "cd0378b8-6d1e-4e68-a03c-14a72de9dbd2",
+          "label": "-",
+          "labelX": "0",
+          "labelY": "-15",
+          "isHighVoltage": true,
+          "color": "#000",
+          "filterTag": "s-lamp",
+          "isVisible": true,
+          "isEnabled": true,
+          "functionName": "s-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pin-1",
+          "x": 920,
+          "y": 400,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "4ef11fde-0ebc-46e3-8035-c12f7cc1208a",
+          "label": "-",
+          "labelX": "0",
+          "labelY": "-15",
+          "isHighVoltage": true,
+          "color": "#000",
+          "filterTag": "s-lamp",
+          "isVisible": true,
+          "isEnabled": true,
+          "functionName": "s-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pin-1",
+          "x": 920,
+          "y": 440,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "4192b1bf-f530-472f-82ee-10b65065a788",
+          "label": "-",
+          "labelX": "0",
+          "labelY": "-15",
+          "isHighVoltage": true,
+          "color": "#000",
+          "filterTag": "m-lamp",
+          "isVisible": true,
+          "isEnabled": true,
+          "functionName": "m-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pin-1",
+          "x": 920,
+          "y": 460,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "eb29c73b-496d-4d42-820b-ebf18038e397",
+          "label": "-",
+          "labelX": "0",
+          "labelY": "-15",
+          "isHighVoltage": true,
+          "color": "#000",
+          "filterTag": "m-lamp",
+          "isVisible": true,
+          "isEnabled": true,
+          "functionName": "m-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pin-1",
+          "x": 920,
+          "y": 540,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "2aae8a48-1e7d-4e95-97b9-5818a6ecdefc",
+          "label": "-",
+          "labelX": "0",
+          "labelY": "-15",
+          "isHighVoltage": true,
+          "color": "#000",
+          "filterTag": "cv-lamp",
+          "isVisible": true,
+          "isEnabled": true,
+          "functionName": "cv-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pin-1",
+          "x": 920,
+          "y": 560,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "79f5d314-5e17-4e66-861b-7a8777f9487c",
+          "label": "-",
+          "labelX": "0",
+          "labelY": "-15",
+          "isHighVoltage": true,
+          "color": "#000",
+          "filterTag": "cv-lamp",
+          "isVisible": true,
+          "isEnabled": true,
+          "functionName": "cv-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pin-1",
+          "x": 920,
+          "y": 600,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "d3ed312f-7a8d-4583-b03f-469439b542f8",
+          "label": "-",
+          "labelX": "0",
+          "labelY": "-15",
+          "isHighVoltage": true,
+          "color": "#000",
+          "filterTag": "oe-lamp",
+          "isVisible": true,
+          "isEnabled": true,
+          "functionName": "oe-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pin-1",
+          "x": 920,
+          "y": 620,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "509032da-d563-437c-919c-582f1fd4fb48",
+          "label": "-",
+          "labelX": "0",
+          "labelY": "-15",
+          "isHighVoltage": true,
+          "color": "#000",
+          "filterTag": "oe-lamp",
+          "isVisible": true,
+          "isEnabled": true,
+          "functionName": "oe-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 920,
+          "y": 220,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "c95c57da-65e8-4aa1-91d1-e7bfb195a409",
+          "points": "0,0 40,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "0766e4ec-05e3-4606-b3b7-81d38dc29468"
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "17959d9a-01a5-4afc-a1a9-1528cc75bc44",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "vl-lamp",
+          "functionName": "vl-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 920,
+          "y": 240,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "4e070d84-38d8-4e9e-b6a2-3ae9168fd9ac",
+          "points": "0,0 40,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "471263fc-f3aa-47f8-a88b-1e7ab70b1ceb"
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "55db9283-5e9a-435c-b383-67e65bdea3f3",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "vl-lamp",
+          "functionName": "vl-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 920,
+          "y": 280,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "14c8e166-a84e-445c-9289-2b0c3ba8193e",
+          "points": "0,0 40,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "02256336-4d7e-46f5-9be9-1788a5a3b79b"
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "76f99113-cff9-4de9-a430-03b27a2aaaf4",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "a-lamp",
+          "functionName": "a-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 920,
+          "y": 300,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "e4369bea-4515-4e95-bc1e-81c8e3a7e5dc",
+          "points": "0,0 40,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "4d9af773-c292-4dc3-8a7b-fb166716094e"
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "131b975b-a582-45ed-96d7-c46224443436",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "a-lamp",
+          "functionName": "a-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 920,
+          "y": 440,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "988eef3e-f18c-4c96-bd26-5a28fe711813",
+          "points": "0,0 40,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "4192b1bf-f530-472f-82ee-10b65065a788"
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "80aa4050-246a-4e9a-b6e8-64f14b668091",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "m-lamp",
+          "functionName": "m-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 920,
+          "y": 460,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "ffd3e1fa-56e8-4fb7-8d10-ad9d87b7339f",
+          "points": "0,0 40,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "eb29c73b-496d-4d42-820b-ebf18038e397"
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "c9aa909c-5729-4132-9d0d-257d810dcb0d",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "m-lamp",
+          "functionName": "m-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 920,
+          "y": 540,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "9710cde7-ae9c-475a-923f-6b6982cf0598",
+          "points": "0,0 40,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "2aae8a48-1e7d-4e95-97b9-5818a6ecdefc"
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "764e9a0d-ccdb-4af2-a7c6-bbde3c9f9179",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "cv-lamp",
+          "functionName": "cv-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 920,
+          "y": 560,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "68923a5c-b54b-40ef-a0f3-7be5444af77c",
+          "points": "0,0 40,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "79f5d314-5e17-4e66-861b-7a8777f9487c"
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "f0cd408e-bfca-4abd-b87e-06c59b0dedf8",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "cv-lamp",
+          "functionName": "cv-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 920,
+          "y": 600,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "27116688-e237-4a01-b3ac-e90fe516d2b8",
+          "points": "0,0 40,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "d3ed312f-7a8d-4583-b03f-469439b542f8"
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "4a114434-ab1c-48c1-9cc3-910358b75ef8",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "oe-lamp",
+          "functionName": "oe-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 920,
+          "y": 620,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "c08b1429-2453-4aae-8320-0ba684804a82",
+          "points": "0,0 40,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "509032da-d563-437c-919c-582f1fd4fb48"
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "1f0a82df-64c5-446c-b003-ea5f2bd37dec",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "oe-lamp",
+          "functionName": "oe-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 920,
+          "y": 380,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "4c26a4c2-4352-49aa-9cae-68de8e23c34b",
+          "points": "0,0 40,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "cd0378b8-6d1e-4e68-a03c-14a72de9dbd2"
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "2a9d3eae-57c9-4ae9-a2e4-22541974f30d",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "s-lamp",
+          "functionName": "s-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 920,
+          "y": 400,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "e02305c2-6ce7-48ba-b47b-ec145bf63bcc",
+          "points": "0,0 40,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "4ef11fde-0ebc-46e3-8035-c12f7cc1208a"
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "bd863095-a8a1-4961-a3de-c1a585a0df72",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "s-lamp",
+          "functionName": "s-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pin-1",
+          "x": 100,
+          "y": 220,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "c1e20bcf-3428-452f-87ac-2524b0a49767",
+          "label": "127P",
+          "labelX": -50,
+          "labelY": 0,
+          "isHighVoltage": true,
+          "color": "#000",
+          "filterTag": "",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pin-1",
+          "x": 100,
+          "y": 240,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "7b299016-2b86-463a-9340-6c80dbd258ad",
+          "label": "127N",
+          "labelX": -50,
+          "labelY": 0,
+          "isHighVoltage": true,
+          "color": "#000",
+          "filterTag": "",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 100,
+          "y": 220,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "fa4798f8-7e2d-435f-8715-faecec889fa9",
+          "points": "0,0 40,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "c1e20bcf-3428-452f-87ac-2524b0a49767"
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "fe382fea-d6d3-4d2e-b4ff-5fdc41f51fe1",
+              "pointIndex2": 16
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "",
+          "functionName": "127P"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 100,
+          "y": 240,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "1be8b3be-fc1f-402c-8584-64ca09e2ff91",
+          "points": "0,0 40,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "7b299016-2b86-463a-9340-6c80dbd258ad"
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "fe382fea-d6d3-4d2e-b4ff-5fdc41f51fe1",
+              "pointIndex2": 17
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "",
+          "functionName": "127N"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 640,
+          "y": 220,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "20dcf79c-b2c1-422b-971e-046db30dca65",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "vl-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 640,
+          "y": 240,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "fc5d21fb-b8f0-4885-8491-fd4393d6b6f9",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "vl-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 640,
+          "y": 280,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "4f09d2a3-6ef3-476f-be28-6d7e9906df26",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "a-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 640,
+          "y": 300,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "176d8e62-ebf4-44e3-9909-0e37ff00006f",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "a-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 640,
+          "y": 380,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "1a155baf-c538-4267-a441-ddadf4221786",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "s-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 640,
+          "y": 400,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "bea9949a-196f-4a5c-9e62-77ea2a75e0f6",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "s-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 640,
+          "y": 440,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "226cf64c-f41a-4a4d-b91f-3337df7ca8b5",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "m-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 640,
+          "y": 460,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "b8b606b5-c6cb-4bd1-9120-336bdc456570",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "m-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 640,
+          "y": 540,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "21e40301-5b61-4748-a76b-9a5b1f294c19",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "cv-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 640,
+          "y": 560,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "e0ede2c6-47b6-4518-84ec-0645d679d66d",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "cv-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 640,
+          "y": 600,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "b2ce5750-1182-4716-8a60-60883fb8a90a",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "oe-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "double-conn-1",
+          "x": 640,
+          "y": 620,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "aef144f7-00cc-4a2e-8d55-7c83728f2cee",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": -10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 10,
+              "y": 0
+            }
+          ],
+          "label": "-",
+          "labelX": 0,
+          "labelY": "-5",
+          "filterTag": "oe-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 650,
+          "y": 220,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "b57f5687-f986-4ed7-a84d-7db320db9560",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "20dcf79c-b2c1-422b-971e-046db30dca65",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "fea66826-2bde-475e-8b6b-bd47b7026987",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "vl-lamp",
+          "functionName": "vl-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 650,
+          "y": 240,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "618ba7a8-2a1d-4a7d-a63f-bddf212c238e",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "fc5d21fb-b8f0-4885-8491-fd4393d6b6f9",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "fea66826-2bde-475e-8b6b-bd47b7026987",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "vl-lamp",
+          "functionName": "vl-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 650,
+          "y": 280,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "9d074df6-868c-47aa-9a7a-36a0f9f7379f",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "4f09d2a3-6ef3-476f-be28-6d7e9906df26",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "fea66826-2bde-475e-8b6b-bd47b7026987",
+              "pointIndex2": 2
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "a-lamp",
+          "functionName": "a-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 650,
+          "y": 300,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "b3d69ce1-8abe-4f08-a6ff-b2b924390c70",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "176d8e62-ebf4-44e3-9909-0e37ff00006f",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "fea66826-2bde-475e-8b6b-bd47b7026987",
+              "pointIndex2": 3
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "a-lamp",
+          "functionName": "a-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 650,
+          "y": 440,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "5c9855e2-2b6b-458c-ae05-fae247bf841c",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "226cf64c-f41a-4a4d-b91f-3337df7ca8b5",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "d0282033-e1ce-442a-b129-f792d2700d40",
+              "pointIndex2": 2
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "m-lamp",
+          "functionName": "m-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 650,
+          "y": 460,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "edd5a702-2dd9-4989-bd40-bea86c19f979",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "b8b606b5-c6cb-4bd1-9120-336bdc456570",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "d0282033-e1ce-442a-b129-f792d2700d40",
+              "pointIndex2": 3
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "m-lamp",
+          "functionName": "m-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 650,
+          "y": 540,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "058a4703-f260-44cd-9e3f-0256f39ad573",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "21e40301-5b61-4748-a76b-9a5b1f294c19",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "2fca9235-46d8-4b32-926d-4b458fdf9af8",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "cv-lamp",
+          "functionName": "cv-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 650,
+          "y": 560,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "53a49763-361d-417d-a1cc-488013803898",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "e0ede2c6-47b6-4518-84ec-0645d679d66d",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "2fca9235-46d8-4b32-926d-4b458fdf9af8",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "cv-lamp",
+          "functionName": "cv-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 650,
+          "y": 600,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "9c580e8c-1115-4ef7-a0d4-5aca5ef09cca",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "b2ce5750-1182-4716-8a60-60883fb8a90a",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "2fca9235-46d8-4b32-926d-4b458fdf9af8",
+              "pointIndex2": 2
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "oe-lamp",
+          "functionName": "oe-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 650,
+          "y": 620,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "6394d380-2552-4ebf-935d-948755012bf0",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "aef144f7-00cc-4a2e-8d55-7c83728f2cee",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "2fca9235-46d8-4b32-926d-4b458fdf9af8",
+              "pointIndex2": 3
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "oe-lamp",
+          "functionName": "oe-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 650,
+          "y": 380,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "5052a7f1-9b8a-448b-8e9d-7556605c4fc8",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "1a155baf-c538-4267-a441-ddadf4221786",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "d0282033-e1ce-442a-b129-f792d2700d40",
+              "pointIndex2": 0
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "s-lamp",
+          "functionName": "s-a"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wire-1",
+          "x": 650,
+          "y": 400,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": false,
+          "id": "52522790-35bf-4fa8-a29e-e843863366d4",
+          "points": "0,0 80,0",
+          "color": "#000",
+          "connections": [
+            {
+              "pointIndex1": 0,
+              "id2": "bea9949a-196f-4a5c-9e62-77ea2a75e0f6",
+              "pointIndex2": 1
+            },
+            {
+              "pointIndex1": 1,
+              "id2": "d0282033-e1ce-442a-b129-f792d2700d40",
+              "pointIndex2": 1
+            }
+          ],
+          "isVisible": true,
+          "isEnabled": true,
+          "netName": "-",
+          "filterTag": "s-lamp",
+          "functionName": "s-b"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "pair-1",
+          "x": 120,
+          "y": 230,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "f40588f2-2f00-4618-96d4-77237e813e65",
+          "connectionPoints": [],
+          "filterTag": "vl-lamp",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "polyline-1",
+          "x": 1260,
+          "y": 170,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "0af6619e-5e72-4c28-b57d-777eb5790fc6",
+          "points": "0,0 0,-10 140,-10 140,0",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "text-1",
+          "x": 1290,
+          "y": 150,
+          "rotate": 0,
+          "scale": "1.0",
+          "isAutoPlaced": false,
+          "id": "029cf645-2e88-43a3-a679-737d08f4bda9",
+          "text": "STMR",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "polyline-1",
+          "x": 1920,
+          "y": 590,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "18033984-6314-40c6-af03-a734668c39bb",
+          "points": "-20,-10 -10,-10 -10,50 -20,50",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "text-1",
+          "x": 1920,
+          "y": 620,
+          "rotate": 0,
+          "scale": "1.0",
+          "isAutoPlaced": false,
+          "id": "592e7a28-76ed-42ff-9555-8f719bb26f44",
+          "text": "2W",
+          "isVisible": true,
+          "isEnabled": true
+        }
+      ],
+      "x": 50,
+      "y": 50,
+      "id": "om-3",
+      "controlerData": {
+        "selType": "point"
+      }
+    },
+    "isCollapsed": true,
+    "layerOptions": {
+      "libraryIdFilters": [
+        {
+          "label": "Tout",
+          "id": "*",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Repère PK",
+          "tags": [
+            "pk"
+          ],
+          "ids": [
+            "repere-pk-1",
+            "echelle-pk-script-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Voies",
+          "tags": [
+            "track"
+          ],
+          "ids": [
+            "voie-1",
+            "voie-bezier-1",
+            "no-voie-1",
+            "sens-voie-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Signaux",
+          "tags": [
+            "signal"
+          ],
+          "ids": [
+            "signal-1-NE",
+            "signal-1-NW",
+            "signal-1-SE",
+            "signal-1-SW",
+            "bloc-script-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Aiguilles",
+          "tags": [
+            "point"
+          ],
+          "ids": [
+            "point-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Autres objects voie",
+          "tags": [
+            "other-sig"
+          ],
+          "ids": [
+            "joint-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Connexions",
+          "tags": [
+            "track-connections"
+          ],
+          "ids": [
+            "track-connection-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Centres",
+          "tags": [
+            "n"
+          ],
+          "ids": [
+            "n1-1",
+            "n2-1",
+            "n2-stmr-1",
+            "n3"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Traversées",
+          "tags": [
+            "traverse"
+          ],
+          "ids": [
+            "traverse-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Câbles",
+          "tags": [
+            "cable"
+          ],
+          "ids": [
+            "cable-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Déroulage",
+          "tags": [
+            "wiring-diagram"
+          ],
+          "ids": [
+            "wiring-diagram-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Profils",
+          "tags": [
+            "profile"
+          ],
+          "ids": [
+            "slope-profile-1",
+            "curve-profile-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Fils",
+          "tags": [
+            "wire"
+          ],
+          "ids": [
+            "wire-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Bornes",
+          "tags": [
+            "pin"
+          ],
+          "ids": [
+            "pin-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Composants",
+          "tags": [
+            "component"
+          ],
+          "ids": [
+            "component-1"
+          ],
+          "isVisible": false,
+          "isEnabled": true
+        },
+        {
+          "label": "Vérification",
+          "tags": [
+            "verification"
+          ],
+          "ids": [
+            "note-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        }
+      ],
+      "allVisible": true,
+      "allEnabled": true,
+      "visibleLibraryIds": [
+        "repere-pk-1",
+        "echelle-pk-script-1",
+        "voie-1",
+        "voie-bezier-1",
+        "no-voie-1",
+        "sens-voie-1",
+        "signal-1-NE",
+        "signal-1-NW",
+        "signal-1-SE",
+        "signal-1-SW",
+        "bloc-script-1",
+        "point-1",
+        "joint-1",
+        "track-connection-1",
+        "n1-1",
+        "n2-1",
+        "n2-stmr-1",
+        "n3",
+        "traverse-1",
+        "cable-1",
+        "wiring-diagram-1",
+        "slope-profile-1",
+        "curve-profile-1",
+        "wire-1",
+        "pin-1",
+        "note-1"
+      ],
+      "enabledLibraryIds": [
+        "repere-pk-1",
+        "echelle-pk-script-1",
+        "voie-1",
+        "voie-bezier-1",
+        "no-voie-1",
+        "sens-voie-1",
+        "signal-1-NE",
+        "signal-1-NW",
+        "signal-1-SE",
+        "signal-1-SW",
+        "bloc-script-1",
+        "point-1",
+        "joint-1",
+        "track-connection-1",
+        "n1-1",
+        "n2-1",
+        "n2-stmr-1",
+        "n3",
+        "traverse-1",
+        "cable-1",
+        "wiring-diagram-1",
+        "slope-profile-1",
+        "curve-profile-1",
+        "wire-1",
+        "pin-1",
+        "component-1",
+        "note-1"
+      ],
+      "isRAYVisible": true
+    },
+    "isSelected": true
+  }
+}

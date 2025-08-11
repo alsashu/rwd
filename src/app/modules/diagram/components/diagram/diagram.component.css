@@ -1,0 +1,158 @@
+:host {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.focus-visible:focus {
+  box-shadow: 0 0 5px 1px #08F;
+}
+
+.focus-invisible:focus {
+  outline: unset;
+}
+
+.top-panel {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 10px;
+  background: #ddd;
+  padding: .25rem;
+  font-size: .8rem;
+}
+
+.btn-top-panel {
+  padding: 0px 4px;
+}
+
+.btn-pin {
+  font-size: .8rem;
+  padding: 0px;
+}
+
+.panel-content {
+  padding: 4px;
+}
+
+.selection-rect {
+  stroke: rgb(230,50,50);
+  stroke-width: 1;
+  fill: rgb(230,150,150);
+  stroke-dasharray: 5,5;
+  opacity: 0.2;
+}
+
+.test-grid {
+  fill: #ddd5;
+}
+
+/* .grid {
+  stroke: var(--svg-grid-color);
+  stroke-width: 1;
+  fill: none;
+} */
+/* stroke: #aaa5; */
+
+/* .small-grid {
+  stroke: var(--svg-small-grid-color);
+  stroke-width: 0.5;
+  fill: none;
+} */
+/* stroke: #bbb5; */
+
+.main-svg {
+  font-weight: 100;
+/*  font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;*/
+/*  font-family: Lucida Grande,Lucida Sans,Courier New,Lucida Console;*/
+}
+
+/* svg objects */
+.svg-object {
+  stroke: var(--svg-stroke);
+  cursor: pointer;
+}
+
+.svg-object :hover {
+  stroke: var(--svg-hover-stroke) !important;
+  fill: var(--svg-hover-fill);
+}
+
+.svg-object-selected {
+  stroke: var(--svg-active-stroke) !important;
+  fill: var(--svg-active-fill);
+  cursor: move;
+}
+
+.svg-object-disabled {
+  opacity: 0.6;
+}
+ 
+  
+/*
+.svg-object-fill {
+  stroke: var(--svg-stroke);
+  fill: var(--svg-stroke);
+}
+
+.svg-object-test {
+  stroke: #f00;
+  fill: #f00;
+  cursor: move;
+}
+*/
+
+.handle {
+  stroke: var(--svg-handle-stroke) !important;
+  fill:var(--svg-handle-fill) !important;
+  cursor: move;
+}
+
+.handle :hover {
+  stroke: var(--svg-handle-stroke-hover) !important;
+  fill:var(--svg-handle-fill-hover) !important;
+  cursor: move;
+}
+
+.selection-handle {
+  cursor: pointer;
+}
+
+.bezier-line {
+  stroke:#f44;
+  stroke-width: 1;
+  fill: none;
+  stroke-dasharray: 5,5;
+}
+
+.svg-status-red {
+	stroke: var(--svg-status-red-color);
+}
+
+.svg-status-yellow {
+	stroke: var(--svg-status-yellow-color);
+}
+
+.svg-frame-status-red {
+  stroke: var(--svg-status-red-color);
+  fill: none;
+  stroke-dasharray: 5,5;
+}
+
+.svg-frame-status-yellow {
+  stroke: var(--svg-status-yellow-color);
+  fill: none;
+}
+
+.svg-object-verif-ok {
+  stroke: green !important;
+  fill: green !important;
+}
+
+.svg-object-verif-nok {
+  stroke: red !important;
+  fill: red !important;
+}
+

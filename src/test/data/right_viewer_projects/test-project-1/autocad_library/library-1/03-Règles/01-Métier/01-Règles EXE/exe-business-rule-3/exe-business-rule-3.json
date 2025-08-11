@@ -1,0 +1,7 @@
+{
+  "id": "exe-business-rule-3",
+  "type": "rule-prototype",
+  "label": "Sélection des grilles type préconisées",
+  "description": "Sélection des grilles type préconisées",
+  "controlerData": {}
+}

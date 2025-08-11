@@ -1,0 +1,1084 @@
+{
+  "id": "wf-diagram-1",
+  "label": "Workflow Etude poste ARGOS",
+  "type": "diagram-prototype",
+  "assignationData": {
+    "boTypes": [
+      "n2"
+    ]
+  },
+  "diagram": {
+    "type": "diagram",
+    "id": "0202FB3A-FF52-4A3B-A5CB-EF1A229200D8",
+    "subType": "workflow-diagram",
+    "isMainWorkflow": true,
+    "label": "Workflow Etude poste ARGOS",
+    "width": 10000,
+    "height": 4000,
+    "layerOptions": {
+      "libraryIdFilters": [
+        {
+          "label": "Tout",
+          "id": "*",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Repère PK",
+          "tags": [
+            "pk"
+          ],
+          "ids": [
+            "repere-pk-1",
+            "echelle-pk-script-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Voies",
+          "tags": [
+            "track"
+          ],
+          "ids": [
+            "voie-1",
+            "voie-bezier-1",
+            "no-voie-1",
+            "sens-voie-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Signaux",
+          "tags": [
+            "signal"
+          ],
+          "ids": [
+            "signal-1-NE",
+            "signal-1-NW",
+            "signal-1-SE",
+            "signal-1-SW",
+            "bloc-script-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Aiguilles",
+          "tags": [
+            "point"
+          ],
+          "ids": [
+            "point-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Autres objects voie",
+          "tags": [
+            "other-sig"
+          ],
+          "ids": [
+            "joint-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Connexions",
+          "tags": [
+            "track-connections"
+          ],
+          "ids": [
+            "track-connection-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Postes",
+          "tags": [
+            "n"
+          ],
+          "ids": [
+            "n1-1",
+            "n2-1",
+            "n2-stmr-1",
+            "n3"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Traversées",
+          "tags": [
+            "traverse"
+          ],
+          "ids": [
+            "traverse-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Câbles",
+          "tags": [
+            "cable"
+          ],
+          "ids": [
+            "cable-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Déroulage",
+          "tags": [
+            "wiring-diagram"
+          ],
+          "ids": [
+            "wiring-diagram-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Profils",
+          "tags": [
+            "profile"
+          ],
+          "ids": [
+            "slope-profile-1",
+            "curve-profile-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Fils",
+          "tags": [
+            "wire"
+          ],
+          "ids": [
+            "wire-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Bornes",
+          "tags": [
+            "pin"
+          ],
+          "ids": [
+            "pin-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Composants",
+          "tags": [
+            "component"
+          ],
+          "ids": [
+            "component-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        }
+      ],
+      "allVisible": true,
+      "allEnabled": true,
+      "visibleLibraryIds": [
+        "repere-pk-1",
+        "echelle-pk-script-1",
+        "voie-1",
+        "voie-bezier-1",
+        "no-voie-1",
+        "sens-voie-1",
+        "signal-1-NE",
+        "signal-1-NW",
+        "signal-1-SE",
+        "signal-1-SW",
+        "bloc-script-1",
+        "point-1",
+        "joint-1",
+        "track-connection-1",
+        "n1-1",
+        "n2-1",
+        "n2-stmr-1",
+        "n3",
+        "traverse-1",
+        "cable-1",
+        "wiring-diagram-1",
+        "slope-profile-1",
+        "curve-profile-1",
+        "wire-1",
+        "pin-1",
+        "component-1"
+      ],
+      "enabledLibraryIds": [
+        "repere-pk-1",
+        "echelle-pk-script-1",
+        "voie-1",
+        "voie-bezier-1",
+        "no-voie-1",
+        "sens-voie-1",
+        "signal-1-NE",
+        "signal-1-NW",
+        "signal-1-SE",
+        "signal-1-SW",
+        "bloc-script-1",
+        "point-1",
+        "joint-1",
+        "track-connection-1",
+        "n1-1",
+        "n2-1",
+        "n2-stmr-1",
+        "n3",
+        "traverse-1",
+        "cable-1",
+        "wiring-diagram-1",
+        "slope-profile-1",
+        "curve-profile-1",
+        "wire-1",
+        "pin-1",
+        "component-1"
+      ]
+    },
+    "svgObject": {
+      "type": "root",
+      "svgObjects": [
+        {
+          "type": "library-object",
+          "libraryId": "wf-activity-1",
+          "x": 200,
+          "y": 100,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "61442d23-63eb-4299-b318-3516a6c318c0",
+          "wfActivityId": "main-wf-act-01",
+          "label": "Dimensionnement",
+          "labelX": 120,
+          "labelY": "30",
+          "color": "#eee",
+          "width": 250,
+          "height": 100,
+          "rx": "10",
+          "ry": "10",
+          "isVisible": true,
+          "isEnabled": true,
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": 100,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 200,
+              "y": 50
+            },
+            {
+              "index": 2,
+              "label": "3",
+              "x": 100,
+              "y": 100
+            },
+            {
+              "index": 3,
+              "label": "4",
+              "x": 0,
+              "y": 50
+            }
+          ],
+          "activityType": "activity",
+          "testStatus": "-",
+          "testStatusX": "40",
+          "testStatusY": "85",
+          "testStatusIndicX": "20",
+          "testStatusIndicY": "80",
+          "testStatusIndicR": "10",
+          "testStatusColor": "none"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-event-1",
+          "x": 1570,
+          "y": 150,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "5be0a5c0-670e-4c2b-bb0c-33cd7ed13459",
+          "color": "#c88",
+          "r": "20",
+          "isVisible": true,
+          "isEnabled": true,
+          "labelX": null,
+          "labelY": null,
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": 10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 20,
+              "y": 10
+            },
+            {
+              "index": 2,
+              "label": "3",
+              "x": 10,
+              "y": 20
+            },
+            {
+              "index": 3,
+              "label": "4",
+              "x": 0,
+              "y": 10
+            }
+          ],
+          "eventType": "end"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-activity-1",
+          "x": 50,
+          "y": 40,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "0af2c05d-93e6-40c3-92d4-f6ffd563b631",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": 100,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 200,
+              "y": 50
+            },
+            {
+              "index": 2,
+              "label": "3",
+              "x": 100,
+              "y": 100
+            },
+            {
+              "index": 3,
+              "label": "4",
+              "x": 0,
+              "y": 50
+            }
+          ],
+          "label": "Activités de l'étude d'un poste ARGOS",
+          "labelX": 190,
+          "labelY": 30,
+          "color": "none",
+          "width": 1640,
+          "height": 350,
+          "rx": "10",
+          "ry": "0",
+          "isVisible": true,
+          "isEnabled": true,
+          "activityType": "activity",
+          "testStatus": "-",
+          "testStatusX": "25",
+          "testStatusY": "25",
+          "testStatusIndicX": "25",
+          "testStatusIndicY": "25",
+          "testStatusIndicR": "10",
+          "testStatusColor": "none"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-event-1",
+          "x": 120,
+          "y": 150,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "4773df79-cade-4a44-b15f-52d2916bc463",
+          "color": "#8c8",
+          "r": "20",
+          "isVisible": true,
+          "isEnabled": true,
+          "labelX": null,
+          "labelY": null,
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": 10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 20,
+              "y": 10
+            },
+            {
+              "index": 2,
+              "label": "3",
+              "x": 10,
+              "y": 20
+            },
+            {
+              "index": 3,
+              "label": "4",
+              "x": 0,
+              "y": 10
+            }
+          ],
+          "eventType": "start"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-link-1",
+          "x": 140,
+          "y": 150,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "bfffe188-3d56-4f01-ab15-685536479134",
+          "points": "0,0 60,0",
+          "color": "#000",
+          "netName": "-",
+          "filterTag": "",
+          "isVisible": true,
+          "isEnabled": true,
+          "connections": [],
+          "linkType": "none"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-link-1",
+          "x": 1390,
+          "y": 150,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "83261640-5bb9-4084-a6c2-5d2b1be30259",
+          "points": "0,0 60,0",
+          "color": "#000",
+          "netName": "-",
+          "filterTag": "",
+          "isVisible": true,
+          "isEnabled": true,
+          "connections": [],
+          "linkType": "none"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-activity-1",
+          "x": 590,
+          "y": 100,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "9120336f-4a91-4091-99f5-f3b891b78869",
+          "label": "Etude d'enclenchement",
+          "labelX": 150,
+          "labelY": 30,
+          "color": "#eee",
+          "width": 300,
+          "height": 100,
+          "rx": "10",
+          "ry": "10",
+          "isVisible": true,
+          "isEnabled": true,
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": 100,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 200,
+              "y": 50
+            },
+            {
+              "index": 2,
+              "label": "3",
+              "x": 100,
+              "y": 100
+            },
+            {
+              "index": 3,
+              "label": "4",
+              "x": 0,
+              "y": 50
+            }
+          ],
+          "activityType": "activity",
+          "testStatus": "-",
+          "testStatusX": "40",
+          "testStatusY": "85",
+          "testStatusIndicX": "20",
+          "testStatusIndicY": "80",
+          "testStatusIndicR": "10",
+          "testStatusColor": "none"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-activity-1",
+          "x": 1140,
+          "y": 100,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "89609cc2-09fc-4e10-8d91-99a3824c8b77",
+          "label": "Paramétrage",
+          "labelX": 120,
+          "labelY": "30",
+          "color": "#eee",
+          "width": "250",
+          "height": "100",
+          "rx": "10",
+          "ry": "10",
+          "isVisible": true,
+          "isEnabled": true,
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": 100,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 200,
+              "y": 50
+            },
+            {
+              "index": 2,
+              "label": "3",
+              "x": 100,
+              "y": 100
+            },
+            {
+              "index": 3,
+              "label": "4",
+              "x": 0,
+              "y": 50
+            }
+          ],
+          "activityType": "activity",
+          "testStatus": "-",
+          "testStatusX": "40",
+          "testStatusY": "85",
+          "testStatusIndicX": "20",
+          "testStatusIndicY": "80",
+          "testStatusIndicR": "10",
+          "testStatusColor": "none"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-link-1",
+          "x": 450,
+          "y": 150,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "0fb6f851-b335-497e-b2c9-571e952fe516",
+          "points": "0,0 50,0",
+          "color": "#000",
+          "netName": "-",
+          "filterTag": "",
+          "isVisible": true,
+          "isEnabled": true,
+          "connections": [],
+          "linkType": "none"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-link-1",
+          "x": 1390,
+          "y": 270,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "4ef92b81-a788-475f-8805-ea8e583462f5",
+          "points": "0,0 80,0 80,-100",
+          "color": "#000",
+          "netName": "-",
+          "filterTag": "",
+          "isVisible": true,
+          "isEnabled": true,
+          "connections": [],
+          "linkType": "none"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-activity-1",
+          "x": 590,
+          "y": 220,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "4101ae9f-3785-4fe0-adac-7d02b704414b",
+          "label": "Consolidation dimensionnement",
+          "labelX": 150,
+          "labelY": 30,
+          "color": "#eee",
+          "width": 300,
+          "height": 100,
+          "rx": "10",
+          "ry": "10",
+          "isVisible": true,
+          "isEnabled": true,
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": 100,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 200,
+              "y": 50
+            },
+            {
+              "index": 2,
+              "label": "3",
+              "x": 100,
+              "y": 100
+            },
+            {
+              "index": 3,
+              "label": "4",
+              "x": 0,
+              "y": 50
+            }
+          ],
+          "activityType": "activity",
+          "testStatus": "-",
+          "testStatusX": "40",
+          "testStatusY": "85",
+          "testStatusIndicX": "20",
+          "testStatusIndicY": "80",
+          "testStatusIndicR": "10",
+          "testStatusColor": "none"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-link-1",
+          "x": 540,
+          "y": 150,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "b88f8a13-860b-4074-83e8-6c9e97014e74",
+          "points": "0,0 50,0",
+          "color": "#000",
+          "netName": "-",
+          "filterTag": "",
+          "isVisible": true,
+          "isEnabled": true,
+          "connections": [],
+          "linkType": "none"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-link-1",
+          "x": 520,
+          "y": 170,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "fc4d9ec9-d427-46d6-9afe-f5f620fde771",
+          "points": "0,0 0,100 70,100",
+          "color": "#000",
+          "netName": "-",
+          "filterTag": "",
+          "isVisible": true,
+          "isEnabled": true,
+          "connections": [
+            {
+              "pointIndex1": 2,
+              "id2": "4101ae9f-3785-4fe0-adac-7d02b704414b",
+              "pointIndex2": 3
+            }
+          ],
+          "linkType": "none"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-gateway-1",
+          "x": 500,
+          "y": 150,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "e55fe902-0639-4b69-9aa8-63c32ba11c65",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": 10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 20,
+              "y": 10
+            },
+            {
+              "index": 2,
+              "label": "3",
+              "x": 10,
+              "y": 20
+            },
+            {
+              "index": 3,
+              "label": "4",
+              "x": 0,
+              "y": 10
+            }
+          ],
+          "color": "none",
+          "points": "0,0 20,-20 40,0 20,20",
+          "gatewayLabel": "+",
+          "gatewayLabelX": 20.465136078722765,
+          "gatewayLabelY": 6.278911370217955,
+          "label": "",
+          "labelX": 50,
+          "labelY": 40,
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-gateway-1",
+          "x": 1450,
+          "y": 150,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "d92367df-b4d5-4994-affb-0eef47cccf0a",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": 10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 20,
+              "y": 10
+            },
+            {
+              "index": 2,
+              "label": "3",
+              "x": 10,
+              "y": 20
+            },
+            {
+              "index": 3,
+              "label": "4",
+              "x": 0,
+              "y": 10
+            }
+          ],
+          "color": "none",
+          "points": "0,0 20,-20 40,0 20,20",
+          "gatewayLabel": "+",
+          "gatewayLabelX": 20.465136078722765,
+          "gatewayLabelY": 6.278911370217955,
+          "label": "",
+          "labelX": 50,
+          "labelY": 40,
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-link-1",
+          "x": 1490,
+          "y": 150,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "d05ae423-06aa-4a5b-8cb2-811c889de824",
+          "points": "0,0 60,0",
+          "color": "#000",
+          "netName": "-",
+          "filterTag": "",
+          "isVisible": true,
+          "isEnabled": true,
+          "connections": [],
+          "linkType": "none"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-activity-1",
+          "x": 1140,
+          "y": 220,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "cc250e9b-8cee-48d3-933d-3dd7f15b670f",
+          "label": "Etude d'EXE",
+          "labelX": 120,
+          "labelY": "30",
+          "color": "#eee",
+          "width": "250",
+          "height": "100",
+          "rx": "10",
+          "ry": "10",
+          "isVisible": true,
+          "isEnabled": true,
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": 100,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 200,
+              "y": 50
+            },
+            {
+              "index": 2,
+              "label": "3",
+              "x": 100,
+              "y": 100
+            },
+            {
+              "index": 3,
+              "label": "4",
+              "x": 0,
+              "y": 50
+            }
+          ],
+          "activityType": "activity",
+          "testStatus": "-",
+          "testStatusX": "40",
+          "testStatusY": "85",
+          "testStatusIndicX": "20",
+          "testStatusIndicY": "80",
+          "testStatusIndicR": "10",
+          "testStatusColor": "none"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-link-1",
+          "x": 890,
+          "y": 150,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "234cfa7e-65cb-46f0-abce-05a8a71c3584",
+          "points": "0,0 60,0",
+          "color": "#000",
+          "netName": "-",
+          "filterTag": "",
+          "isVisible": true,
+          "isEnabled": true,
+          "connections": [],
+          "linkType": "none"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-link-1",
+          "x": 890,
+          "y": 270,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "49adb576-b165-4ad5-b814-61f74590e3a4",
+          "points": "0,0 80,0 80,-100",
+          "color": "#000",
+          "netName": "-",
+          "filterTag": "",
+          "isVisible": true,
+          "isEnabled": true,
+          "connections": [],
+          "linkType": "none"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-gateway-1",
+          "x": 950,
+          "y": 150,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "9a37961d-fa81-4d44-af7a-6db182f0ec21",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": 10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 20,
+              "y": 10
+            },
+            {
+              "index": 2,
+              "label": "3",
+              "x": 10,
+              "y": 20
+            },
+            {
+              "index": 3,
+              "label": "4",
+              "x": 0,
+              "y": 10
+            }
+          ],
+          "color": "none",
+          "points": "0,0 20,-20 40,0 20,20",
+          "gatewayLabel": "+",
+          "gatewayLabelX": 20.465136078722765,
+          "gatewayLabelY": 6.278911370217955,
+          "label": "",
+          "labelX": 50,
+          "labelY": 40,
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-link-1",
+          "x": 990,
+          "y": 150,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "e30e861a-4000-463f-b936-c3d8e9ab20ec",
+          "points": "0,0 60,0",
+          "color": "#000",
+          "netName": "-",
+          "filterTag": "",
+          "isVisible": true,
+          "isEnabled": true,
+          "connections": [],
+          "linkType": "none"
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-link-1",
+          "x": 1090,
+          "y": 150,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "1a4ad940-8ff4-4b11-80ac-01ae93b377c9",
+          "points": "0,0 50,0",
+          "color": "#000",
+          "netName": "-",
+          "filterTag": "",
+          "isVisible": true,
+          "isEnabled": true,
+          "connections": [],
+          "linkType": "none",
+          "gatewayLabelX": null,
+          "gatewayLabelY": null
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-link-1",
+          "x": 1070,
+          "y": 170,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "89b5a890-56d8-4a35-bb30-a0ca1a821479",
+          "points": "0,0 0,100 70,100",
+          "color": "#000",
+          "netName": "-",
+          "filterTag": "",
+          "isVisible": true,
+          "isEnabled": true,
+          "connections": [],
+          "linkType": "none",
+          "gatewayLabelX": null,
+          "gatewayLabelY": null
+        },
+        {
+          "type": "library-object",
+          "libraryId": "wf-gateway-1",
+          "x": 1050,
+          "y": 150,
+          "rotate": 0,
+          "scale": 1,
+          "isAutoPlaced": true,
+          "id": "bfe0329b-afea-4deb-aef8-5392913cf2c8",
+          "connectionPoints": [
+            {
+              "index": 0,
+              "label": "1",
+              "x": 10,
+              "y": 0
+            },
+            {
+              "index": 1,
+              "label": "2",
+              "x": 20,
+              "y": 10
+            },
+            {
+              "index": 2,
+              "label": "3",
+              "x": 10,
+              "y": 20
+            },
+            {
+              "index": 3,
+              "label": "4",
+              "x": 0,
+              "y": 10
+            }
+          ],
+          "color": "none",
+          "points": "0,0 20,-20 40,0 20,20",
+          "gatewayLabel": "+",
+          "gatewayLabelX": 20,
+          "gatewayLabelY": "6",
+          "label": "",
+          "labelX": 50,
+          "labelY": 40,
+          "isVisible": true,
+          "isEnabled": true
+        }
+      ],
+      "controlerData": {
+        "selType": "point"
+      }
+    },
+    "isSelected": true,
+    "isCollapsed": true
+  }
+}

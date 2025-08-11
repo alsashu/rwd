@@ -1,0 +1,47 @@
+<div class="modal-header">
+  <div class="modal-title" id="modal-text-title">{{ title }}</div>
+  <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <div *ngIf="gitUrlVisible">
+    <div class="input-group input-group-sm mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">Git url</span>
+      </div>
+      <input
+        type="text"
+        class="form-control"
+        [(ngModel)]="gitUrl"
+        placeholder="https://oauth2:{GIT_TOKEN}@alm.alstom.com/.../REPOSITORY.git"
+        ngbAutoFocus
+      />
+    </div>
+  </div>
+
+  <div *ngIf="branchesVisible" class="form-group">
+    <label for="verificationComment" i18n="@@git.modal.selectBranch">Select branch:</label>
+    <select class="custom-select" size="3" [(ngModel)]="branch" name="branch">
+      <option *ngFor="let br of branches" [value]="br" (dblclick)="onOKBtnClick()">
+        {{ br }}
+      </option>
+    </select>
+  </div>
+
+  <p>{{ message }}</p>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-outline-dark" [disabled]="buttonsDisabled" (click)="onOKBtnClick()">
+    {{ btnOKLabel }}
+  </button>
+  <button
+    type="button"
+    i18n="@@git.modal.cancel"
+    class="btn btn-outline-dark"
+    [disabled]="buttonsDisabled"
+    (click)="activeModal.dismiss('cancel click')"
+  >
+    Cancel
+  </button>
+</div>

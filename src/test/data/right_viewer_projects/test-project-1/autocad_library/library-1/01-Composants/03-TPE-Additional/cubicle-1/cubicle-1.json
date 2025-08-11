@@ -1,0 +1,75 @@
+{
+  "id": "cubicle-1",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "rectangle",
+    "attributeInit": [
+      {
+        "name": "label",
+        "value": "",
+        "boName": "label"
+      },
+      {
+        "name": "width",
+        "value": "100"
+      },
+      {
+        "name": "height",
+        "value": "50"
+      },
+      {
+        "name": "stroke",
+        "value": "#000"
+      }
+    ]
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 100,
+        "height": 100,
+        "rx": 15,
+        "ry": 15,
+        "stroke": "#000",
+        "strokeWidth": "8",
+        "fill": "none",
+        "mapping": [
+          {
+            "name": "width",
+            "parentName": "width"
+          },
+          {
+            "name": "height",
+            "parentName": "height"
+          },
+          {
+            "name": "stroke",
+            "parentName": "stroke"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "x": 5,
+        "y": 20,
+        "text": "#NAME#",
+        "style": "",
+        "isVisible": true,
+        "scale": 1,
+        "mapping": [
+          {
+            "name": "text",
+            "parentName": "label"
+          },
+          {
+            "name": "stroke",
+            "parentName": "stroke"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "SWITCH_GEN_v12_HORIZONTAL_LEFT_INCOMING_STRAIGHT",
+  "parentId": "SWITCH_GEN_v12",
+  "subId": "HORIZONTAL_LEFT_INCOMING_STRAIGHT",
+  "label": "SWITCH_GEN_v12_HORIZONTAL_LEFT_INCOMING_STRAIGHT",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "point",
+    "anc": {
+      "anchor": {
+        "x": 199,
+        "y": -50
+      },
+      "boudingRect": {
+        "w": 199,
+        "h": 158.5
+      }
+    },
+    "tags": [
+      "tpe",
+      "acad"
+    ],
+    "attributeInit": [
+      {
+        "name": "label",
+        "value": "#LABEL#",
+        "boName": "label"
+      },
+      {
+        "name": "absPos",
+        "value": "#KP#",
+        "boName": "absPos"
+      }
+    ],
+    "handles": []
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "svg",
+        "svg": "<g transform=\"scale(1.36 1.36)\">\n  <g stroke-linecap=\"square\" fill=\"none\" stroke=\"black\" stroke-width=\"1\" fill-rule=\"evenodd\" stroke-linejoin=\"bevel\">\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,199,-50)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <polyline fill=\"none\" points=\"0,80 0,50 \" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,199,-50)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <polyline fill=\"none\" points=\"0,50 -60,50 \" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,199,-50)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <polyline fill=\"none\" points=\"-60,50 -60,80 \" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,199,-50)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <polyline fill=\"none\" points=\"-60,80 0,80 \" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,199,-50)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <polyline fill=\"none\" points=\"-60,65 -75,65 \" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,199,-50)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <circle cx=\"-82.5\" r=\"7.5\" cy=\"65\" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g font-weight=\"400\" stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,199,70)\" font-size=\"50\" fill=\"none\" stroke-width=\"1\" font-family=\"Arial Unicode MS\" stroke-linejoin=\"bevel\" font-style=\"normal\"><text xml:space=\"preserve\" font-weight=\"400\" font-size=\"50\" fill=\"#000000\" stroke=\"none\" font-family=\"Arial Unicode MS\" x=\"-4\" y=\"19.5\" fill-opacity=\"1\" font-style=\"normal\" text-anchor=\"end\">#NAME#</text></g>\n    <g transform=\"matrix(1,0,0,1,199,70)\" fill=\"none\" stroke=\"none\">\n      <rect width=\"199\" height=\"67\" x=\"-199\" y=\"-33.5\" />\n    </g>\n    <g font-weight=\"400\" stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,199,125)\" font-size=\"50\" fill=\"none\" stroke-width=\"1\" font-family=\"Arial Unicode MS\" stroke-linejoin=\"bevel\" font-style=\"normal\"><text xml:space=\"preserve\" font-weight=\"400\" font-size=\"50\" fill=\"#000000\" stroke=\"none\" font-family=\"Arial Unicode MS\" x=\"-4\" y=\"19.5\" fill-opacity=\"1\" font-style=\"normal\" text-anchor=\"end\">#KP#</text></g>\n    <g transform=\"matrix(1,0,0,1,199,125)\" fill=\"none\" stroke=\"none\">\n      <rect width=\"121\" height=\"67\" x=\"-121\" y=\"-33.5\" />\n    </g>\n  </g>\n</g>",
+        "style": "",
+        "mapping": [
+          {
+            "name": "#NAME#",
+            "parentName": "label"
+          },
+          {
+            "name": "#KP#",
+            "parentName": "absPos"
+          }
+        ]
+      }
+    ]
+  }
+}

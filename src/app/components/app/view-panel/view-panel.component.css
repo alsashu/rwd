@@ -1,0 +1,72 @@
+:host {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  width: var(--tab-bar-size);
+  height: 100%;
+  background: var(--view-panel-background);
+}
+
+.btn-toggle {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 10px 0px 10px;
+}
+
+.panel-tabs {
+  display: inline-block;
+  background: #666;
+  overflow: hidden;
+  padding-top: 0.5em;
+}
+
+.panel-tabs-v {
+  width: var(--tab-bar-size);
+  height: calc(100% - 6px);
+  display: flex;
+  flex-direction: column;
+}
+
+.tab {
+  display: inline-block;
+  cursor: pointer;
+  color: var(--title-color);
+  margin: 2px 4px 2px 4px;
+}
+
+.active {
+  color: var(--title-selected-icon-color);
+  border-color: var(--title-selected-background);
+}
+
+.tab-v {
+  width: var(--tab-bar-size) - 5px;
+}
+
+.tab-l {
+  padding: 5px 0px 0px 5px;
+  margin: 4px 0px 0px 3px;
+  border-top-left-radius: calc(.25rem - 1px);
+  border-bottom-left-radius: calc(.25rem - 1px);
+}
+
+.tab-l > p {
+  margin: 0;
+  transform: rotate(270deg);
+}
+
+.tab-r {
+  padding: 5px 0px 0px 10px;
+  margin: 4px 3px 0px -5px;
+  float: left;
+  border-top-right-radius: calc(.25rem - 1px);
+  border-bottom-right-radius: calc(.25rem - 1px);
+}
+
+.tab-r > p {
+  transform: rotate(90deg);
+}
+
+
+

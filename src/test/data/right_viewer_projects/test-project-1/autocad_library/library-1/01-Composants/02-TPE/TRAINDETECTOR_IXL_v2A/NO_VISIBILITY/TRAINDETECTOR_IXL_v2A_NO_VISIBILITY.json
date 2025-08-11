@@ -1,0 +1,56 @@
+{
+  "id": "TRAINDETECTOR_IXL_v2A_NO_VISIBILITY",
+  "parentId": "TRAINDETECTOR_IXL_v2A",
+  "subId": "NO_VISIBILITY",
+  "label": "TRAINDETECTOR_IXL_v2A_NO_VISIBILITY",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "point",
+    "anc": {
+      "anchor": {
+        "x": 7,
+        "y": 14
+      },
+      "boudingRect": {
+        "w": 14,
+        "h": 28
+      }
+    },
+    "tags": [
+      "tpe",
+      "acad"
+    ],
+    "attributeInit": [
+      {
+        "name": "label",
+        "value": "#LABEL#",
+        "boName": "label"
+      },
+      {
+        "name": "absPos",
+        "value": "#KP#",
+        "boName": "absPos"
+      }
+    ],
+    "handles": []
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "svg",
+        "svg": "<g transform=\"scale(1.36 1.36)\">\n  <g stroke-linecap=\"square\" fill=\"none\" stroke=\"black\" stroke-width=\"1\" fill-rule=\"evenodd\" stroke-linejoin=\"bevel\">\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,7,14)\" fill=\"#ffffff\" stroke-width=\"1\" fill-opacity=\"1\" stroke-linejoin=\"bevel\">\n      <path d=\"M7,-0.0217562 L-7,-0.0217562 L-7,0.0217562 L7,0.0217562 L7,-0.0217562\" fill-rule=\"evenodd\" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,7,14)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <polyline fill=\"none\" points=\"-7,-14 -7,14 \" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,7,14)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <polyline fill=\"none\" points=\"7,-14 7,14 \" vector-effect=\"non-scaling-stroke\" />\n    </g>\n  </g>\n</g>",
+        "style": "",
+        "mapping": [
+          {
+            "name": "#NAME#",
+            "parentName": "label"
+          },
+          {
+            "name": "#KP#",
+            "parentName": "absPos"
+          }
+        ]
+      }
+    ]
+  }
+}

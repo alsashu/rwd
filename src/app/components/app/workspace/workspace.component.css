@@ -1,0 +1,21 @@
+:host {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.bloc {
+  height: 100%;
+}
+
+.main-panel {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  width: calc(100% - var(--tab-bar-size) * 2);
+  height: 100%;
+  overflow: hidden;
+}
+

@@ -1,0 +1,29 @@
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 40%;
+  padding: 0.5em;
+}
+
+.col-btns {
+  flex: 8%;
+  padding: 9em 1.5em 1em 1.5em;
+}
+
+.col2 {
+  padding-top: 4em;
+}
+
+.project-list {
+  height: 16em;
+  width: 19em;
+  overflow: auto;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.list-group-item {
+  padding: 0rem 1rem;
+  border: none;
+}

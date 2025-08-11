@@ -1,0 +1,141 @@
+{
+  "id": "point-1",
+  "label": "Aiguille",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "polyline",
+    "boType": "point",
+    "tags": [
+      "aiguille",
+      "objet-voie"
+    ],
+    "attributeInit": [
+      {
+        "name": "points",
+        "value": "0,0 20,0 20,-5"
+      },
+      {
+        "name": "label",
+        "value": "#LABEL#",
+        "boName": "label"
+      },
+      {
+        "name": "labelX",
+        "value": "0"
+      },
+      {
+        "name": "labelY",
+        "value": "-30"
+      },
+      {
+        "name": "label2",
+        "value": "#LABEL#",
+        "boName": "state"
+      },
+      {
+        "name": "label2X",
+        "value": "0"
+      },
+      {
+        "name": "label2Y",
+        "value": "-50"
+      },
+      {
+        "name": "state",
+        "value": 0,
+        "boName": "state"
+      }
+    ],
+    "handles": [
+      {
+        "type": "mapping-handle",
+        "xMapping": "labelX",
+        "yMapping": "labelY"
+      },
+      {
+        "type": "mapping-handle",
+        "xMapping": "label2X",
+        "yMapping": "label2Y"
+      }
+    ]
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "polygon",
+        "points": "0,0 20,0 20,-5",
+        "stroke": "#000",
+        "fill": "#000",
+        "strokeWidth": 2,
+        "mapping": [
+          {
+            "name": "points",
+            "parentName": "points"
+          },
+          {
+            "name": "fill",
+            "parentName": "state",
+            "values": [
+              {
+                "parentValue": 0,
+                "value": "#000"
+              },
+              {
+                "parentValue": 1,
+                "value": "#f00"
+              },
+              {
+                "parentValue": 2,
+                "value": "#0f0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "static": true,
+        "x": -60,
+        "y": 45,
+        "text": "#NAME#",
+        "style": "",
+        "mapping": [
+          {
+            "name": "text",
+            "parentName": "label"
+          },
+          {
+            "name": "x",
+            "parentName": "labelX"
+          },
+          {
+            "name": "y",
+            "parentName": "labelY"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "static": true,
+        "x": -60,
+        "y": 45,
+        "text": "#NAME#",
+        "style": "",
+        "mapping": [
+          {
+            "name": "text",
+            "parentName": "label2"
+          },
+          {
+            "name": "x",
+            "parentName": "label2X"
+          },
+          {
+            "name": "y",
+            "parentName": "label2Y"
+          }
+        ]
+      }
+    ]
+  }
+}

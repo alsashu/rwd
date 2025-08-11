@@ -1,0 +1,23 @@
+:host {
+}
+
+.message-popup {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  height: 30px;
+  z-index: 2000;
+  border-radius: 3px;
+  padding: 0 0.5em;
+  background: #90c02d;
+  opacity: 0.9;
+
+/*
+  background: #80bfff;
+  border: 1px solid #aaa;
+  opacity: 0.8;
+#6699ff
+  background: #eee;
+  opacity: 0.8;
+*/
+}

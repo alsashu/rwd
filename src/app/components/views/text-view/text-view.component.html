@@ -1,0 +1,14 @@
+<app-generic-tool-bar [parent]="this" [toolBarActions]="viewActionsService.toolBarActions"></app-generic-tool-bar>
+<app-generic-context-menu #mainContextMenu [parent]="this" [contextMenuActions]="viewActionsService.contextMenuActions"></app-generic-context-menu>
+<div class="view-content">
+  <div ace-editor 
+    class="text-editor"
+    [(text)]="text"
+    [mode]="'javascript'" 
+    [theme]="'eclipse'"
+    [options]="aceOptions"
+    [readOnly]="false"
+    [autoUpdateContent]="true" 
+  >
+  </div>
+</div>

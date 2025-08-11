@@ -1,0 +1,59 @@
+export class ServicesConst {
+  public static InjectableUtilsService = "InjectableUtilsService";
+  public static SvgService = "SvgService";
+  public static ModalViewService = "ModalViewService";
+  public static AppConfigService = "AppConfigService";
+  public static CommandService = "CommandService";
+  public static CommandFactoryService = "CommandFactoryService";
+  public static MvcService = "MvcService";
+  public static ModelService = "ModelService";
+  public static ModelMetadataService = "ModelMetadataService";
+  public static ModelRailMLService = "ModelRailMLService";
+  public static ModelVerificationService = "ModelVerificationService";
+  public static ModelLoadSaveService = "ModelLoadSaveService";
+  public static ModelPropertiesService = "ModelPropertiesService";
+  public static ModelCommandsService = "ModelCommandsService";
+  public static ApiService = "ApiService";
+  public static WebsocketService = "WebsocketService";
+  public static BoFactoryService = "BoFactoryService";
+  public static ClipboardService = "ClipboardService";
+  public static CloneService = "CloneService";
+  public static SelectionService = "SelectionService";
+  public static TransactionService = "TransactionService";
+  public static QueryService = "QueryService";
+  public static MessageService = "MessageService";
+  public static ViewService = "ViewService";
+  public static MetaModelService = "MetaModelService";
+  public static LibraryService = "LibraryService";
+  public static UserService = "UserService";
+  public static AuthentificationService = "AuthentificationService";
+  public static UtilsService = "UtilsService";
+  public static ScriptService = "ScriptService";
+  public static AppService = "AppService";
+  public static SessionService = "SessionService";
+  public static RightsService = "RightsService";
+  public static TranslateService = "TranslateService";
+  public static SearchService = "SearchService";
+  public static GraphicConfigService = "GraphicConfigService";
+  public static EnvironmentConfigService = "EnvironmentConfigService";
+
+  public static RuleService = "RuleService";
+  public static CsRuleEngineService = "CsRuleEngineService";
+  public static PythonRuleEngineService = "PythonRuleEngineService";
+  public static RightViewerRuleEngineService = "RightViewerRuleEngineService";
+  public static ErrorMessageService = "ErrorMessageService";
+  public static ErrorMessageFactoryService = "ErrorMessageFactoryService";
+
+  public static WikiService = "WikiService";
+  public static GitService = "GitService";
+  public static CompareService = "CompareService";
+  public static UploadProjectService = "UploadProjectService";
+  public static DownloadProjectService = "DownloadProjectService";
+
+  public static AndroidService = "AndroidService";
+  public static AndroidFSService = "AndroidFSService";
+  public static OfflineApiService = "OfflineApiService";
+  public static OfflineService = "OfflineService";
+  public static IndexedDBService = "IndexedDBService";
+  public static CommentService = "CommentService";
+}

@@ -1,0 +1,263 @@
+{
+  "id": "empty-diagram-1",
+  "label": "Schéma vide",
+  "type": "diagram-prototype",
+  "assignationData": {
+    "boTypes": [
+      "n2"
+    ]
+  },
+  "diagram": {
+    "type": "diagram",
+    "id": "a7423020-4bae-4f7c-9dbe-36e257aa2ae8",
+    "subType": "front-diagram",
+    "subSubType": "n2-front-diagram",
+    "label": "Schéma vide",
+    "width": 10000,
+    "height": 4000,
+    "layerOptions": {
+      "libraryIdFilters": [
+        {
+          "label": "Tout",
+          "id": "*",
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Repère PK",
+          "tags": [
+            "pk"
+          ],
+          "ids": [
+            "repere-pk-1",
+            "echelle-pk-script-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Voies",
+          "tags": [
+            "track"
+          ],
+          "ids": [
+            "voie-1",
+            "voie-bezier-1",
+            "no-voie-1",
+            "sens-voie-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Signaux",
+          "tags": [
+            "signal"
+          ],
+          "ids": [
+            "signal-1-NE",
+            "signal-1-NW",
+            "signal-1-SE",
+            "signal-1-SW",
+            "bloc-script-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Aiguilles",
+          "tags": [
+            "point"
+          ],
+          "ids": [
+            "point-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Autres objects voie",
+          "tags": [
+            "other-sig"
+          ],
+          "ids": [
+            "joint-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Connexions",
+          "tags": [
+            "track-connections"
+          ],
+          "ids": [
+            "track-connection-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Postes",
+          "tags": [
+            "n"
+          ],
+          "ids": [
+            "n1-1",
+            "n2-1",
+            "n2-stmr-1",
+            "n3"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Traversées",
+          "tags": [
+            "traverse"
+          ],
+          "ids": [
+            "traverse-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Câbles",
+          "tags": [
+            "cable"
+          ],
+          "ids": [
+            "cable-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Déroulage",
+          "tags": [
+            "wiring-diagram"
+          ],
+          "ids": [
+            "wiring-diagram-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Profils",
+          "tags": [
+            "profile"
+          ],
+          "ids": [
+            "slope-profile-1",
+            "curve-profile-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Fils",
+          "tags": [
+            "wire"
+          ],
+          "ids": [
+            "wire-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Bornes",
+          "tags": [
+            "pin"
+          ],
+          "ids": [
+            "pin-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        },
+        {
+          "label": "Composants",
+          "tags": [
+            "component"
+          ],
+          "ids": [
+            "component-1"
+          ],
+          "isVisible": true,
+          "isEnabled": true
+        }
+      ],
+      "allVisible": true,
+      "allEnabled": true,
+      "visibleLibraryIds": [
+        "repere-pk-1",
+        "echelle-pk-script-1",
+        "voie-1",
+        "voie-bezier-1",
+        "no-voie-1",
+        "sens-voie-1",
+        "signal-1-NE",
+        "signal-1-NW",
+        "signal-1-SE",
+        "signal-1-SW",
+        "bloc-script-1",
+        "point-1",
+        "joint-1",
+        "track-connection-1",
+        "n1-1",
+        "n2-1",
+        "n2-stmr-1",
+        "n3",
+        "traverse-1",
+        "cable-1",
+        "wiring-diagram-1",
+        "slope-profile-1",
+        "curve-profile-1",
+        "wire-1",
+        "pin-1",
+        "component-1"
+      ],
+      "enabledLibraryIds": [
+        "repere-pk-1",
+        "echelle-pk-script-1",
+        "voie-1",
+        "voie-bezier-1",
+        "no-voie-1",
+        "sens-voie-1",
+        "signal-1-NE",
+        "signal-1-NW",
+        "signal-1-SE",
+        "signal-1-SW",
+        "bloc-script-1",
+        "point-1",
+        "joint-1",
+        "track-connection-1",
+        "n1-1",
+        "n2-1",
+        "n2-stmr-1",
+        "n3",
+        "traverse-1",
+        "cable-1",
+        "wiring-diagram-1",
+        "slope-profile-1",
+        "curve-profile-1",
+        "wire-1",
+        "pin-1",
+        "component-1"
+      ]
+    },
+    "cableOptions": {},
+    "svgObject": {
+      "type": "root",
+      "svgObjects": [],
+      "controlerData": {
+        "selType": "point"
+      }
+    },
+    "isSelected": true,
+    "isCollapsed": true
+  }
+}

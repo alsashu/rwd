@@ -1,0 +1,18 @@
+<app-generic-tool-bar [parent]="this" [toolBarActions]="actionsService.toolBarActions"></app-generic-tool-bar>
+<app-generic-context-menu #mainContextMenu [parent]="this" [contextMenuActions]="actionsService.contextMenuActions"></app-generic-context-menu>
+<div #viewContent class="view-content">
+  <ul class="messages">
+    <li *ngFor="let message of getMessages()"
+      [ngClass]="{
+        'message': true,
+        'message-ok-level': message.level == 'OK',
+        'message-warning-level': message.level == 'Avertissement',
+        'message-error-level': message.level == 'Erreur',
+        'message-exception-level': message.level == 'Exception'
+        }">
+      <div class="message-date">{{ message.date | date:'dd/MM hh:mm:ss' }}</div>
+      <div class="message-level">{{ message.level }}</div>
+      <div class="message-text">{{ message.text }}</div>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,7 @@
+{
+  "id": "exe-business-rule-6",
+  "type": "rule-prototype",
+  "label": "Création du matériel",
+  "description": "Création du matériel à partir des interfaces campagnes/grille types",
+  "controlerData": {}
+}

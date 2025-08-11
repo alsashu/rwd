@@ -1,0 +1,56 @@
+{
+  "id": "MARKERBOARD_ONESIDE_v1_VERTICAL_LEFT_DOWN",
+  "parentId": "MARKERBOARD_ONESIDE_v1",
+  "subId": "VERTICAL_LEFT_DOWN",
+  "label": "MARKERBOARD_ONESIDE_v1_VERTICAL_LEFT_DOWN",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "point",
+    "anc": {
+      "anchor": {
+        "x": 128.5,
+        "y": 379
+      },
+      "boudingRect": {
+        "w": 148.5,
+        "h": 379
+      }
+    },
+    "tags": [
+      "tpe",
+      "acad"
+    ],
+    "attributeInit": [
+      {
+        "name": "label",
+        "value": "#LABEL#",
+        "boName": "label"
+      },
+      {
+        "name": "absPos",
+        "value": "#KP#",
+        "boName": "absPos"
+      }
+    ],
+    "handles": []
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "svg",
+        "svg": "<g transform=\"scale(1.36 1.36)\">\n  <g stroke-linecap=\"square\" fill=\"none\" stroke=\"black\" stroke-width=\"1\" fill-rule=\"evenodd\" stroke-linejoin=\"bevel\">\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,128.5,379)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <polyline fill=\"none\" points=\"0,0 0,-115 \" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,128.5,379)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <polyline fill=\"none\" points=\"0,-115 -40,-115 \" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,128.5,379)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <path d=\"M-40,-77.5 L-40,-152.5 L-105,-152.5 L-105,-77.5 L-40,-77.5\" fill-rule=\"evenodd\" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,128.5,379)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <path d=\"M-105,-110 L-40,-110 L-40,-120 L-105,-120 L-105,-110\" fill-rule=\"evenodd\" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,128.5,379)\" fill=\"#ffffff\" stroke-width=\"1\" fill-opacity=\"1\" stroke-linejoin=\"bevel\">\n      <path d=\"M-105,-152.5 L-105,-120 L-40,-120 L-40,-152.5 L-105,-152.5\" fill-rule=\"evenodd\" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,128.5,379)\" fill=\"#ffffff\" stroke-width=\"1\" fill-opacity=\"1\" stroke-linejoin=\"bevel\">\n      <path d=\"M-40,-77.5 L-40,-110 L-105,-110 L-105,-77.5 L-40,-77.5\" fill-rule=\"evenodd\" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,128.5,379)\" fill=\"#ffff00\" stroke=\"#ffff00\" stroke-width=\"1\" fill-opacity=\"1\" stroke-linejoin=\"bevel\">\n      <path d=\"M-105,-120 L-105,-110 L-40,-110 L-40,-120 L-105,-120\" fill-rule=\"evenodd\" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,128.5,379)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <polyline fill=\"none\" points=\"-20,-40 20,-40 \" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,128.5,379)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <polyline fill=\"none\" points=\"20,-40 0,0 \" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,128.5,379)\" fill=\"none\" stroke-width=\"1\" stroke-linejoin=\"bevel\">\n      <polyline fill=\"none\" points=\"0,0 -20,-40 \" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(1,0,0,1,128.5,379)\" fill=\"#ffffff\" stroke-width=\"1\" fill-opacity=\"1\" stroke-linejoin=\"bevel\">\n      <path d=\"M0,0 L20,-40 L-20,-40 L0,0\" fill-rule=\"evenodd\" vector-effect=\"non-scaling-stroke\" />\n    </g>\n    <g font-weight=\"400\" stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(0,-1,1,0,88.5,199)\" font-size=\"50\" fill=\"none\" stroke-width=\"1\" font-family=\"Arial Unicode MS\" stroke-linejoin=\"bevel\" font-style=\"normal\"><text xml:space=\"preserve\" font-weight=\"400\" font-size=\"50\" fill=\"#000000\" stroke=\"none\" font-family=\"Arial Unicode MS\" x=\"0\" y=\"19.5\" fill-opacity=\"1\" font-style=\"normal\">#KP#</text></g>\n    <g font-weight=\"400\" stroke-linecap=\"square\" stroke-opacity=\"1\" transform=\"matrix(0,-1,1,0,33.5,199)\" font-size=\"50\" fill=\"none\" stroke-width=\"1\" font-family=\"Arial Unicode MS\" stroke-linejoin=\"bevel\" font-style=\"normal\"><text xml:space=\"preserve\" font-weight=\"400\" font-size=\"50\" fill=\"#000000\" stroke=\"none\" font-family=\"Arial Unicode MS\" x=\"0\" y=\"19.5\" fill-opacity=\"1\" font-style=\"normal\">#NAME#</text></g>\n  </g>\n</g>",
+        "style": "",
+        "mapping": [
+          {
+            "name": "#NAME#",
+            "parentName": "label"
+          },
+          {
+            "name": "#KP#",
+            "parentName": "absPos"
+          }
+        ]
+      }
+    ]
+  }
+}

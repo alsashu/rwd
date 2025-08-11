@@ -1,0 +1,7 @@
+{
+  "id": "20-cable-check-rule-1",
+  "label": "Câbles",
+  "type": "rule-prototype",
+  "description": "Règle de vérification de la création des câbles",
+  "controlerData": {}
+}

@@ -1,0 +1,44 @@
+{
+  "id": "BALISE_MTIB_v06_INCLINED_ABOVE",
+  "parentId": "BALISE_MTIB_v06",
+  "subId": "INCLINED_ABOVE",
+  "label": "BALISE_MTIB_v06_INCLINED_ABOVE",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "point",
+    "anc": {
+      "x1": 56.0487,
+      "y1": 252.792,
+      "x2": 160.276,
+      "y2": 242.792
+    },
+    "tags": [
+      "tpe",
+      "acad"
+    ],
+    "attributeInit": [
+      {
+        "name": "label",
+        "value": "#LABEL#",
+        "boName": "label"
+      }
+    ],
+    "handles": []
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "svg",
+        "svg": "<?xml version='1.0' encoding='UTF-8' standalone='no'?>\n<svg baseProfile=\"tiny\" version=\"1.2\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 243\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" height=\"85.725mm\" width=\"56.4444mm\">\n <title>Object</title>\n <desc>SVG object</desc>\n <defs/>\n <g stroke-linejoin=\"bevel\" fill=\"none\" stroke=\"black\" stroke-linecap=\"square\" fill-rule=\"evenodd\" stroke-width=\"1\">\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(1,0,0,1,0,0)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\"/>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.998279,0,0,0.998279,55.9522,252.357)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\"/>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.998279,0,0,0.998279,55.9522,252.357)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\">\n   <polyline fill=\"none\" points=\"-35,-50 35,-50 \" vector-effect=\"non-scaling-stroke\"/>\n  </g>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.998279,0,0,0.998279,55.9522,252.357)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\"/>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.998279,0,0,0.998279,55.9522,252.357)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\"/>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.998279,0,0,0.998279,55.9522,252.357)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\">\n   <polyline fill=\"none\" points=\"35,-50 35,-10 \" vector-effect=\"non-scaling-stroke\"/>\n  </g>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.998279,0,0,0.998279,55.9522,252.357)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\"/>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.998279,0,0,0.998279,55.9522,252.357)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\"/>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.998279,0,0,0.998279,55.9522,252.357)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\">\n   <polyline fill=\"none\" points=\"35,-10 -35,-10 \" vector-effect=\"non-scaling-stroke\"/>\n  </g>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.998279,0,0,0.998279,55.9522,252.357)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\"/>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.998279,0,0,0.998279,55.9522,252.357)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\"/>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.998279,0,0,0.998279,55.9522,252.357)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\">\n   <polyline fill=\"none\" points=\"-35,-10 -35,-50 \" vector-effect=\"non-scaling-stroke\"/>\n  </g>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.998279,0,0,0.998279,55.9522,252.357)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\"/>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.998279,0,0,0.998279,28.4996,182.477)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\"/>\n  <g font-size=\"35\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"Arial Unicode MS\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.421891,-0.904748,0.904748,0.421891,28.4996,182.477)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\"/>\n  <g font-size=\"35\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"Arial Unicode MS\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.421891,-0.904748,0.904748,0.421891,28.4996,182.477)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\">\n   <text xml:space=\"preserve\" font-size=\"35\" fill=\"#000000\" font-family=\"Arial Unicode MS\" font-weight=\"400\" x=\"0\" stroke=\"none\" fill-opacity=\"1\" font-style=\"normal\" y=\"5.5\">#NAME#</text>\n  </g>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.998279,0,0,0.998279,28.4996,182.477)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\"/>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.998279,0,0,0.998279,28.4996,182.477)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\"/>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.998279,0,0,0.998279,83.4049,182.477)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\"/>\n  <g font-size=\"35\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"Arial Unicode MS\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.421891,-0.904748,0.904748,0.421891,83.4049,182.477)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\"/>\n  <g font-size=\"35\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"Arial Unicode MS\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.421891,-0.904748,0.904748,0.421891,83.4049,182.477)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\">\n   <text xml:space=\"preserve\" font-size=\"35\" fill=\"#000000\" font-family=\"Arial Unicode MS\" font-weight=\"400\" x=\"0\" stroke=\"none\" fill-opacity=\"1\" font-style=\"normal\" y=\"5.5\">#KP#</text>\n  </g>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.998279,0,0,0.998279,83.4049,182.477)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\"/>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(0.998279,0,0,0.998279,83.4049,182.477)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\"/>\n  <g font-size=\"8.25\" stroke-linejoin=\"bevel\" fill=\"none\" font-family=\"MS Shell Dlg 2\" font-weight=\"400\" stroke=\"#000000\" transform=\"matrix(1,0,0,1,0,0)\" stroke-linecap=\"square\" stroke-width=\"1\" font-style=\"normal\" stroke-opacity=\"1\"/>\n </g>\n</svg>\n",
+        "style": "",
+        "mapping": []
+      }
+    ]
+  },
+  "linearInfo": {
+    "INSERTION_POINT_Y": 252.792,
+    "HEIGHT": 40,
+    "OFFSET1": -50,
+    "OFFSET2": -10
+  }
+}

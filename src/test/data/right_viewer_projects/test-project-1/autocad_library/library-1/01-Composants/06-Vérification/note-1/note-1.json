@@ -1,0 +1,126 @@
+{
+  "id": "note-1",
+  "label": "Note",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "rectangle",
+    "attributeInit": [
+      {
+        "name": "label",
+        "value": "..."
+      },
+      {
+        "name": "labelX",
+        "value": 10
+      },
+      {
+        "name": "labelY",
+        "value": 20
+      },
+      {
+        "name": "width",
+        "value": 120
+      },
+      {
+        "name": "height",
+        "value": 80
+      },
+      {
+        "name": "rx",
+        "value": "0"
+      },
+      {
+        "name": "ry",
+        "value": "0"
+      },
+      {
+        "name": "color",
+        "value": "#080"
+      },
+      {
+        "name": "isNoteCollapsed",
+        "value": true
+      },
+      {
+        "name": "linkX",
+        "value": 0
+      },
+      {
+        "name": "linkY",
+        "value": 40
+      }
+    ],
+    "handles": [
+      {
+        "type": "mapping-handle",
+        "xMapping": "labelX",
+        "yMapping": "labelY"
+      },
+      {
+        "type": "toggle-handle",
+        "mapping": "isNoteCollapsed"
+      },
+      {
+        "type": "link-handle",
+        "xMapping": "linkX",
+        "yMapping": "linkY"
+      }
+    ]
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 100,
+        "height": 50,
+        "style": "stroke-width:1;fill:none;",
+        "mapping": [
+          {
+            "name": "width",
+            "parentName": "width"
+          },
+          {
+            "name": "height",
+            "parentName": "height"
+          },
+          {
+            "name": "rx",
+            "parentName": "rx"
+          },
+          {
+            "name": "ry",
+            "parentName": "ry"
+          },
+          {
+            "name": "style",
+            "parentName": "color",
+            "format": "stroke-width:2;fill:#VALUE#;opacity:0.6"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "text": "Note",
+        "style": "",
+        "mapping": [
+          {
+            "name": "text",
+            "parentName": "label"
+          },
+          {
+            "name": "x",
+            "parentName": "labelX"
+          },
+          {
+            "name": "y",
+            "parentName": "labelY"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "id": "03-Règles",
+  "label": "Règles",
+  "type": "library-folder",
+  "content": "rules",
+  "isCategory": true
+}

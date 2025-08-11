@@ -1,0 +1,30 @@
+{
+  "id": "path-1",
+  "label": "Path",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "path",
+    "attributeInit": [
+      {
+        "name": "d",
+        "value": "M0 0 h100 0 Z"
+      }
+    ]
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "path",
+        "static": true,
+        "d": "M0 0 h100 0 Z",
+        "style": "stroke-width:2;fill:none;",
+        "mapping": [
+          {
+            "name": "d",
+            "parentName": "d"
+          }
+        ]
+      }
+    ]
+  }
+}

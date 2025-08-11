@@ -1,0 +1,51 @@
+{
+  "id": "circle-1",
+  "label": "Cercle",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "rectangle",
+    "attributeInit": [
+      {
+        "name": "r",
+        "value": "20"
+      },
+      {
+        "name": "fill",
+        "value": "#f00"
+      },
+      {
+        "name": "stroke",
+        "value": "#000"
+      },
+      {
+        "name": "strokeWidth",
+        "value": "1"
+      }
+    ]
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "circle",
+        "cx": 0,
+        "cy": 0,
+        "r": 20,
+        "style": "stroke-width:1;fill:rgb(0,0,200)",
+        "mapping": [
+          {
+            "name": "r",
+            "parentName": "r"
+          },
+          {
+            "name": "strokeWidth",
+            "parentName": "strokeWidth"
+          },
+          {
+            "name": "stroke",
+            "parentName": "stroke"
+          }
+        ]
+      }
+    ]
+  }
+}

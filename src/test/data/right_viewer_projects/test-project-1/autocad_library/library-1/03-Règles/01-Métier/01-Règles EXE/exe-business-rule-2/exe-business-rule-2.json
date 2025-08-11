@@ -1,0 +1,7 @@
+{
+  "id": "exe-business-rule-2",
+  "type": "rule-prototype",
+  "label": "Instanciation des interfaces campagnes sélectionnées",
+  "description": "Instanciation des interfaces campagnes sélectionnées",
+  "controlerData": {}
+}

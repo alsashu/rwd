@@ -1,0 +1,65 @@
+{
+  "id": "sens-voie-1",
+  "label": "Sens voie",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "point",
+    "tags": [
+      "voie"
+    ],
+    "attributeInit": [
+      {
+        "name": "label",
+        "value": "#LABEL#",
+        "boName": "label"
+      },
+      {
+        "name": "tx",
+        "value": "-20"
+      },
+      {
+        "name": "ty",
+        "value": "-15"
+      },
+      {
+        "name": "tscale",
+        "value": "1.2"
+      }
+    ]
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "path",
+        "d": "M-50 -10 l-10 10 l10 10 M+50 -10 l+10 10 l-10 10",
+        "style": "stroke-width:1;fill:none;"
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "text": "#NAME#",
+        "style": "",
+        "scale": 1,
+        "mapping": [
+          {
+            "name": "text",
+            "parentName": "label"
+          },
+          {
+            "name": "x",
+            "parentName": "tx"
+          },
+          {
+            "name": "y",
+            "parentName": "ty"
+          },
+          {
+            "name": "scale",
+            "parentName": "tscale"
+          }
+        ]
+      }
+    ]
+  }
+}

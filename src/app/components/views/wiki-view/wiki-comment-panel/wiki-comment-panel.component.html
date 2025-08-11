@@ -1,0 +1,31 @@
+<div style="display: flex">
+    <h2 style="margin: 0">Comments</h2>
+</div>
+<div class="main-panel">
+    <div class="comment-height">
+        <div class="container" *ngFor="let comment of commenList; let i = index" [ngClass]="{ darker: i % 2 !== 0 }">
+            <p [innerHTML]="comment.comment"></p>
+            <span class="time-left">{{ comment.username }} {{ comment.timestamp | date : "dd-MM-yyyy" }}
+                {{ comment.timestamp | date : "HH:mm:ss" }}</span>
+            <div *ngIf="currentUser === comment.username || (currentUser === 'admin' && role === 'admin')"
+                class="button-group position-absolute bottom-0 end-0">
+                <button class="btn btn-sm btn-outline-primary me-2"
+                    (click)="getWikiCommentById(comment.comment_id, comment.username)">
+                    <fa-icon icon="edit"></fa-icon>
+                </button>
+                <button class="btn btn-sm btn-outline-danger" (click)="deleteWikiComment(comment.comment_id)">
+                    <fa-icon icon="trash"></fa-icon>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div #summernote></div>
+    <div class="d-flex justify-content-center add-margin">
+        <button class="btn btn-primary" (click)="saveWikiComment()" *ngIf="!this.isEditMode">
+            Add Comment <fa-icon icon="paper-plane"></fa-icon>
+        </button>
+        <button class="btn btn-primary" (click)="editWikiComment()" *ngIf="this.isEditMode">
+            Update Comment <fa-icon icon="edit"></fa-icon>
+        </button>
+    </div>
+</div>

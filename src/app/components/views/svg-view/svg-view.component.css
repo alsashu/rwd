@@ -1,0 +1,32 @@
+:host {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.as-split-area {
+  overflow-x: auto;
+}
+
+.right-panel {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  /* width: 100%; */
+  width: 400px;
+  /* height: 100%; */
+  /* overflow: auto; */
+}
+
+/* Logical Group Highlighting Styles */
+.logical-group-highlighted {
+  transition: all 0.3s ease;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.logical-group-highlighted:hover {
+  filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.5));
+  transform: scale(1.02);
+}

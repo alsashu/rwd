@@ -1,0 +1,56 @@
+{
+  "id": "voie-bezier-1",
+  "label": "Voie courbe",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "path",
+    "tags": [
+      "voie"
+    ],
+    "attributeInit": [
+      {
+        "name": "d",
+        "value": "M0 0 C 100 0, 100 -50, 200 -50 C 300 -50, 300 0, 400 0"
+      },
+      {
+        "name": "status",
+        "value": "none",
+        "boName": "status"
+      }
+    ]
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "path",
+        "static": true,
+        "d": "M0 0 C 100 0, 100 -50, 200 -50 C 300 -50, 300 0, 400 0",
+        "style": "stroke-width:4;fill:none;",
+        "mapping": [
+          {
+            "name": "d",
+            "parentName": "d"
+          },
+          {
+            "name": "style",
+            "parentName": "status",
+            "values": [
+              {
+                "parentValue": "none",
+                "value": "stroke-width:4;fill:none;"
+              },
+              {
+                "parentValue": "red",
+                "value": "stroke-width:4;fill:none;stroke:red;"
+              },
+              {
+                "parentValue": "green",
+                "value": "stroke-width:4;fill:none;stroke:#0d0;"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

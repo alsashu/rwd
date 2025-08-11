@@ -1,0 +1,44 @@
+{
+  "id": "SYSTEMBORDER_v02_HORIZONTAL_ABOVE",
+  "parentId": "SYSTEMBORDER_v02",
+  "subId": "HORIZONTAL_ABOVE",
+  "label": "SYSTEMBORDER_v02_HORIZONTAL_ABOVE",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "point",
+    "anc": {
+      "x1": 93.5,
+      "y1": 133.313,
+      "x2": 187,
+      "y2": 145.125
+    },
+    "tags": [
+      "tpe",
+      "acad"
+    ],
+    "attributeInit": [
+      {
+        "name": "label",
+        "value": "#LABEL#",
+        "boName": "label"
+      }
+    ],
+    "handles": []
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "svg",
+        "svg": "<?xml version='1.0' encoding='UTF-8' standalone='no'?>\n<svg height=\"51.1528mm\" viewBox=\"0 0 187 145\" baseProfile=\"tiny\" version=\"1.2\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"65.9694mm\">\n <title>Object</title>\n <desc>SVG object</desc>\n <defs/>\n <g stroke-linejoin=\"bevel\" stroke=\"black\" stroke-linecap=\"square\" fill-rule=\"evenodd\" fill=\"none\" stroke-width=\"1\">\n  <g stroke-linejoin=\"bevel\" font-family=\"MS Shell Dlg 2\" font-size=\"8.25\" stroke=\"#000000\" stroke-linecap=\"square\" stroke-opacity=\"1\" font-style=\"normal\" fill=\"none\" transform=\"matrix(1,0,0,1,0,0)\" font-weight=\"400\" stroke-width=\"1\"/>\n  <g stroke-linejoin=\"bevel\" font-family=\"MS Shell Dlg 2\" font-size=\"8.25\" stroke=\"#000000\" stroke-linecap=\"square\" stroke-opacity=\"1\" font-style=\"normal\" fill=\"none\" transform=\"matrix(0.999139,0,0,0.999139,93.4195,133.198)\" font-weight=\"400\" stroke-width=\"1\"/>\n  <g stroke-linejoin=\"bevel\" font-family=\"MS Shell Dlg 2\" font-size=\"8.25\" stroke=\"#000000\" stroke-linecap=\"square\" stroke-opacity=\"1\" font-style=\"normal\" fill=\"none\" transform=\"matrix(0.999139,0,0,0.999139,93.4195,133.198)\" font-weight=\"400\" stroke-width=\"1\">\n   <path vector-effect=\"non-scaling-stroke\" d=\"M-11.8125,11.8125 L11.8125,11.8125 L11.8125,-11.8125 L-11.8125,-11.8125 L-11.8125,11.8125\" fill-rule=\"evenodd\"/>\n  </g>\n  <g stroke-linejoin=\"bevel\" font-family=\"MS Shell Dlg 2\" font-size=\"8.25\" stroke=\"#000000\" stroke-linecap=\"square\" stroke-opacity=\"1\" font-style=\"normal\" fill=\"none\" transform=\"matrix(0.999139,0,0,0.999139,93.4195,133.198)\" font-weight=\"400\" stroke-width=\"1\"/>\n  <g stroke-linejoin=\"bevel\" font-family=\"MS Shell Dlg 2\" font-size=\"8.25\" stroke=\"#000000\" stroke-linecap=\"square\" stroke-opacity=\"1\" font-style=\"normal\" fill=\"none\" transform=\"matrix(0.999139,0,0,0.999139,93.4195,133.198)\" font-weight=\"400\" stroke-width=\"1\"/>\n  <g stroke-linejoin=\"bevel\" font-family=\"MS Shell Dlg 2\" font-size=\"8.25\" stroke=\"#00ffff\" stroke-linecap=\"square\" stroke-opacity=\"1\" font-style=\"normal\" fill=\"#00ffff\" transform=\"matrix(0.999139,0,0,0.999139,93.4195,133.198)\" font-weight=\"400\" fill-opacity=\"1\" stroke-width=\"1\">\n   <path vector-effect=\"non-scaling-stroke\" d=\"M11.8125,-11.8125 L-11.8125,-11.8125 L-11.8125,11.8125 L11.8125,11.8125 L11.8125,-11.8125\" fill-rule=\"evenodd\"/>\n  </g>\n  <g stroke-linejoin=\"bevel\" font-family=\"MS Shell Dlg 2\" font-size=\"8.25\" stroke=\"#000000\" stroke-linecap=\"square\" stroke-opacity=\"1\" font-style=\"normal\" fill=\"none\" transform=\"matrix(0.999139,0,0,0.999139,93.4195,133.198)\" font-weight=\"400\" stroke-width=\"1\"/>\n  <g stroke-linejoin=\"bevel\" font-family=\"MS Shell Dlg 2\" font-size=\"8.25\" stroke=\"#000000\" stroke-linecap=\"square\" stroke-opacity=\"1\" font-style=\"normal\" fill=\"none\" transform=\"matrix(0.999139,0,0,0.999139,93.4195,31.4729)\" font-weight=\"400\" stroke-width=\"1\"/>\n  <g stroke-linejoin=\"bevel\" font-family=\"Arial Unicode MS\" font-size=\"35\" stroke=\"#000000\" stroke-linecap=\"square\" stroke-opacity=\"1\" font-style=\"normal\" fill=\"none\" transform=\"matrix(0.999139,0,0,0.999139,93.4195,31.4729)\" font-weight=\"400\" stroke-width=\"1\"/>\n  <g stroke-linejoin=\"bevel\" font-family=\"Arial Unicode MS\" font-size=\"35\" stroke=\"#000000\" stroke-linecap=\"square\" stroke-opacity=\"1\" font-style=\"normal\" fill=\"none\" transform=\"matrix(0.999139,0,0,0.999139,93.4195,31.4729)\" font-weight=\"400\" stroke-width=\"1\">\n   <text xml:space=\"preserve\" font-family=\"Arial Unicode MS\" font-size=\"35\" stroke=\"none\" font-style=\"normal\" y=\"5.5\" text-anchor=\"middle\" fill=\"#000000\" x=\"0\" font-weight=\"400\" fill-opacity=\"1\">#NAME#</text>\n  </g>\n  <g font-family=\"Arial Unicode MS\" font-size=\"35\" stroke=\"none\" font-style=\"normal\" fill=\"none\" transform=\"matrix(0.999139,0,0,0.999139,93.4195,31.4729)\" font-weight=\"400\"/>\n  <g stroke-linejoin=\"bevel\" font-family=\"MS Shell Dlg 2\" font-size=\"8.25\" stroke=\"#000000\" stroke-linecap=\"square\" stroke-opacity=\"1\" font-style=\"normal\" fill=\"none\" transform=\"matrix(0.999139,0,0,0.999139,93.4195,31.4729)\" font-weight=\"400\" stroke-width=\"1\"/>\n  <g stroke-linejoin=\"bevel\" font-family=\"MS Shell Dlg 2\" font-size=\"8.25\" stroke=\"#000000\" stroke-linecap=\"square\" stroke-opacity=\"1\" font-style=\"normal\" fill=\"none\" transform=\"matrix(0.999139,0,0,0.999139,93.4195,31.4729)\" font-weight=\"400\" stroke-width=\"1\"/>\n  <g stroke-linejoin=\"bevel\" font-family=\"MS Shell Dlg 2\" font-size=\"8.25\" stroke=\"#000000\" stroke-linecap=\"square\" stroke-opacity=\"1\" font-style=\"normal\" fill=\"none\" transform=\"matrix(0.999139,0,0,0.999139,93.4195,86.4255)\" font-weight=\"400\" stroke-width=\"1\"/>\n  <g stroke-linejoin=\"bevel\" font-family=\"Arial Unicode MS\" font-size=\"35\" stroke=\"#000000\" stroke-linecap=\"square\" stroke-opacity=\"1\" font-style=\"normal\" fill=\"none\" transform=\"matrix(0.999139,0,0,0.999139,93.4195,86.4255)\" font-weight=\"400\" stroke-width=\"1\"/>\n  <g stroke-linejoin=\"bevel\" font-family=\"Arial Unicode MS\" font-size=\"35\" stroke=\"#000000\" stroke-linecap=\"square\" stroke-opacity=\"1\" font-style=\"normal\" fill=\"none\" transform=\"matrix(0.999139,0,0,0.999139,93.4195,86.4255)\" font-weight=\"400\" stroke-width=\"1\">\n   <text xml:space=\"preserve\" font-family=\"Arial Unicode MS\" font-size=\"35\" stroke=\"none\" font-style=\"normal\" y=\"5.5\" text-anchor=\"middle\" fill=\"#000000\" x=\"0\" font-weight=\"400\" fill-opacity=\"1\">#KP#</text>\n  </g>\n  <g font-family=\"Arial Unicode MS\" font-size=\"35\" stroke=\"none\" font-style=\"normal\" fill=\"none\" transform=\"matrix(0.999139,0,0,0.999139,93.4195,86.4255)\" font-weight=\"400\"/>\n  <g stroke-linejoin=\"bevel\" font-family=\"MS Shell Dlg 2\" font-size=\"8.25\" stroke=\"#000000\" stroke-linecap=\"square\" stroke-opacity=\"1\" font-style=\"normal\" fill=\"none\" transform=\"matrix(0.999139,0,0,0.999139,93.4195,86.4255)\" font-weight=\"400\" stroke-width=\"1\"/>\n  <g stroke-linejoin=\"bevel\" font-family=\"MS Shell Dlg 2\" font-size=\"8.25\" stroke=\"#000000\" stroke-linecap=\"square\" stroke-opacity=\"1\" font-style=\"normal\" fill=\"none\" transform=\"matrix(0.999139,0,0,0.999139,93.4195,86.4255)\" font-weight=\"400\" stroke-width=\"1\"/>\n  <g stroke-linejoin=\"bevel\" font-family=\"MS Shell Dlg 2\" font-size=\"8.25\" stroke=\"#000000\" stroke-linecap=\"square\" stroke-opacity=\"1\" font-style=\"normal\" fill=\"none\" transform=\"matrix(1,0,0,1,0,0)\" font-weight=\"400\" stroke-width=\"1\"/>\n </g>\n</svg>\n",
+        "style": "",
+        "mapping": []
+      }
+    ]
+  },
+  "linearInfo": {
+    "INSERTION_POINT_Y": 133.313,
+    "HEIGHT": 23.625,
+    "OFFSET1": 11.8125,
+    "OFFSET2": -11.8125
+  }
+}

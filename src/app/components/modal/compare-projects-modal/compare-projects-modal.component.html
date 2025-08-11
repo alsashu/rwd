@@ -1,0 +1,170 @@
+<div class="modal-header">
+  <div class="modal-title" id="modal-text-title">{{ title }}</div>
+  <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <form class="px-2">
+    <div class="row">
+      <div class="column">
+        <div class="form-group">
+          <label i18n="@@compare.projects.modal.projects.filter" for="projectFilter">Filter</label>
+          <input
+            type="text"
+            class="form-control"
+            id="projectFilter"
+            placeholder=""
+            [(ngModel)]="formData.projectFilter"
+            name="projectFilter"
+          />
+        </div>
+
+        <div class="form-group">
+          <label i18n="@@compare.projects.modal.projects" for="selectedProject">Projects</label>
+
+          <div class="list-group project-list">
+            <div
+              *ngFor="let projectEntry of getProjectsList()"
+              [ngClass]="{
+                'list-group-item': true,
+                'list-group-item-action': true,
+                active: formData.selectedProjectId === projectEntry.id
+              }"
+              (click)="formData.selectedProjectId = projectEntry.id"
+              (dblclick)="onAddBtnClick()"
+            >
+              {{ projectEntry.label }}
+            </div>
+          </div>
+          <!-- 
+          <select
+            class="custom-select"
+            size="10"
+            name="selectedProject"
+            [(ngModel)]="formData.selectedProjectId"
+            ngbAutoFocus
+          >
+            <option
+              *ngFor="let projectEntry of getProjectsList()"
+              [value]="projectEntry.id"
+              (dblclick)="onAddBtnClick()"
+            >
+              {{ projectEntry.label }}
+            </option>
+          </select> -->
+        </div>
+      </div>
+
+      <div class="col-btns">
+        <p>
+          <button
+            type="button"
+            class="btn btn-outline-dark w4em"
+            [disabled]="
+              !(
+                formData.selectedProjectId !== '' &&
+                formData.compareProjectsList.length < formData.maxCompareProjectCount
+              )
+            "
+            (click)="onAddBtnClick()"
+          >
+            <fa-icon icon="angle-double-right"></fa-icon>
+          </button>
+        </p>
+        <p>
+          <button
+            type="button"
+            class="btn btn-outline-dark w4em"
+            [disabled]="!(formData.selectedCompareProjectId !== '')"
+            (click)="onRemoveBtnClick()"
+          >
+            <fa-icon icon="angle-double-left"></fa-icon>
+          </button>
+        </p>
+        <p>
+          <button
+            type="button"
+            class="btn btn-outline-dark w4em"
+            [disabled]="onUpBtnDisabled()"
+            (click)="onUpBtnClick()"
+          >
+            <fa-icon icon="angle-up"></fa-icon>
+          </button>
+        </p>
+        <p>
+          <button
+            type="button"
+            class="btn btn-outline-dark w4em"
+            [disabled]="onDownBtnDisabled()"
+            (click)="onDownBtnClick()"
+          >
+            <fa-icon icon="angle-down"></fa-icon>
+          </button>
+        </p>
+      </div>
+
+      <div class="column">
+        <div class="form-group col2">
+          <label i18n="@@compare.projects.modal.compare.projects" for="selectedCompareProject"
+            >Compare projects with</label
+          >&nbsp;{{ formData.selectedProjectLabel
+          }}<label i18n="@@compare.projects.modal.compare.projects.order">in following order</label>&nbsp;<fa-icon
+            icon="arrow-down"
+          ></fa-icon>
+
+          <div class="list-group project-list">
+            <div
+              *ngFor="let projectEntry of formData.compareProjectsList"
+              [ngClass]="{
+                'list-group-item': true,
+                'list-group-item-action': true,
+                active: formData.selectedCompareProjectId === projectEntry.id
+              }"
+              (click)="formData.selectedCompareProjectId = projectEntry.id"
+              (dblclick)="onRemoveBtnClick()"
+            >
+              {{ projectEntry.label }}
+            </div>
+          </div>
+          <!-- 
+          <select
+            class="custom-select"
+            size="10"
+            name="selectedCompareProject"
+            [(ngModel)]="formData.selectedCompareProjectId"
+          >
+            <option
+              *ngFor="let projectEntry of formData.compareProjectsList"
+              [value]="projectEntry.id"
+              (dblclick)="onRemoveBtnClick()"
+            >
+              {{ projectEntry.label }}
+            </option>
+          </select> -->
+        </div>
+      </div>
+    </div>
+    <small
+      *ngIf="formData.compareProjectsList.length >= formData.maxCompareProjectCount"
+      i18n="@@compare.projects.modal.max.warning"
+      class="red-color"
+      >The maximum number of supported projects has been reached</small
+    >
+  </form>
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-outline-dark" [disabled]="buttonsDisabled" (click)="onOKBtnClick()">
+    {{ btnOKLabel }}
+  </button>
+  <button
+    type="button"
+    i18n="@@git.modal.cancel"
+    class="btn btn-outline-dark"
+    [disabled]="buttonsDisabled"
+    (click)="activeModal.dismiss('cancel click')"
+  >
+    Cancel
+  </button>
+</div>

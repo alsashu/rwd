@@ -1,0 +1,33 @@
+{
+  "id": "echelle-pk-script-1",
+  "label": "Echelle PK",
+  "type": "library-prototype",
+  "controlerData": {
+    "selType": "point",
+    "attributeInit": [
+      {
+        "name": "width",
+        "value": "1000"
+      },
+      {
+        "name": "pk1",
+        "value": "0"
+      },
+      {
+        "name": "pk2",
+        "value": "2"
+      }
+    ]
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "text": "Echelle PK",
+        "style": ""
+      }
+    ]
+  }
+}

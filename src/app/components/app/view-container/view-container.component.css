@@ -1,0 +1,65 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.view-top-bar {
+  height: calc(var(--title-bar-height) - 0px);
+  background: var(--title-bar-back-background);
+}
+
+.title {
+  display: inline-block;
+  font-size: 0.95em;
+  cursor: pointer;
+  height: calc(var(--title-bar-height) - 0px);
+  color: var(--title-color);
+  background: var(--title-background);
+
+  padding: 1px 10px 0px 10px;
+  margin: 0px 0px 0px 3px;
+}
+
+.title-tab {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  margin-top: 3px;
+  height: calc(var(--title-bar-height) - 3px);
+}
+
+.title-bar {
+  width: 100%;
+  margin: 0px;
+  padding-top: 5px;
+  color: var(--title-selected-color);
+  background: var(--title-panel-bar-background);
+}
+
+.title-selected {
+  color: var(--title-selected-color);
+  background: var(--title-selected-background);
+  border-color: var(--title-selected-background);
+}
+
+.view-container {
+  height: calc(100% - var(--title-bar-height) - 2px);
+  overflow: hidden;
+}
+
+.btn-close {
+  color: #999;
+  margin-left: 5px;
+  cursor: pointer;
+  /* TODO bootstrap */
+  font-size: 0.4rem;
+  margin-top: 4px;
+}
+
+.btn-right {
+  padding-right: 10px;
+  float: right;
+}

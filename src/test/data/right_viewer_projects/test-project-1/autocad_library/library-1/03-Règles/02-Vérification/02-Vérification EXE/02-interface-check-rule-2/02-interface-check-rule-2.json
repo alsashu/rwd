@@ -1,0 +1,7 @@
+{
+  "id": "02-interface-check-rule-2",
+  "label": "Interfaces campagne",
+  "type": "rule-prototype",
+  "description": "Règle de vérification des interfaces campagnes signal",
+  "controlerData": {}
+}

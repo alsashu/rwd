@@ -1,0 +1,85 @@
+{
+  "id": "signal-1-SE",
+  "label": "Signal SE",
+  "type": "library-prototype",
+  "controlerData": {
+    "tags": [
+      "signal",
+      "objet-voie"
+    ],
+    "attributeInit": [
+      {
+        "name": "label",
+        "value": "#LABEL#",
+        "boName": "label"
+      },
+      {
+        "name": "labelX",
+        "value": "10"
+      },
+      {
+        "name": "labelY",
+        "value": "45"
+      },
+      {
+        "name": "status",
+        "value": "none",
+        "boName": "status"
+      },
+      {
+        "name": "style",
+        "value": "stroke-width:2;fill:none;"
+      },
+      {
+        "name": "rayStatus",
+        "value": "same",
+        "boName": "changeStatus"
+      }
+    ],
+    "handles": [
+      {
+        "type": "mapping-handle",
+        "xMapping": "labelX",
+        "yMapping": "labelY"
+      }
+    ]
+  },
+  "svgObject": {
+    "svgObjects": [
+      {
+        "type": "polyline",
+        "static": true,
+        "points": "0,0 0,20 20,20",
+        "style": "stroke-width:2;fill:none;"
+      },
+      {
+        "type": "polygon",
+        "static": true,
+        "points": "20,25 50,25 50,15 20,15",
+        "style": "stroke-width:2;fill:none;"
+      },
+      {
+        "type": "text",
+        "static": true,
+        "x": 10,
+        "y": 45,
+        "text": "#NAME#",
+        "style": "",
+        "mapping": [
+          {
+            "name": "text",
+            "parentName": "label"
+          },
+          {
+            "name": "x",
+            "parentName": "labelX"
+          },
+          {
+            "name": "y",
+            "parentName": "labelY"
+          }
+        ]
+      }
+    ]
+  }
+}

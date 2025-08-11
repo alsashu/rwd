@@ -1,0 +1,272 @@
+<!-- Primitive template -->
+<ng-template #svgPrimitiveObjectTemplate 
+  let-svgObject="svgObject" 
+  let-svgObjectType="svgObjectType"
+  let-parentSvgObject="parentSvgObject" 
+  let-params="params" 
+  >
+  <svg:g *ngIf="svgObject && !(svgObject.isVisible === false)"
+    (mousedown)="diagramController.eventController.onPrimitiveSvgObjectMouseDown($event, svgObject, parentSvgObject)"
+  >
+  <!-- (contextmenu)="getEventController().onPrimitiveSvgObjectRightClick($event, svgObject, parentSvgObject)" -->
+
+    <svg:use *ngIf="svgObjectType === 'use'"
+      [attr.xlink:href]="svgObject.href"
+      [attr.x]="svgObject.x"
+      [attr.y]="svgObject.y"
+      [attr.style]="svgObject.safeStyle"
+      [attr.opacity]="svgObject.opacity" 
+    />
+
+    <svg:g *ngIf="svgObjectType === 'svg'"
+      [attr.x]="svgObject.x"
+      [attr.y]="svgObject.y"
+      [attr.transform]="svgObject.transform"
+      [attr.style]="svgObject.safeStyle"
+      [attr.opacity]="svgObject.opacity" 
+      [innerHtml]="svgObject.safeSvg"
+    />
+
+    <svg:line *ngIf="svgObjectType === 'line'"
+      [attr.x1]="svgObject.x1"
+      [attr.y1]="svgObject.y1"
+      [attr.x2]="svgObject.x2"
+      [attr.y2]="svgObject.y2"
+      [attr.style]="svgObject.safeStyle"
+      [attr.opacity]="svgObject.opacity" 
+    />
+
+    <svg:rect *ngIf="svgObjectType === 'rect'"
+      [attr.x]="svgObject.x"
+      [attr.y]="svgObject.y"
+      [attr.rx]="svgObject.rx"
+      [attr.ry]="svgObject.ry"
+      [attr.width]="svgObject.width"
+      [attr.height]="svgObject.height"
+      [attr.style]="svgObject.safeStyle"
+      [attr.opacity]="svgObject.opacity" 
+    />
+
+    <svg:circle *ngIf="svgObjectType === 'circle'"
+      [attr.cx]="svgObject.cx"
+      [attr.cy]="svgObject.cy"
+      [attr.r]="svgObject.r"
+      [attr.style]="svgObject.safeStyle"
+      [attr.opacity]="svgObject.opacity" 
+    />
+
+    <svg:ellipse *ngIf="svgObjectType === 'ellipse'"
+      [attr.cx]="svgObject.cx"
+      [attr.cy]="svgObject.cy"
+      [attr.rx]="svgObject.rx"
+      [attr.ry]="svgObject.ry"
+      [attr.style]="svgObject.safeStyle"
+      [attr.opacity]="svgObject.opacity" 
+    />
+
+    <svg:polygon *ngIf="svgObjectType === 'polygon'"
+      [attr.points]="svgObject.points"
+      [attr.class]="svgObject.class"
+      [attr.style]="svgObject.safeStyle"
+      [attr.opacity]="svgObject.opacity" 
+    />
+
+    <svg:polyline *ngIf="svgObjectType === 'polyline'"
+      [attr.points]="svgObject.points"
+      [attr.style]="svgObject.safeStyle"
+      [attr.opacity]="svgObject.opacity" 
+    />
+
+    <svg:path *ngIf="svgObjectType === 'path'"
+      [attr.d]="svgObject.d"
+      [attr.style]="svgObject.safeStyle"      
+      [attr.opacity]="svgObject.opacity" 
+    />
+
+    <!-- <svg:text *ngIf="svgObjectType === 'text' && diagramController.isSvgObjectVisible(svgObject)" -->
+    <svg:text *ngIf="svgObjectType === 'text'"
+      [attr.x]="svgObject.x"
+      [attr.y]="svgObject.y"
+      [attr.text-anchor]="svgObject.textAnchor"
+      [attr.transform]="svgObject.transform"
+      [attr.style]="svgObject.safeStyle"
+      [attr.opacity]="svgObject.opacity" 
+    >
+      {{svgObject.text}}
+    </svg:text>
+
+    <svg:image *ngIf="svgObjectType === 'image'"
+      [attr.x]="svgObject.x"
+      [attr.y]="svgObject.y"
+      [attr.rx]="svgObject.rx"
+      [attr.ry]="svgObject.ry"
+      [attr.width]="svgObject.width"
+      [attr.height]="svgObject.height"
+      [attr.style]="svgObject.safeStyle"
+      [attr.href]="svgObject.href"
+    />
+
+  </svg:g>
+</ng-template>
+
+<!-- Decoration svg objects/handles -->
+<ng-template #svgObjectDecorationTemplate 
+  let-svgObject="svgObject" 
+  let-parentSvgObject="parentSvgObject" 
+  let-params="params"
+  >
+  <svg:use *ngIf="svgObject.isAHandle"
+    [attr.xlink:href]="svgObject.href"
+    [attr.transform]="svgObject.transform"
+    [ngClass]="{
+      'handle': true, 
+      'selection-handle': svgObject.href === 'def-selection-handle' 
+    }"
+    (mousedown)="diagramController.eventController.onHandleMouseDown($event, svgObject, parentSvgObject)"
+    >
+
+  </svg:use>
+  <ng-container 
+    [ngTemplateOutlet]="svgPrimitiveObjectTemplate"
+    [ngTemplateOutletContext]="{ 
+      svgObject: svgObject, 
+      svgObjectType: svgObject.type,
+      parentSvgObject: parentSvgObject, 
+      params: params }"
+  >
+  </ng-container>
+</ng-template>
+
+<!-- Group template -->
+<ng-template #svgGroupObjectTemplate 
+  let-svgObject="svgObject" 
+  let-parentSvgObject="parentSvgObject" 
+  let-params="params"
+  >
+  <ng-template #libraryObjectTooltipTemplate>
+    <ng-container *ngIf="diagramController.getTooltipTemplate() else defaultTooltipTemplate"
+      [ngTemplateOutlet]="diagramController.getTooltipTemplate()"
+      [ngTemplateOutletContext]="{ svgObject: svgObject, diagramController: diagramController }"
+    >
+    </ng-container>
+    <ng-template #defaultTooltipTemplate>
+      <div [innerHtml]=diagramController.getDefautTooltipHtml(svgObject)></div>
+    </ng-template>
+  </ng-template>
+
+  <ng-container *ngIf="svgObject && !(svgObject.isVisible === false) && svgObject.svgObjects"> 
+
+    <!-- Objects display layer -->
+    <svg:g *ngIf="!params.isSelectionLayer"
+      [attr.transform]="svgObject.transform"
+      [ngClass]="{
+        'svg-object': true, 'svg-object-selected': svgObject.isSelected, 'svg-object-disabled': svgObject.isEnabled,
+        'svg-object-verif-ok': svgObject && svgObject.bo && svgObject.bo.metaData && svgObject.bo.metaData.verificationState === 'Verified OK', 
+        'svg-object-verif-nok': svgObject && svgObject.bo && svgObject.bo.metaData && svgObject.bo.metaData.verificationState === 'Verified NOK' 
+      }"
+      [ngbTooltip]="config.display.isTooltipVisible && svgObject && svgObject.type === 'library-object' ? libraryObjectTooltipTemplate: null" container="body"
+      #svgTooltip="ngbTooltip"
+      #t="ngbTooltip"
+      [openDelay]="300" 
+      (mousedown)="svgTooltip.close();diagramController.eventController.onGroupSvgObjectMouseDown($event, svgObject)"
+      (mouseup)="diagramController.eventController.onGroupSvgObjectMouseUp($event, svgObject)"
+      (contextmenu)="diagramController.eventController.onGroupSvgObjectRightClick($event, svgObject)"
+    >
+      <ng-container *ngFor="let childSvgObject of svgObject.svgObjects"
+        [ngTemplateOutlet]="svgObjectTemplate"
+        [ngTemplateOutletContext]="{ svgObject: childSvgObject, params: params }"
+      >
+      </ng-container>
+    </svg:g>
+    
+
+    <!-- Selection layer -->
+    <svg:g *ngIf="params.isSelectionLayer"
+      [attr.transform]="svgObject.transform"
+    >
+      <ng-container *ngFor="let childSvgObject of svgObject.svgObjects"
+        [ngTemplateOutlet]="svgObjectTemplate"
+        [ngTemplateOutletContext]="{ svgObject: childSvgObject, parentSvgObject: svgObject, params: params }"
+      >
+      </ng-container>
+
+      <ng-container *ngIf="svgObject.decorationSvgObjects">
+        <ng-container *ngFor="let decorationSvgObject of svgObject.decorationSvgObjects"
+          [ngTemplateOutlet]="svgObjectDecorationTemplate"
+          [ngTemplateOutletContext]="{ svgObject: decorationSvgObject, parentSvgObject: svgObject, params: params }"
+        >
+        </ng-container>        
+      </ng-container>
+
+      <ng-container *ngIf="svgObject.isSelected && svgObject.selectionDecorationSvgObjects">
+        <ng-container *ngFor="let decorationSvgObject of svgObject.selectionDecorationSvgObjects"
+          [ngTemplateOutlet]="svgObjectDecorationTemplate"
+          [ngTemplateOutletContext]="{ svgObject: decorationSvgObject, parentSvgObject: svgObject, params: params }"
+        >
+        </ng-container>        
+      </ng-container>
+
+    </svg:g>
+  </ng-container>
+</ng-template>
+
+<!-- Object (group or primitive) template -->
+<ng-template #svgObjectTemplate 
+  let-svgObject="svgObject" 
+  let-parentSvgObject="parentSvgObject" 
+  let-params="params"
+  >
+  <ng-container *ngIf="svgObject.isAGroup else primitiveTemplate" 
+    [ngTemplateOutlet]="svgGroupObjectTemplate"
+    [ngTemplateOutletContext]="{ svgObject: svgObject, parentSvgObject: parentSvgObject, params: params }"
+  >
+  </ng-container>
+  <ng-template #primitiveTemplate>
+    <ng-container *ngIf="!params.isSelectionLayer"
+      [ngTemplateOutlet]="svgPrimitiveObjectTemplate"
+      [ngTemplateOutletContext]="{ 
+        svgObject: svgObject, 
+        svgObjectType: svgObject.type,
+        parentSvgObject: parentSvgObject, 
+        params: params }"
+    >
+    </ng-container>
+  </ng-template>
+</ng-template>
+
+<!-- svg -->
+<div #svgContainer class="svg-container">
+  <svg #svg 
+    class="main-svg focus-invisible"
+    tabindex="1" 
+    (focus)="setHasFocus(true)" 
+    (focusout)="setHasFocus(false)"
+    [attr.viewBox]="svgProperties.viewBox"
+    [attr.width]="svgProperties.width"
+    [attr.height]="svgProperties.height"
+    >
+    <!-- defs are defined for all diagrams in svg-def component -->
+
+    <!-- Background grid -->
+    <!-- [attr.x]="diagramController.diagramService.getOrgCoord().x" 
+    [attr.y]="diagramController.diagramService.getOrgCoord().y"  -->
+
+    <svg:rect *ngIf="config.grid.isVisible" 
+      [attr.x]="diagramController.getOrgCoord().x"
+      [attr.y]="diagramController.getOrgCoord().y" 
+      width="100%" height="100%" 
+      fill="url(#grid)"
+    />
+
+    <ng-container *ngFor="let layer of diagramController.diagramService.getLayers()">
+      <ng-container *ngFor="let svgObject of layer.getSvgObjects()"
+        [ngTemplateOutlet]="svgObjectTemplate"
+        [ngTemplateOutletContext]="{ svgObject: svgObject, parentSvgObject: null, params: { isSelectionLayer: layer.isSelectionLayer } }"
+      >
+      </ng-container> 
+    </ng-container>
+
+    <!-- Foreground rectangle selection tool -->
+    <svg:path class="selection-rect" *ngIf="config.selection.isVisible" [attr.d]="config.selection.path" />
+  </svg>
+</div>

@@ -1,0 +1,81 @@
+:host {
+  display: inherit;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  overflow: unset;
+}
+
+.rack-line {
+  padding-left: 0.5em;
+}
+
+.rack-line :hover {
+  color: #000;
+  background: #8882;
+}
+
+.rack-table {
+  table-layout: fixed;
+  width: 100%;
+  cursor: default;
+}
+
+.rack-table thead,
+tfoot,
+th {
+  color: #000;
+  background-color: #eee;
+  font-weight: normal;
+}
+
+.not-used-cell {
+  background-color: #eee;
+}
+
+.rack-table td,
+th {
+  width: 10em;
+  padding-left: 0.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #ddd;
+}
+
+.rack-table td:nth-child(1) {
+  width: 7em;
+}
+
+.rack-table td :hover {
+  color: #000;
+  background: #8882;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node :hover {
+  color: #000;
+  background: #8882;
+}
+
+.node-selected {
+  color: var(--node-active-color);
+  background: var(--node-active-background);
+}
+
+.verification-grey {
+  color: #fff;
+  background-color: #888;
+}
+
+.verification-ok {
+  color: #fff;
+  background-color: #070;
+}
+
+.verification-nok {
+  color: #fff;
+  background-color: #700;
+}

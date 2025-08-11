@@ -1,0 +1,571 @@
+{
+  "type": "environmentsettings",
+  "environmentsettings": {
+    "type": "environmentsettings",
+    "label": "environmentsettings",
+    "generalenvironment": {
+      "type": "generalenvironment",
+      "label": "generalenvironment",
+      "is_grid_enabled": {
+        "type": "is_grid_enabled",
+        "label": "is_grid_enabled"
+      },
+      "scene_width_square": {
+        "type": "scene_width_square",
+        "label": "scene_width_square"
+      },
+      "scene_height_square": {
+        "type": "scene_height_square",
+        "label": "scene_height_square"
+      },
+      "square_height": {
+        "type": "square_height",
+        "label": "square_height"
+      },
+      "square_width": {
+        "type": "square_width",
+        "label": "square_width"
+      },
+      "decimalConvention": {
+        "type": "decimalConvention",
+        "label": "decimalConvention"
+      },
+      "risingKP": {
+        "type": "risingKP",
+        "label": "risingKP"
+      },
+      "UPConvention": {
+        "type": "UPConvention",
+        "label": "UPConvention"
+      },
+      "switchConvention": {
+        "type": "switchConvention",
+        "label": "switchConvention"
+      },
+      "checksumGeneration": {
+        "type": "checksumGeneration",
+        "label": "checksumGeneration"
+      },
+      "JustificationActivated": {
+        "type": "JustificationActivated",
+        "label": "JustificationActivated"
+      },
+      "autoSaveFrequency": [],
+      "isExportNote": {
+        "type": "isExportNote",
+        "label": "isExportNote"
+      },
+      "isExportOrderById": {
+        "type": "isExportOrderById",
+        "label": "isExportOrderById"
+      },
+      "scaleGrid": [],
+      "useScale": {
+        "type": "useScale",
+        "label": "useScale"
+      },
+      "objectUnderCursorGridNumber": []
+    },
+    "objectcreationsettings": {
+      "type": "objectcreationsettings",
+      "label": "objectcreationsettings",
+      "MinId.Range": [],
+      "MaxId.Range": {
+        "type": "MaxId.Range",
+        "label": "MaxId.Range"
+      },
+      "idGenerationType": []
+    },
+    "trackplansettings": {
+      "type": "trackplansettings",
+      "label": "trackplansettings",
+      "padlock": {
+        "type": "padlock",
+        "label": "padlock"
+      },
+      "displayNamespaces": {
+        "type": "displayNamespaces",
+        "label": "displayNamespaces"
+      },
+      "forcingKPDisplay": {
+        "type": "forcingKPDisplay",
+        "label": "forcingKPDisplay"
+      },
+      "updateOnlyBox": {
+        "type": "updateOnlyBox",
+        "label": "updateOnlyBox"
+      },
+      "errorAtSave": {
+        "type": "errorAtSave",
+        "label": "errorAtSave"
+      },
+      "projectFontHeight": {
+        "type": "projectFontHeight",
+        "label": "projectFontHeight"
+      },
+      "dxfFontHeight": {
+        "type": "dxfFontHeight",
+        "label": "dxfFontHeight"
+      },
+      "dxfRatio": [],
+      "SVGMode": {
+        "type": "SVGMode",
+        "label": "SVGMode"
+      },
+      "AutocadMode": {
+        "type": "AutocadMode",
+        "label": "AutocadMode"
+      },
+      "projectFamily": {
+        "type": "projectFamily",
+        "label": "projectFamily"
+      }
+    },
+    "colorsettings": {
+      "type": "colorsettings",
+      "label": "colorsettings",
+      "designedColor": {
+        "type": "designedColor",
+        "label": "designedColor"
+      },
+      "draftColor": {
+        "type": "draftColor",
+        "label": "draftColor"
+      },
+      "verifiedOkColor": {
+        "type": "verifiedOkColor",
+        "label": "verifiedOkColor"
+      },
+      "verifiedNokColor": {
+        "type": "verifiedNokColor",
+        "label": "verifiedNokColor"
+      },
+      "missingColor": {
+        "type": "missingColor",
+        "label": "missingColor"
+      },
+      "diffAddedColor": {
+        "type": "diffAddedColor",
+        "label": "diffAddedColor"
+      },
+      "diffRemovedColor": {
+        "type": "diffRemovedColor",
+        "label": "diffRemovedColor"
+      },
+      "diffModifiedColor": {
+        "type": "diffModifiedColor",
+        "label": "diffModifiedColor"
+      },
+      "trackChangeColor": {
+        "type": "trackChangeColor",
+        "label": "trackChangeColor"
+      },
+      "graphicalChangeOnlyColor": {
+        "type": "graphicalChangeOnlyColor",
+        "label": "graphicalChangeOnlyColor"
+      }
+    },
+    "logsettings": [
+      {
+        "type": "maxLogDisplayed",
+        "label": "maxLogDisplayed"
+      }
+    ],
+    "ioMappingSettings": {
+      "type": "ioMappingSettings",
+      "label": "ioMappingSettings",
+      "remoteIOTypes": [
+        {
+          "type": "remoteIOType",
+          "label": "remoteIOType",
+          "rackOrder": "BottomToTop",
+          "nbSlots": "16",
+          "nbCells": "12",
+          "xmlType": "SMOC",
+          "id": "2cb8f47e-923f-443e-a623-09b512d4ef54"
+        },
+        {
+          "type": "remoteIOType",
+          "label": "remoteIOType",
+          "rackOrder": "BottomToTop",
+          "nbSlots": "16",
+          "nbCells": "12",
+          "xmlType": "24V",
+          "id": "8011c424-9d00-4bdb-b096-7fc562e0255b"
+        },
+        {
+          "type": "remoteIOType",
+          "label": "remoteIOType",
+          "rackOrder": "TopToBottom",
+          "nbSlots": "16",
+          "nbCells": "12",
+          "xmlType": "FAdC",
+          "id": "52b2b8af-2c47-44a5-af69-2056f4ea5a4f"
+        },
+        {
+          "type": "remoteIOType",
+          "label": "remoteIOType",
+          "rackOrder": "BottomToTop",
+          "nbSlots": "16",
+          "nbCells": "12",
+          "xmlType": "Step",
+          "id": "0a80b25b-8d8e-46a2-a818-c653211fa9a4"
+        }
+      ],
+      "boardTypes": [
+        {
+          "type": "boardType",
+          "label": "IM113",
+          "name": "IM113",
+          "slots": "1",
+          "fullSpan": "no",
+          "xmlType": "boardType",
+          "id": "920c14dd-315c-454a-b83b-8228a50991cb"
+        },
+        {
+          "type": "boardType",
+          "label": "SM5",
+          "name": "SM5",
+          "slots": "1",
+          "fullSpan": "no",
+          "xmlType": "boardType",
+          "id": "6683fb00-6580-43e6-8243-12464d240dab"
+        },
+        {
+          "type": "boardType",
+          "label": "OM123",
+          "name": "OM123",
+          "slots": "1",
+          "fullSpan": "no",
+          "xmlType": "boardType",
+          "id": "32b14c76-8035-438a-8f83-3ad4ed340efa"
+        },
+        {
+          "type": "boardType",
+          "label": "PM2AC",
+          "name": "PM2AC",
+          "slots": "2",
+          "fullSpan": "no",
+          "xmlType": "boardType",
+          "id": "d2d721b9-dbb8-4851-a6c2-05054741d69b"
+        },
+        {
+          "type": "boardType",
+          "label": "COMX",
+          "name": "COMX",
+          "slots": "1",
+          "fullSpan": "yes",
+          "xmlType": "boardType",
+          "id": "fd4fe29f-fbdb-4c66-b4c9-0ba17c026dc4"
+        },
+        {
+          "type": "boardType",
+          "label": "COMR2",
+          "name": "COMR2",
+          "slots": "1",
+          "fullSpan": "yes",
+          "xmlType": "boardType",
+          "id": "04df4904-e63a-4635-8599-956ac4707a29"
+        },
+        {
+          "type": "boardType",
+          "label": "PS",
+          "name": "PS",
+          "slots": "1",
+          "fullSpan": "yes",
+          "xmlType": "boardType",
+          "id": "a417b391-d649-4dfe-9b22-c6ec53887e6f"
+        },
+        {
+          "type": "boardType",
+          "label": "SPARE",
+          "name": "SPARE",
+          "slots": "1",
+          "fullSpan": "yes",
+          "xmlType": "boardType",
+          "id": "c4f88cf8-2982-4b8e-8c6b-f1ae52eed621"
+        }
+      ]
+    },
+    "wiringDiagramSettings": {
+      "type": "wiringDiagramSettings",
+      "label": "wiringDiagramSettings",
+      "fieldEquipmentTypes": {
+        "type": "fieldEquipmentTypes",
+        "label": "fieldEquipmentTypes"
+      },
+      "magneticGrid": {
+        "type": "magneticGrid",
+        "label": "magneticGrid",
+        "gridResolution": "10",
+        "highlightFrequency": "5",
+        "displayMode": "static",
+        "xmlType": "magneticGrid",
+        "id": "cf94f4c4-7dcb-4aa4-b8b8-9c2f87d7d76c"
+      },
+      "relaysConfiguration": {
+        "type": "relaysConfiguration",
+        "label": "relaysConfiguration",
+        "singleRelays": [
+          {
+            "type": "singleRelay",
+            "label": "QN1",
+            "name": "QN1",
+            "configuration": "4F-4B",
+            "xmlType": "singleRelay",
+            "id": "a5c8b14a-cf41-47f9-ae1d-ee579d64895e",
+            "relayCoils": [
+              {
+                "type": "relayCoil",
+                "label": "relayCoil",
+                "coil": "R1,R3",
+                "xmlType": "relayCoil",
+                "id": "2ce0671c-c5ad-42ec-89d2-4a9f3de07ce4"
+              }
+            ],
+            "relayContacts": [
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "column": "A",
+                "contact": "FC(A1,A2)",
+                "xmlType": "relayContact",
+                "id": "f1f2275b-392d-4963-a3d2-f3aa5f769f24"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "column": "A",
+                "contact": "FC(A3,A4)",
+                "xmlType": "relayContact",
+                "id": "2afe0c3c-0065-4633-9118-cfc29c5d9516"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "column": "A",
+                "contact": "BC(A5,A6)",
+                "xmlType": "relayContact",
+                "id": "f4182161-3a60-479b-8161-0077d131da27"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "column": "A",
+                "contact": "BC(A7,A8)",
+                "xmlType": "relayContact",
+                "id": "23053661-f2fd-494d-a236-425fbe231348"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "column": "D",
+                "contact": "FC(D1,D2)",
+                "xmlType": "relayContact",
+                "id": "2982a063-c830-4df8-90c5-07a62d3e3748"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "column": "D",
+                "contact": "FC(D3,D4)",
+                "xmlType": "relayContact",
+                "id": "aef255fd-7608-4367-a6b4-9af2eca29d08"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "column": "D",
+                "contact": "BC(D5,D6)",
+                "xmlType": "relayContact",
+                "id": "65fbe1fb-8213-455b-b147-045c8b8b8a32"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "column": "D",
+                "contact": "BC(D7,D8)",
+                "xmlType": "relayContact",
+                "id": "af2e6f6e-7b2f-4fab-a26a-9a0382253fb4"
+              }
+            ]
+          }
+        ],
+        "twinRelays": [
+          {
+            "type": "twinRelay",
+            "label": "QNN1",
+            "name": "QNN1",
+            "configuration": "2x6F-2B",
+            "xmlType": "twinRelay",
+            "id": "bc95c41a-1af2-418a-a079-d7ca6c103de4",
+            "relayCoils": [
+              {
+                "type": "relayCoil",
+                "label": "relayCoil",
+                "relay": "RH",
+                "coil": "R1,R3",
+                "xmlType": "relayCoil",
+                "id": "56423753-2461-4c32-b7c8-c6375f913626"
+              },
+              {
+                "type": "relayCoil",
+                "label": "relayCoil",
+                "relay": "LH",
+                "coil": "R2,R4",
+                "xmlType": "relayCoil",
+                "id": "5baf5157-3b1f-42db-b9c2-e6f7e7b5f321"
+              }
+            ],
+            "relayContacts": [
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "relay": "RH",
+                "column": "A",
+                "contact": "FC(A1,A2)",
+                "xmlType": "relayContact",
+                "id": "a6543fe0-0790-41c6-b9d0-4363d747e31d"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "relay": "RH",
+                "column": "A",
+                "contact": "FC(A3,A4)",
+                "xmlType": "relayContact",
+                "id": "cf77e04d-ca57-4edd-8e75-d1f9e83161dd"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "relay": "RH",
+                "column": "A",
+                "contact": "BC(A5,A6)",
+                "xmlType": "relayContact",
+                "id": "2a5b91f1-c4b8-4488-b5eb-87e116af8c26"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "relay": "RH",
+                "column": "A",
+                "contact": "BC(A7,A8)",
+                "xmlType": "relayContact",
+                "id": "c42df6ea-f93c-4b8e-a584-81a7e77b57cf"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "relay": "RH",
+                "column": "B",
+                "contact": "FC(B1,B2)",
+                "xmlType": "relayContact",
+                "id": "92f556bd-1e61-4b02-b1fc-51892c2ec57b"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "relay": "RH",
+                "column": "B",
+                "contact": "FC(B3,B4)",
+                "xmlType": "relayContact",
+                "id": "f2fe5017-7a06-46a4-9e41-38b1992e3361"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "relay": "RH",
+                "column": "B",
+                "contact": "FC(B5,B6)",
+                "xmlType": "relayContact",
+                "id": "36d00fb6-c061-4715-8938-39a04b6060d3"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "relay": "RH",
+                "column": "B",
+                "contact": "FC(B7,B8)",
+                "xmlType": "relayContact",
+                "id": "d868273e-9d7e-4875-a80e-c0ca244b7fe2"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "relay": "LH",
+                "column": "C",
+                "contact": "FC(C1,C2)",
+                "xmlType": "relayContact",
+                "id": "6e99a0f4-0372-4e76-90e3-26b555ed5b6c"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "relay": "LH",
+                "column": "C",
+                "contact": "FC(C3,C4)",
+                "xmlType": "relayContact",
+                "id": "c6ac681d-54dc-4964-8dc9-bd9236cfc7cc"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "relay": "LH",
+                "column": "C",
+                "contact": "FC(C5,C6)",
+                "xmlType": "relayContact",
+                "id": "2ab75d9c-911b-4189-bbc3-fd9529e8c59f"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "relay": "LH",
+                "column": "C",
+                "contact": "FC(C7,C8)",
+                "xmlType": "relayContact",
+                "id": "f99ecb7f-f161-4827-9161-74353a16d8fa"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "relay": "LH",
+                "column": "D",
+                "contact": "FC(D1,D2)",
+                "xmlType": "relayContact",
+                "id": "f3fe7fe7-1643-4661-86fd-4ec2977e3824"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "relay": "LH",
+                "column": "D",
+                "contact": "FC(D3,D4)",
+                "xmlType": "relayContact",
+                "id": "a95777d1-c41a-4d34-aba6-660bf4a2cd74"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "relay": "LH",
+                "column": "D",
+                "contact": "BC(D5,D6)",
+                "xmlType": "relayContact",
+                "id": "e47e832e-3a90-4333-b58c-f132d247bfea"
+              },
+              {
+                "type": "relayContact",
+                "label": "relayContact",
+                "relay": "LH",
+                "column": "D",
+                "contact": "BC(D7,D8)",
+                "xmlType": "relayContact",
+                "id": "0a7ac920-9cef-4d3b-9cd7-6dc25e35ab17"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
