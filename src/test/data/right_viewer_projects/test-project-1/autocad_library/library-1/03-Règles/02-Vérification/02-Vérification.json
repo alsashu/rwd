@@ -1,7 +1,0 @@
-{
-  "id": "02-Vérification",
-  "label": "Vérification",
-  "type": "library-folder",
-  "content": "rules",
-  "folderType": "check-rule-folder"
-}

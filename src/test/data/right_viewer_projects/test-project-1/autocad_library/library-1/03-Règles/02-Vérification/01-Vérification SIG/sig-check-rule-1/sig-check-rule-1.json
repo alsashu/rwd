@@ -1,8 +1,0 @@
-{
-  "id": "sig-check-rule-1",
-  "type": "rule-prototype",
-  "label": "Infrastructure",
-  "description": "Règle de vérification de l'import ou de la création de l'infrastructure",
-  "helpId": "sig-check-rule-1",
-  "controlerData": {}
-}

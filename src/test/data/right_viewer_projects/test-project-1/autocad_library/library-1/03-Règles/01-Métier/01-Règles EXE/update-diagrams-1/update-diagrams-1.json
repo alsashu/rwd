@@ -1,7 +1,0 @@
-{
-  "id": "update-diagrams-1",
-  "type": "rule-prototype",
-  "label": "Mise à jour des schémas",
-  "description": "Mise à jour des schémas de la version sélectionnée à partir des données",
-  "controlerData": {}
-}

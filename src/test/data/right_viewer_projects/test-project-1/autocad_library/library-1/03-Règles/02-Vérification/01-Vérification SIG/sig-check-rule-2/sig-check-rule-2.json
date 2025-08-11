@@ -1,7 +1,0 @@
-{
-  "id": "sig-check-rule-2",
-  "type": "rule-prototype",
-  "label": "Association centres",
-  "description": "Règle de vérification de la création des centres et de l'association des N avec les centres ou STMR parents",
-  "controlerData": {}
-}

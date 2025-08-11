@@ -1,7 +1,0 @@
-{
-  "id": "sig-check-rule-3",
-  "type": "rule-prototype",
-  "label": "Liens association centres",
-  "description": "Règle de vérification des liens N3 & N2/STMR-R",
-  "controlerData": {}
-}

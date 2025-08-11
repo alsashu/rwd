@@ -1,7 +1,0 @@
-{
-  "id": "10-material-check-rule-1",
-  "label": "Matériel",
-  "type": "rule-prototype",
-  "description": "Règle de vérification de la création du matériel",
-  "controlerData": {}
-}

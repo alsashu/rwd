@@ -1,7 +1,0 @@
-{
-  "id": "11-material-check-rule-2",
-  "label": "Matériel",
-  "type": "rule-prototype",
-  "description": "Règle de vérification de l'affectation du matériel",
-  "controlerData": {}
-}

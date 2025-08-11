@@ -1,7 +1,0 @@
-{
-  "id": "exe-business-rule-7",
-  "type": "rule-prototype",
-  "label": "Création des câbles",
-  "description": "Création des câbles à partir des interfaces campagnes/grille types",
-  "controlerData": {}
-}

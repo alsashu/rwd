@@ -1,8 +1,0 @@
-{
-  "id": "exe-business-rule-1",
-  "type": "rule-prototype",
-  "label": "Sélection des interfaces campagnes préconisées",
-  "description": "Sélection des interfaces campagnes préconisées",
-  "helpId": "exe-business-rule-1",
-  "controlerData": {}
-}
